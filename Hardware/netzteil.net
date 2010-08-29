@@ -1,0 +1,161 @@
+# EESchema Netlist Version 1.1 created  28.08.2010 01:31:04
+(
+ ( /4C69FB78 SM1206 C1 100nF
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4C69FDBD SM1206 C2 100nF
+  ( 1 +1.8V )
+  ( 2 GND )
+ )
+ ( /4C69FC33 SM1206 C3 100nF
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4C69FDB7 SM1206 C4 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C69FDA6 SM1206 C5 100nF
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4C69FDA9 SM1206 C6 100nF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4C6D0455 SM1812 D1 1N4001
+  ( 1 N-000002 )
+  ( 2 N-000006 )
+ )
+ ( /4C6D0400 PIN_ARRAY_2X1 D2 1,5KE_22A
+  ( 1 GND )
+  ( 2 N-000001 )
+ )
+ ( /4C6D03CC SM1812 F1 1A
+  ( 1 +12V )
+  ( 2 N-000001 )
+ )
+ ( /4C6D0431 SM1206 L1 47uH
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+ )
+ ( /4C69FE17 PIN_ARRAY_2X1 P1 2v9
+  ( 1 +1.8V )
+  ( 2 GND )
+ )
+ ( /4C69FE1D PIN_ARRAY_2X1 P2 3v3
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C69FE80 PIN_ARRAY_2X1 P3 Bordnetz
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /4C69FE28 PIN_ARRAY_2X1 P4 5V
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4C69FB65 SM1206 R1 150
+  ( 1 +1.8V )
+  ( 2 N-000004 )
+ )
+ ( /4C69FC20 SM1206 R3 160
+  ( 1 +3.3V )
+  ( 2 N-000003 )
+ )
+ ( /4C69FD01 SM1206 R4 220
+  ( 1 GND )
+  ( 2 N-000003 )
+ )
+ ( /4C6A0D7B SM1206 R5 240
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /4C69F7EB TO220_VERT U1 LM317_(2v9)
+  ( 1 N-000006 )
+  ( 2 N-000004 )
+  ( 3 +1.8V )
+ )
+ ( /4C69F7F0 TO220_VERT U2 LM317_(3v3)
+  ( 1 N-000006 )
+  ( 2 N-000003 )
+  ( 3 +3.3V )
+ )
+ ( /4C69F806 TO220_VERT U3 7805
+  ( GND GND )
+  ( VI N-000006 )
+  ( VO +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

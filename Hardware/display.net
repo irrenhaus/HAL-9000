@@ -1,0 +1,26 @@
+# EESchema Netlist Version 1.1 created  25.08.2010 16:47:32
+(
+ ( /4C752B9A welectronic-S65 LCD1 S65
+  ( 1V8 +1.8V )
+  ( 2V9 +1.8V )
+  ( CLK N-000003 )
+  ( CS N-000001 )
+  ( DATA N-000006 )
+  ( GND GND )
+  ( LED+ +12V )
+  ( LED- GND )
+  ( RESE N-000005 )
+  ( RS N-000002 )
+ )
+ ( /4C752B75 pinhead-1X08SMD P1 CONN_8
+  ( 1 N-000002 )
+  ( 2 N-000005 )
+  ( 3 N-000001 )
+  ( 4 N-000006 )
+  ( 5 N-000003 )
+  ( 6 GND )
+  ( 7 +12V )
+  ( 8 +1.8V )
+ )
+)
+*

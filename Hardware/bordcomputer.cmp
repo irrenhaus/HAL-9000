@@ -1,0 +1,332 @@
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 28.08.2010 00:05:01
+
+BeginCmp
+TimeStamp = /4C68165B;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6B0A4D;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6816D9;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6816DE;
+Reference = C3;
+ValeurCmp = 22pF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69E1E7;
+Reference = D1;
+ValeurCmp = VCC_LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69E049;
+Reference = D2;
+ValeurCmp = Status_LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69C442;
+Reference = D5;
+ValeurCmp = BAT54;
+IdModule  = SOT23-132;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69C464;
+Reference = D6;
+ValeurCmp = 6,2V;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69C46C;
+Reference = D7;
+ValeurCmp = 6,2V;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C680F8C;
+Reference = J1;
+ValeurCmp = USB-B;
+IdModule  = con-usb-USB-B-SMT_REICHELT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C782250;
+Reference = J2;
+ValeurCmp = USB-A;
+IdModule  = con-usb-USB-A-S;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69C353;
+Reference = L1;
+ValeurCmp = 820uH;
+IdModule  = SM1812;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6A29E4;
+Reference = P1;
+ValeurCmp = JTAG;
+IdModule  = pinhead-2X10SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C67F8EA;
+Reference = P2;
+ValeurCmp = VCC_3v3;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C680BC0;
+Reference = P3;
+ValeurCmp = VCC_2v9;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7801C9;
+Reference = P4;
+ValeurCmp = USART2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C680D4B;
+Reference = P5;
+ValeurCmp = VCC_5V;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C77FEAB;
+Reference = P6;
+ValeurCmp = Taster;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6803DC;
+Reference = P7;
+ValeurCmp = Drehencoder;
+IdModule  = pinhead-2X03SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6B0BB9;
+Reference = P8;
+ValeurCmp = Tanksensor;
+IdModule  = pinhead-2X02SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6EC2BA;
+Reference = P9;
+ValeurCmp = REED_FLOW;
+IdModule  = pinhead-2X02SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C680BAC;
+Reference = P10;
+ValeurCmp = S65_Display;
+IdModule  = pinhead-2X04SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C77FF78;
+Reference = P11;
+ValeurCmp = I2C1;
+IdModule  = pinhead-2X03SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C77FFBB;
+Reference = P12;
+ValeurCmp = I2C2;
+IdModule  = pinhead-2X03SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C77FFE9;
+Reference = P13;
+ValeurCmp = I2C3;
+IdModule  = pinhead-2X03SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C77FFED;
+Reference = P14;
+ValeurCmp = I2C4;
+IdModule  = pinhead-2X03SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69C2A7;
+Reference = Q1;
+ValeurCmp = BSS123;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6A2E82;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6A2E49;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6A2E8A;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69E1E1;
+Reference = R4;
+ValeurCmp = 22;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C68048F;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C68049B;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6804A1;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6804A5;
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C680524;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69E141;
+Reference = R10;
+ValeurCmp = 22;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C680609;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6826AB;
+Reference = R12;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6826B1;
+Reference = R13;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69C2DC;
+Reference = R14;
+ValeurCmp = 470k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C77F01D/4C77F206;
+Reference = R15;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C77F01D/4C77F20B;
+Reference = R16;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7834FC;
+Reference = R17;
+ValeurCmp = 1k5;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C67F658;
+Reference = U1;
+ValeurCmp = STM32F105V8;
+IdModule  = TQFP_100;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6816CD;
+Reference = X1;
+ValeurCmp = 8Mhz;
+IdModule  = crystal-SM49;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C77F01D/4C77F180;
+Reference = X2;
+ValeurCmp = SDBMF;
+IdModule  = card_adapters-SDCMF-109XXW010_NUM;
+EndCmp
+
+EndListe

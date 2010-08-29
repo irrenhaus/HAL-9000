@@ -1,0 +1,105 @@
+eeschema (2010-05-05 BZR 2356)-stable  >> Creation date: 18.08.2010 16:41:44
+
+#Cmp ( Sortiert nach Referenz )
+| BT1        BATTERY     ;             
+| C1         22pF        ;             
+| C2         22pF        ;             
+| C3         100nF       ;             
+| D1         BAT54       ;             
+| D2         6,2V        ;             
+| D3         6,2V        ;             
+| D4         Status LED  ;             
+| D5         VCC LED     ;             
+| D10        4.7V        ;             
+| D11        4.7V        ;             
+| J1         USB         ;             
+| L1         420uH       ;             
+| L2         420uH       ;             
+| P1         PROGRAM     ;             
+| P2         VCC 3v3     ;             
+| P3         VCC 2v9     ;             
+| P4         VCC 5V      ;             
+| P5         TASTER      ;             
+| P6         PEC12-4220F-S0024;             
+| P7         SD VCC/GND Connector;             
+| P8         REED        ;             
+| P9         FLOWMETER   ;             
+| P10        SD Connector;             
+| P12        I2C_1       ;             
+| P13        I2C_2       ;             
+| P14        I2C_3       ;             
+| P15        I2C_4       ;             
+| P16        S65 Display ;             
+| P17        CONN_10X2   ;             
+| P19        Tanksensor  ;             
+| Q1         BSS123      ;             
+| R2         10k         ;             
+| R3         10k         ;             
+| R4         10k         ;             
+| R5         10k         ;             
+| R6         10k         ;             
+| R7         10k         ;             
+| R8         470k        ;             
+| R9         10k         ;             
+| R10        10k         ;             
+| R11        22          ;             
+| R12        22          ;             
+| R13        10k         ;             
+| R14        10k         ;             
+| R15        10k         ;             
+| U1         STM32F105V8 ;             
+| X1         8Mhz        ;             
+#Ende Cmp
+
+#Cmp ( Sortiert nach Wert )
+| 100nF        C3        ;             
+| 10k          R2        ;             
+| 10k          R3        ;             
+| 10k          R4        ;             
+| 10k          R5        ;             
+| 10k          R6        ;             
+| 10k          R7        ;             
+| 10k          R9        ;             
+| 10k          R10       ;             
+| 10k          R13       ;             
+| 10k          R14       ;             
+| 10k          R15       ;             
+| 22           R11       ;             
+| 22           R12       ;             
+| 22pF         C1        ;             
+| 22pF         C2        ;             
+| 4.7V         D10       ;             
+| 4.7V         D11       ;             
+| 420uH        L1        ;             
+| 420uH        L2        ;             
+| 470k         R8        ;             
+| 6,2V         D2        ;             
+| 6,2V         D3        ;             
+| 8Mhz         X1        ;             
+| BAT54        D1        ;             
+| BATTERY      BT1       ;             
+| BSS123       Q1        ;             
+| CONN_10X2    P17       ;             
+| FLOWMETER    P9        ;             
+| I2C_1        P12       ;             
+| I2C_2        P13       ;             
+| I2C_3        P14       ;             
+| I2C_4        P15       ;             
+| PEC12-4220F-S0024 P6        ;             
+| PROGRAM      P1        ;             
+| REED         P8        ;             
+| S65 Display  P16       ;             
+| SD Connector P10       ;             
+| SD VCC/GND Connector P7        ;             
+| Status LED   D4        ;             
+| STM32F105V8  U1        ;             
+| Tanksensor   P19       ;             
+| TASTER       P5        ;             
+| USB          J1        ;             
+| VCC 2v9      P3        ;             
+| VCC 3v3      P2        ;             
+| VCC 5V       P4        ;             
+| VCC LED      D5        ;             
+#Ende Cmp
+
+#Ende der Liste
