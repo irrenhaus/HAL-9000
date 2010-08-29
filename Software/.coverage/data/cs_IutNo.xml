@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cs_IutNo>
+<IutNo rid="272" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\misc.c" no="0" next="528"/>
+<IutNo rid="528" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" no="1" next="784"/>
+<IutNo rid="784" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h" no="2" next="1040"/>
+<IutNo rid="1040" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c" no="3" next="1296"/>
+<IutNo rid="1296" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c" no="4" next="1552"/>
+<IutNo rid="1552" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c" no="5" next="1808"/>
+<IutNo rid="1808" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c" no="6" next="2064"/>
+<IutNo rid="2064" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" no="7" next="2320"/>
+<IutNo rid="2320" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c" no="8" next="2576"/>
+<IutNo rid="2576" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" no="9" next="2832"/>
+<IutNo rid="2832" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" no="10" next="3088"/>
+<IutNo rid="3088" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c" no="11" next="3344"/>
+<IutNo rid="3344" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c" no="12" next="3600"/>
+<IutNo rid="3600" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" no="13" next="3856"/>
+<IutNo rid="3856" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c" no="14" next="4112"/>
+<IutNo rid="4112" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c" no="15" next="4368"/>
+<IutNo rid="4368" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c" no="16" next="4624"/>
+<IutNo rid="4624" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport\core_cm3.h" no="17" next="4880"/>
+<IutNo rid="4880" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" no="18" next="5136"/>
+<IutNo rid="5136" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c" no="19" next="5392"/>
+<IutNo rid="5392" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c" no="20" next="5648"/>
+<IutNo rid="5648" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" no="21" next="5904"/>
+<IutNo rid="5904" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" no="22" next="6160"/>
+<IutNo rid="6160" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" no="23" next="6416"/>
+<IutNo rid="6416" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c" no="24" next="6672"/>
+<IutNo rid="6672" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" no="25" next="6928"/>
+<IutNo rid="6928" name="C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src\stm32f10x_it.c" no="26"/>
+</cs_IutNo>

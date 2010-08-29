@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cs_Config>
+<Config rid="271" key="env_library_path" kind="1" svalue="" flag="1" next="527"/>
+<Config rid="527" key="system_path" kind="1" svalue="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ide\plugins\sst.tm_1.0.0\CSHOME\;C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ide\plugins\sst.tm_1.0.0\CSHOME\\bin;C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ide\plugins\sst.tm_1.0.0\CSHOME\\lib;\bin;" flag="1" next="783"/>
+<Config rid="783" key="classpath" kind="1" svalue="" flag="1" next="1039"/>
+<Config rid="1039" key="java_home" kind="1" svalue="\bin" flag="1" next="1295"/>
+<Config rid="1295" key="c_compiler" kind="1" svalue="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe" flag="1" next="1551"/>
+<Config rid="1551" key="cpp_compiler" kind="1" svalue="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-g++.exe" flag="1" next="1807"/>
+<Config rid="1807" key="java_compiler" kind="1" svalue="\bin\javac" flag="1" next="2063"/>
+<Config rid="2063" key="build_test" kind="2" ivalue="0" flag="1" next="2319"/>
+<Config rid="2319" key="prev_buildtest_result" kind="2" ivalue="0" flag="1" next="2575"/>
+<Config rid="2575" key="browser" kind="1" svalue="" flag="1" next="2831"/>
+<Config rid="2831" key="monitor_config" kind="2" ivalue="12291" flag="1" next="3087"/>
+<Config rid="3087" key="tm_type" kind="1" svalue="1" flag="1" next="3343"/>
+<Config rid="3343" key="node_bitmap_size" kind="2" ivalue="251" next="3599"/>
+<Config rid="3599" key="c1edge_size" kind="2" ivalue="1108" next="3855"/>
+<Config rid="3855" key="cxedge_size" kind="2" ivalue="57" next="4111"/>
+<Config rid="4111" key="mcdc_size" kind="2" ivalue="97" next="4367"/>
+<Config rid="4367" key="build_id" ivalue="75962842" flag="1" next="4623"/>
+<Config rid="4623" key="prj_hash" kind="1" svalue="Bordcomputer,C,PHMECLICIOPCPCOGFCNHIEGIMGLMIJFPFMGOJNMPKPOLKPHLMMJMPNOLKLPDBPJI"/>
+</cs_Config>

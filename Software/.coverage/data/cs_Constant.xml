@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cs_Constant>
+<Constant rid="266" kind="3" float_value="100"/>
+<Constant rid="522" kind="2" int_value="499"/>
+<Constant rid="778" kind="2" int_value="2147483647"/>
+<Constant rid="1034" kind="1" string_value="0_NVIC_PriorityGroupConfig@misc.c" next="1290"/>
+<Constant rid="1290" kind="1" string_value="1_BKP_ReadBackupRegister@stm32f10x_bkp.c" next="1546" previous="1034"/>
+<Constant rid="1546" kind="1" string_value="2_DAC_StructInit@stm32f10x_dac.c" next="1802" previous="1290"/>
+<Constant rid="1802" kind="1" string_value="3_FLASH_ProgramWord@stm32f10x_flash.c" next="2058" previous="1546"/>
+<Constant rid="2058" kind="1" string_value="4_GPIO_Write@stm32f10x_gpio.c" next="2314" previous="1802"/>
+<Constant rid="2314" kind="1" string_value="5_PWR_PVDCmd@stm32f10x_pwr.c" next="2570" previous="2058"/>
+<Constant rid="2570" kind="1" string_value="6_RTC_SetCounter@stm32f10x_rtc.c" next="2826" previous="2314"/>
+<Constant rid="2826" kind="1" string_value="7_I2S_Init@stm32f10x_spi.c" next="3082" previous="2570"/>
+<Constant rid="3082" kind="1" string_value="8_TIM_ITConfig@stm32f10x_tim.c" next="3338" previous="2826"/>
+<Constant rid="3338" kind="1" string_value="9_TIM_SelectHallSensor@stm32f10x_tim.c" next="3594" previous="3082"/>
+<Constant rid="3594" kind="1" string_value="10_USART_GetFlagStatus@stm32f10x_usart.c" previous="3338"/>
+</cs_Constant>

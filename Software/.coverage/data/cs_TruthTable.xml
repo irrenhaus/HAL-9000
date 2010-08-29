@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cs_TruthTable>
+<TruthTable rid="274" key_str="()" table="2:2:TT:2:FF"/>
+<TruthTable rid="530" key_str="(&#38;)" table="3:3:TTT:3:TFF:3:FxF"/>
+<TruthTable rid="786" key_str="(|)" table="3:3:TxT:3:FTT:3:FFF"/>
+<TruthTable rid="1042" key_str="(((((|)|)|)|)|)" table="7:7:TxxxxxT:7:FTxxxxT:7:FFTxxxT:7:FFFTxxT:7:FFFFTxT:7:FFFFFTT:7:FFFFFFF"/>
+<TruthTable rid="1298" key_str="((((|)|)|)|)" table="6:6:TxxxxT:6:FTxxxT:6:FFTxxT:6:FFFTxT:6:FFFFTT:6:FFFFFF"/>
+</cs_TruthTable>

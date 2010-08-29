@@ -1,0 +1,485 @@
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [8/24, 2010   17:44  49.634]  ## COMMAND LINE  : 
+  ## ENVIRONMENTS  : [ProgramData=C:\ProgramData, USERPROFILE=C:\Users\irrenhaus, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, CARBON_MEM_DISABLE=1, CS_INI_PATH=C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\.metadata\.plugins\sst.tm, ProgramFiles(x86)=C:\Program Files (x86), SystemDrive=C:, TEMP=C:\Users\IRRENH~1\AppData\Local\Temp, ProgramFiles=C:\Program Files (x86), Path=C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin;C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\Tools;;C:/Program Files (x86)/Atollic/TrueSTUDIO STM32 Lite 1.4.0/ide/jre/bin/client;C:/Program Files (x86)/Atollic/TrueSTUDIO STM32 Lite 1.4.0/ide/jre/bin;C:\_dropbox\My Dropbox\_apps\SourceryG++LiteWindows\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\OpenSSH\bin;C:\Program Files\Java\jdk1.6.0_20\bin, PWD=C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer;, HOMEDRIVE=C:, PROCESSOR_REVISION=170a, USERDOMAIN=valhall-mini, ALLUSERSPROFILE=C:\ProgramData, ProgramW6432=C:\Program Files, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 10, GenuineIntel, SESSIONNAME=Console, AVR32_HOME=C:\WinAVR-20100110, TMP=C:\Users\IRRENH~1\AppData\Local\Temp, CWD=C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer;, PROCESSOR_ARCHITECTURE=x86, LOGONSERVER=\\VALHALL-MINI, =::=::\, CommonProgramFiles=C:\Program Files (x86)\Common Files, CYGWIN=tty, CODE_SCROLL_HOME=C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ide\plugins\sst.tm_1.0.0\CSHOME\, PROCESSOR_ARCHITEW6432=AMD64, OS=Windows_NT, FP_NO_HOST_CHECK=NO, HOMEPATH=\Users\irrenhaus, PROCESSOR_LEVEL=6, CommonProgramW6432=C:\Program Files\Common Files, LOCALAPPDATA=C:\Users\irrenhaus\AppData\Local, COMPUTERNAME=VALHALL-MINI, SystemRoot=C:\Windows, windir=C:\Windows, NUMBER_OF_PROCESSORS=2, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, PUBLIC=C:\Users\Public, USERNAME=irrenhaus, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APPDATA=C:\Users\irrenhaus\AppData\Roaming]
+cmd /C pa  "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\Bordcomputer.tmprj" all
+------------------------------------
+[STD-IN] : ### START_TIME : Tue Aug 24 17:44:49 2010
+[STD-IN] : PA $Id: main.c 4668 2009-12-05 14:29:08Z oopmania $ Build Date: Apr 19 2010 09:18:49
+[STD-IN] : Making input file list
+[STD-IN] : VALUE0
+[STD-IN] : RIMX_PHASE : XML_BUSY
+[STD-IN] : VALUE3
+[STD-IN] : Preprocessing source file, "misc"
+[STD-IN] : Preprocessing source file, "stm32f10x_adc"
+[STD-IN] : Preprocessing source file, "stm32f10x_bkp"
+[STD-IN] : Preprocessing source file, "stm32f10x_can"
+[STD-IN] : Preprocessing source file, "stm32f10x_cec"
+[STD-IN] : VALUE5
+[STD-IN] : Preprocessing source file, "stm32f10x_crc"
+[STD-IN] : Preprocessing source file, "stm32f10x_dac"
+[STD-IN] : Preprocessing source file, "stm32f10x_dbgmcu"
+[STD-IN] : Preprocessing source file, "stm32f10x_dma"
+[STD-IN] : VALUE6
+[STD-IN] : Preprocessing source file, "stm32f10x_exti"
+[STD-IN] : Preprocessing source file, "stm32f10x_flash"
+[STD-IN] : Preprocessing source file, "stm32f10x_fsmc"
+[STD-IN] : Preprocessing source file, "stm32f10x_gpio"
+[STD-IN] : Preprocessing source file, "stm32f10x_i2c"
+[STD-IN] : VALUE7
+[STD-IN] : Preprocessing source file, "stm32f10x_iwdg"
+[STD-IN] : Preprocessing source file, "stm32f10x_pwr"
+[STD-IN] : Preprocessing source file, "stm32f10x_rcc"
+[STD-IN] : Preprocessing source file, "stm32f10x_rtc"
+[STD-IN] : VALUE8
+[STD-IN] : Preprocessing source file, "stm32f10x_sdio"
+[STD-IN] : Preprocessing source file, "stm32f10x_spi"
+[STD-IN] : Preprocessing source file, "stm32f10x_tim"
+[STD-IN] : Preprocessing source file, "stm32f10x_usart"
+[STD-IN] : VALUE9
+[STD-IN] : Preprocessing source file, "stm32f10x_wwdg"
+[STD-IN] : Preprocessing source file, "core_cm3"
+[STD-IN] : Preprocessing source file, "system_stm32f10x"
+[STD-IN] : Preprocessing source file, "stm32f10x_it"
+[STD-IN] : Starting analysis
+[STD-IN] : Analyzing "misc"
+[STD-IN] : VALUE10
+[STD-IN] : Analyzing "misc" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:54 2010
+[STD-IN] : VALUE10
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:54 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:54 2010
+[STD-IN] : Analyzing "misc" : generating flow information
+[STD-IN] : VALUE11
+[STD-IN] : VALUE12
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:54 2010
+[STD-IN] : Analyzing "misc" : rewriting probed code
+[STD-IN] : VALUE13
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : Saving data for "misc"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : TOTAL_MEM : 7168, SWAP_MEM : 4920
+[STD-IN] : Analyzing "stm32f10x_adc"
+[STD-IN] : Analyzing "stm32f10x_adc" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : VALUE13
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_adc" : generating flow information
+[STD-IN] : VALUE14
+[STD-IN] : VALUE15
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_adc" : rewriting probed code
+[STD-IN] : VALUE16
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : Saving data for "stm32f10x_adc"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : TOTAL_MEM : 7488, SWAP_MEM : 5124
+[STD-IN] : Analyzing "stm32f10x_bkp"
+[STD-IN] : Analyzing "stm32f10x_bkp" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : VALUE17
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_bkp" : generating flow information
+[STD-IN] : VALUE18
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_bkp" : rewriting probed code
+[STD-IN] : VALUE19
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : Saving data for "stm32f10x_bkp"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : TOTAL_MEM : 7460, SWAP_MEM : 4912
+[STD-IN] : Analyzing "stm32f10x_can"
+[STD-IN] : Analyzing "stm32f10x_can" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : VALUE20
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_can" : generating flow information
+[STD-IN] : VALUE21
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_can" : rewriting probed code
+[STD-IN] : VALUE22
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : Saving data for "stm32f10x_can"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : TOTAL_MEM : 7668, SWAP_MEM : 5128
+[STD-IN] : VALUE23
+[STD-IN] : Analyzing "stm32f10x_cec"
+[STD-IN] : Analyzing "stm32f10x_cec" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : VALUE23
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_cec" : generating flow information
+[STD-IN] : VALUE24
+[STD-IN] : VALUE25
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_cec" : rewriting probed code
+[STD-IN] : VALUE26
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : Saving data for "stm32f10x_cec"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : TOTAL_MEM : 7680, SWAP_MEM : 5100
+[STD-IN] : Analyzing "stm32f10x_crc"
+[STD-IN] : Analyzing "stm32f10x_crc" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : VALUE27
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_crc" : generating flow information
+[STD-IN] : VALUE28
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_crc" : rewriting probed code
+[STD-IN] : VALUE29
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : Saving data for "stm32f10x_crc"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : TOTAL_MEM : 7676, SWAP_MEM : 5100
+[STD-IN] : Analyzing "stm32f10x_dac"
+[STD-IN] : Analyzing "stm32f10x_dac" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : VALUE30
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_dac" : generating flow information
+[STD-IN] : VALUE31
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_dac" : rewriting probed code
+[STD-IN] : VALUE32
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : Saving data for "stm32f10x_dac"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : TOTAL_MEM : 7696, SWAP_MEM : 5416
+[STD-IN] : Analyzing "stm32f10x_dbgmcu"
+[STD-IN] : VALUE33
+[STD-IN] : Analyzing "stm32f10x_dbgmcu" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : VALUE33
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_dbgmcu" : generating flow information
+[STD-IN] : VALUE34
+[STD-IN] : VALUE35
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_dbgmcu" : rewriting probed code
+[STD-IN] : VALUE35
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : Saving data for "stm32f10x_dbgmcu"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : TOTAL_MEM : 7680, SWAP_MEM : 5112
+[STD-IN] : VALUE36
+[STD-IN] : Analyzing "stm32f10x_dma"
+[STD-IN] : Analyzing "stm32f10x_dma" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : VALUE36
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_dma" : generating flow information
+[STD-IN] : VALUE37
+[STD-IN] : VALUE38
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_dma" : rewriting probed code
+[STD-IN] : VALUE39
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : Saving data for "stm32f10x_dma"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:55 2010
+[STD-IN] : TOTAL_MEM : 7740, SWAP_MEM : 5112
+[STD-IN] : Analyzing "stm32f10x_exti"
+[STD-IN] : Analyzing "stm32f10x_exti" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : VALUE40
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:55 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_exti" : generating flow information
+[STD-IN] : VALUE41
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:55 2010
+[STD-IN] : Analyzing "stm32f10x_exti" : rewriting probed code
+[STD-IN] : VALUE42
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : Saving data for "stm32f10x_exti"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : TOTAL_MEM : 7708, SWAP_MEM : 5112
+[STD-IN] : Analyzing "stm32f10x_flash"
+[STD-IN] : Analyzing "stm32f10x_flash" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : VALUE43
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_flash" : generating flow information
+[STD-IN] : VALUE44
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_flash" : rewriting probed code
+[STD-IN] : VALUE45
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : Saving data for "stm32f10x_flash"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : TOTAL_MEM : 7852, SWAP_MEM : 5564
+[STD-IN] : Analyzing "stm32f10x_fsmc"
+[STD-IN] : VALUE46
+[STD-IN] : Analyzing "stm32f10x_fsmc" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : VALUE46
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_fsmc" : generating flow information
+[STD-IN] : VALUE47
+[STD-IN] : VALUE48
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_fsmc" : rewriting probed code
+[STD-IN] : VALUE49
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : Saving data for "stm32f10x_fsmc"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : TOTAL_MEM : 7876, SWAP_MEM : 5328
+[STD-IN] : Analyzing "stm32f10x_gpio"
+[STD-IN] : Analyzing "stm32f10x_gpio" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : VALUE49
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_gpio" : generating flow information
+[STD-IN] : VALUE50
+[STD-IN] : VALUE51
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_gpio" : rewriting probed code
+[STD-IN] : VALUE52
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : Saving data for "stm32f10x_gpio"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : TOTAL_MEM : 7864, SWAP_MEM : 5268
+[STD-IN] : Analyzing "stm32f10x_i2c"
+[STD-IN] : Analyzing "stm32f10x_i2c" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : VALUE53
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_i2c" : generating flow information
+[STD-IN] : VALUE54
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_i2c" : rewriting probed code
+[STD-IN] : VALUE55
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : Saving data for "stm32f10x_i2c"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : TOTAL_MEM : 7936, SWAP_MEM : 5452
+[STD-IN] : Analyzing "stm32f10x_iwdg"
+[STD-IN] : Analyzing "stm32f10x_iwdg" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : VALUE56
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_iwdg" : generating flow information
+[STD-IN] : VALUE57
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_iwdg" : rewriting probed code
+[STD-IN] : VALUE58
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : Saving data for "stm32f10x_iwdg"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : TOTAL_MEM : 7840, SWAP_MEM : 5368
+[STD-IN] : VALUE59
+[STD-IN] : Analyzing "stm32f10x_pwr"
+[STD-IN] : Analyzing "stm32f10x_pwr" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : VALUE59
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_pwr" : generating flow information
+[STD-IN] : VALUE60
+[STD-IN] : VALUE61
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_pwr" : rewriting probed code
+[STD-IN] : VALUE62
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : Saving data for "stm32f10x_pwr"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : TOTAL_MEM : 7880, SWAP_MEM : 5364
+[STD-IN] : Analyzing "stm32f10x_rcc"
+[STD-IN] : Analyzing "stm32f10x_rcc" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : VALUE62
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_rcc" : generating flow information
+[STD-IN] : VALUE63
+[STD-IN] : VALUE64
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_rcc" : rewriting probed code
+[STD-IN] : VALUE65
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : Saving data for "stm32f10x_rcc"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:56 2010
+[STD-IN] : TOTAL_MEM : 8024, SWAP_MEM : 5748
+[STD-IN] : Analyzing "stm32f10x_rtc"
+[STD-IN] : Analyzing "stm32f10x_rtc" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : VALUE66
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:56 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_rtc" : generating flow information
+[STD-IN] : VALUE67
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:56 2010
+[STD-IN] : Analyzing "stm32f10x_rtc" : rewriting probed code
+[STD-IN] : VALUE68
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : Saving data for "stm32f10x_rtc"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : TOTAL_MEM : 7988, SWAP_MEM : 5752
+[STD-IN] : Analyzing "stm32f10x_sdio"
+[STD-IN] : VALUE69
+[STD-IN] : Analyzing "stm32f10x_sdio" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : VALUE69
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "stm32f10x_sdio" : generating flow information
+[STD-IN] : VALUE70
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "stm32f10x_sdio" : rewriting probed code
+[STD-IN] : VALUE71
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : Saving data for "stm32f10x_sdio"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : TOTAL_MEM : 8000, SWAP_MEM : 5748
+[STD-IN] : VALUE72
+[STD-IN] : Analyzing "stm32f10x_spi"
+[STD-IN] : Analyzing "stm32f10x_spi" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : VALUE72
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "stm32f10x_spi" : generating flow information
+[STD-IN] : VALUE73
+[STD-IN] : VALUE74
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "stm32f10x_spi" : rewriting probed code
+[STD-IN] : VALUE75
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : Saving data for "stm32f10x_spi"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : TOTAL_MEM : 8300, SWAP_MEM : 6048
+[STD-IN] : Analyzing "stm32f10x_tim"
+[STD-IN] : Analyzing "stm32f10x_tim" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : VALUE76
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "stm32f10x_tim" : generating flow information
+[STD-IN] : VALUE77
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "stm32f10x_tim" : rewriting probed code
+[STD-IN] : VALUE78
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : Saving data for "stm32f10x_tim"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : TOTAL_MEM : 8732, SWAP_MEM : 6240
+[STD-IN] : Analyzing "stm32f10x_usart"
+[STD-IN] : Analyzing "stm32f10x_usart" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : VALUE79
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "stm32f10x_usart" : generating flow information
+[STD-IN] : VALUE80
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "stm32f10x_usart" : rewriting probed code
+[STD-IN] : VALUE81
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : Saving data for "stm32f10x_usart"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : TOTAL_MEM : 8632, SWAP_MEM : 6192
+[STD-IN] : Analyzing "stm32f10x_wwdg"
+[STD-IN] : VALUE82
+[STD-IN] : Analyzing "stm32f10x_wwdg" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : VALUE82
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "stm32f10x_wwdg" : generating flow information
+[STD-IN] : VALUE83
+[STD-IN] : VALUE84
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "stm32f10x_wwdg" : rewriting probed code
+[STD-IN] : VALUE85
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : Saving data for "stm32f10x_wwdg"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : TOTAL_MEM : 8552, SWAP_MEM : 6132
+[STD-IN] : Analyzing "core_cm3"
+[STD-IN] : Analyzing "core_cm3" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : VALUE85
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "core_cm3" : generating flow information
+[STD-IN] : VALUE86
+[STD-IN] : VALUE87
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "core_cm3" : rewriting probed code
+[STD-IN] : VALUE88
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : Saving data for "core_cm3"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:57 2010
+[STD-IN] : TOTAL_MEM : 8588, SWAP_MEM : 6192
+[STD-IN] : Analyzing "system_stm32f10x"
+[STD-IN] : Analyzing "system_stm32f10x" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : VALUE89
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:57 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "system_stm32f10x" : generating flow information
+[STD-IN] : VALUE90
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:57 2010
+[STD-IN] : Analyzing "system_stm32f10x" : rewriting probed code
+[STD-IN] : VALUE91
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:58 2010
+[STD-IN] : Saving data for "system_stm32f10x"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:58 2010
+[STD-IN] : TOTAL_MEM : 8676, SWAP_MEM : 6184
+[STD-IN] : Analyzing "stm32f10x_it"
+[STD-IN] : Analyzing "stm32f10x_it" : generating parse tree
+[STD-IN] : Start time of Parser : Tue Aug 24 17:44:58 2010
+[STD-IN] : VALUE92
+[STD-IN] : End time of Parser : Tue Aug 24 17:44:58 2010
+[STD-IN] : Start time of cfg generator : Tue Aug 24 17:44:58 2010
+[STD-IN] : Analyzing "stm32f10x_it" : generating flow information
+[STD-IN] : VALUE93
+[STD-IN] : Start time of code rewriter : Tue Aug 24 17:44:58 2010
+[STD-IN] : Analyzing "stm32f10x_it" : rewriting probed code
+[STD-IN] : VALUE94
+[STD-IN] : Start time of writing XML : Tue Aug 24 17:44:58 2010
+[STD-IN] : Saving data for "stm32f10x_it"
+[STD-IN] : End time of writing XML : Tue Aug 24 17:44:58 2010
+[STD-IN] : TOTAL_MEM : 8592, SWAP_MEM : 6132
+[STD-IN] : Finalizing flow information
+[STD-IN] : VALUE97
+[STD-IN] : TOTAL_MEM : 8592, SWAP_MEM : 6132
+[STD-IN] : ### END_TIME : Tue Aug 24 17:44:58 2010
+[STD-IN] : Program analysis completed
+[STD-IN] : VALUE100
+[STD-IN] : SRVEXITCODE0
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [8/24, 2010   17:44  59.602]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [8/24, 2010   17:45  0.148]  ## COMMAND LINE  : 
+  ## ENVIRONMENTS  : [ProgramData=C:\ProgramData, USERPROFILE=C:\Users\irrenhaus, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, CARBON_MEM_DISABLE=1, CS_INI_PATH=C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\.metadata\.plugins\sst.tm, ProgramFiles(x86)=C:\Program Files (x86), SystemDrive=C:, TEMP=C:\Users\IRRENH~1\AppData\Local\Temp, ProgramFiles=C:\Program Files (x86), Path=C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin;C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\Tools;;C:/Program Files (x86)/Atollic/TrueSTUDIO STM32 Lite 1.4.0/ide/jre/bin/client;C:/Program Files (x86)/Atollic/TrueSTUDIO STM32 Lite 1.4.0/ide/jre/bin;C:\_dropbox\My Dropbox\_apps\SourceryG++LiteWindows\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\OpenSSH\bin;C:\Program Files\Java\jdk1.6.0_20\bin, PWD=C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer;, HOMEDRIVE=C:, PROCESSOR_REVISION=170a, USERDOMAIN=valhall-mini, ALLUSERSPROFILE=C:\ProgramData, ProgramW6432=C:\Program Files, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 23 Stepping 10, GenuineIntel, SESSIONNAME=Console, AVR32_HOME=C:\WinAVR-20100110, TMP=C:\Users\IRRENH~1\AppData\Local\Temp, CWD=C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer;, PROCESSOR_ARCHITECTURE=x86, LOGONSERVER=\\VALHALL-MINI, =::=::\, CommonProgramFiles=C:\Program Files (x86)\Common Files, CYGWIN=tty, CODE_SCROLL_HOME=C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ide\plugins\sst.tm_1.0.0\CSHOME\, PROCESSOR_ARCHITEW6432=AMD64, OS=Windows_NT, FP_NO_HOST_CHECK=NO, HOMEPATH=\Users\irrenhaus, PROCESSOR_LEVEL=6, CommonProgramW6432=C:\Program Files\Common Files, LOCALAPPDATA=C:\Users\irrenhaus\AppData\Local, COMPUTERNAME=VALHALL-MINI, SystemRoot=C:\Windows, windir=C:\Windows, NUMBER_OF_PROCESSORS=2, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, PUBLIC=C:\Users\Public, USERNAME=irrenhaus, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APPDATA=C:\Users\irrenhaus\AppData\Roaming]
+cmd /C cs_build -p "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\Bordcomputer.tmprj"
+------------------------------------
+[STD-IN] : VALUE0
+[STD-IN] : initializing builder
+[STD-IN] : VALUE5
+[STD-IN] : RIMX_PHASE : XML_BUSY
+[STD-IN] : VALUE20
+[STD-IN] : VALUE30
+[STD-IN] : VALUE50
+[STD-IN] : Building completed
+[STD-IN] : VALUE100
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [8/24, 2010   17:45  4.251]
+------------------------------------

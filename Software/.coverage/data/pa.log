@@ -1,0 +1,427 @@
+### PA log file is opened: Tue Aug 24 17:44:49 2010
+
+$Id: main.c 4668 2009-12-05 14:29:08Z oopmania $
+$Id: cs_PA_ILI_CFG_util.c 3198 2009-04-16 10:24:43Z  $
+$Id: cs_PA_code_rewriter.c 4654 2009-12-03 10:29:08Z iwkim $
+$Id: cs_PA_option.c 4143 2009-08-21 07:53:48Z cooloud $
+$Id: cs_PA_ILI_CFG_generator.c 4416 2009-10-26 00:40:56Z iwkim $
+$Id: cs_PA_MM_ILI.c 4652 2009-12-03 07:03:06Z iwkim $
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\misc.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\misc_259.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_adc_515.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_bkp_771.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_can_1027.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_cec_1283.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_crc_1539.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dac_1795.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dbgmcu_2051.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dma_2307.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_exti_2563.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_flash_2819.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_fsmc_3075.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_gpio_3331.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_i2c_3587.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_iwdg_3843.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_pwr_4099.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_rcc_4355.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_rtc_4611.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_sdio_4867.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_spi_5123.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_tim_5379.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_usart_5635.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_wwdg_5891.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport\core_cm3.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\core_cm3_6147.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\system_stm32f10x_6403.i.c""]
+preprocessing command: [""C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\bin\arm-atollic-eabi-gcc.exe"  -g -mcpu=cortex-m3 -O0 -Wall -ffunction-sections -fdata-sections -mthumb -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\CoreSupport -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\firmware\STM32F10x_StdPeriph_Driver\inc -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Board -IC:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\STM32_EVAL\Common  -I. -I"C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src" -E "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\src\stm32f10x_it.c" > "C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_it_6659.i.c""]
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\misc_259.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\misc_259.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\misc_259.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_adc_515.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_adc_515.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_adc_515.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_bkp_771.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_bkp_771.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_bkp_771.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_can_1027.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_can_1027.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_can_1027.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_cec_1283.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_cec_1283.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_cec_1283.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_crc_1539.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_crc_1539.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_crc_1539.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dac_1795.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dac_1795.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dac_1795.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dbgmcu_2051.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dbgmcu_2051.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dbgmcu_2051.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dma_2307.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dma_2307.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_dma_2307.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_exti_2563.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_exti_2563.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_exti_2563.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_flash_2819.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_flash_2819.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_flash_2819.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_fsmc_3075.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_fsmc_3075.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_fsmc_3075.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_gpio_3331.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_gpio_3331.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_gpio_3331.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_i2c_3587.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_i2c_3587.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_i2c_3587.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_iwdg_3843.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_iwdg_3843.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_iwdg_3843.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_pwr_4099.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_pwr_4099.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_pwr_4099.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_rcc_4355.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_rcc_4355.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_rcc_4355.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_rtc_4611.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_rtc_4611.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_rtc_4611.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_sdio_4867.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_sdio_4867.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_sdio_4867.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_spi_5123.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_spi_5123.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_spi_5123.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_tim_5379.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_tim_5379.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_tim_5379.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_usart_5635.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_usart_5635.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_usart_5635.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_wwdg_5891.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_wwdg_5891.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_wwdg_5891.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\core_cm3_6147.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\core_cm3_6147.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\core_cm3_6147.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\system_stm32f10x_6403.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\system_stm32f10x_6403.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\system_stm32f10x_6403.i.c
+edg command : num_or_argv(14)
+pafe
+--error_output
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_it_6659.elog
+-m
+-w
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\lib\gcc\arm-atollic-eabi\4.4.1\include-fixed"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\include"
+--sys_include="C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools\arm-atollic-eabi\usr\include"
+--gcc
+--gnu_version=40401
+-o
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_it_6659.i.c.il
+C:\Users\irrenhaus\Atollic\TrueSTUDIO\STM32_workspace\Bordcomputer\.coverage\data\stm32f10x_it_6659.i.c
+### PA log file is closed: Tue Aug 24 17:44:58 2010
+
+
