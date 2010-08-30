@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 25.08.2010 16:53:10
+EESchema Schematic File Version 2  date Mo 30 Aug 2010 05:32:44 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:welectronic
-LIBS:bordcomputer-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
