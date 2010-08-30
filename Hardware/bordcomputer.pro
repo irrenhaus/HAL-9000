@@ -1,4 +1,4 @@
-update=Mo 30 Aug 2010 06:47:01 CEST
+update=Mo 30 Aug 2010 10:39:03 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -96,7 +96,7 @@ TxtLar=120
 MSegLar=100
 LastNetListRead=bordcomputer.net
 [pcbnew/libraries]
-LibDir=../KiCadLib
+LibDir=../KiCadLib;/home/irrenhaus/_dropbox/Dropbox/_electronics/_kicad_lib;/home/irrenhaus/_dropbox/Dropbox/_electronics/_kicad_lib/converted
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -107,10 +107,10 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=converted\\con-usb
-LibName12=converted\\crystal
-LibName13=card_adapters
-LibName14=nhesse
-LibName15=pinhead
-LibName16=QSOP16
-LibName17=TQFP100
+LibName11=card_adapters
+LibName12=nhesse
+LibName13=pinhead
+LibName14=QSOP16
+LibName15=TQFP100
+LibName16=con-usb
+LibName17=crystal

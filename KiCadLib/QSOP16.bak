@@ -1,147 +1,133 @@
-PCBNEW-LibModule-V1  Mo 30 Aug 2010 06:33:27 CEST
+PCBNEW-LibModule-V1  Mo 30 Aug 2010 10:22:42 CEST
 $INDEX
 QSOP16
 $EndINDEX
 $MODULE QSOP16
-Po 0 0 0 15 4C7B3492 00000000 ~~
+Po 0 0 0 15 4C7B6A49 00000000 ~~
 Li QSOP16
+Cd www.icbank.com/icbank_data/semi_package/qsop16_dim.pdf
 Sc 00000000
 AR 
 Op 0 0 0
-T0 1040 1000 600 600 0 120 N I 21 N"QSOP16"
-T1 990 -1000 400 400 0 100 N V 21 N"VAL**"
-DC 220 -260 300 -180 100 21
-DS 0 0 1930 0 100 21
-DS 0 -1540 0 0 100 21
-DS 1930 -1540 0 -1540 100 21
-DS 1930 0 1930 -1540 100 21
+.LocalClearance 10
+T0 10 370 300 300 0 75 N I 21 N"QSOP16"
+T1 -10 -400 300 300 0 75 N V 21 N"VAL**"
+DS -965 -755 965 -755 30 21
+DS 965 -755 965 755 30 21
+DS -965 755 965 755 30 21
+DS -965 -755 -965 755 30 21
+DS -875 665 -875 665 60 21
 $PAD
-Sh "1" R 120 410 0 0 0
-Dr 0 0 0
+Sh "1" R 150 600 0 0 1800
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 90 200
-.LocalClearance 50
+Po -875 770
 $EndPAD
 $PAD
-Sh "2" R 120 410 0 0 0
-Dr 0 0 0
+Sh "2" R 150 600 0 0 1800
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 340 200
-.LocalClearance 50
+Po -625 770
 $EndPAD
 $PAD
-Sh "3" R 120 410 0 0 0
-Dr 0 0 0
+Sh "3" R 150 600 0 0 1800
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 590 200
-.LocalClearance 50
+Po -375 770
 $EndPAD
 $PAD
-Sh "4" R 120 410 0 0 0
-Dr 0 0 0
+Sh "4" R 150 600 0 0 1800
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 840 200
-.LocalClearance 50
+Po -124 770
 $EndPAD
 $PAD
-Sh "5" R 120 410 0 0 0
-Dr 0 0 0
+Sh "5" R 150 600 0 0 1800
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 1090 200
-.LocalClearance 50
+Po 125 770
 $EndPAD
 $PAD
-Sh "6" R 120 410 0 0 0
-Dr 0 0 0
+Sh "6" R 150 600 0 0 1800
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 1340 200
-.LocalClearance 50
+Po 375 770
 $EndPAD
 $PAD
-Sh "7" R 120 410 0 0 0
-Dr 0 0 0
+Sh "7" R 150 600 0 0 1800
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 1590 200
-.LocalClearance 50
+Po 625 770
 $EndPAD
 $PAD
-Sh "8" R 120 410 0 0 0
-Dr 0 0 0
+Sh "8" R 150 600 0 0 1800
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 1840 200
-.LocalClearance 50
+Po 875 770
 $EndPAD
 $PAD
-Sh "9" R 120 410 0 0 0
-Dr 0 0 0
+Sh "9" R 150 600 0 0 0
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 1840 -1740
-.LocalClearance 50
+Po 875 -770
 $EndPAD
 $PAD
-Sh "10" R 120 410 0 0 0
-Dr 0 0 0
+Sh "10" R 150 600 0 0 0
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 1590 -1740
-.LocalClearance 50
+Po 625 -770
 $EndPAD
 $PAD
-Sh "11" R 120 410 0 0 0
-Dr 0 0 0
+Sh "11" R 150 600 0 0 0
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 1340 -1740
-.LocalClearance 50
+Po 375 -770
 $EndPAD
 $PAD
-Sh "12" R 120 410 0 0 0
-Dr 0 0 0
+Sh "12" R 150 600 0 0 0
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 1090 -1740
-.LocalClearance 50
+Po 124 -770
 $EndPAD
 $PAD
-Sh "13" R 120 410 0 0 0
-Dr 0 0 0
+Sh "13" R 150 600 0 0 0
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 840 -1740
-.LocalClearance 50
+Po -125 -770
 $EndPAD
 $PAD
-Sh "14" R 120 410 0 0 0
-Dr 0 0 0
+Sh "14" R 150 600 0 0 0
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 590 -1740
-.LocalClearance 50
+Po -375 -770
 $EndPAD
 $PAD
-Sh "15" R 120 410 0 0 0
-Dr 0 0 0
+Sh "15" R 150 600 0 0 0
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 340 -1740
-.LocalClearance 50
+Po -625 -770
 $EndPAD
 $PAD
-Sh "16" R 120 410 0 0 0
-Dr 0 0 0
+Sh "16" R 150 600 0 0 0
+Dr 0 0 -300
 At SMD N 00888000
 Ne 0 ""
-Po 90 -1740
-.LocalClearance 50
+Po -875 -770
 $EndPAD
 $EndMODULE  QSOP16
 $EndLIBRARY

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mo 30 Aug 2010 05:46:39 CEST
+EESchema Schematic File Version 2  date Mo 30 Aug 2010 15:55:48 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,180 +46,78 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L +12V #PWR87
-U 1 1 4C7B28F5
-P 1800 3900
-F 0 "#PWR87" H 1800 3850 20  0001 C CNN
-F 1 "+12V" H 1800 4000 30  0000 C CNN
-	1    1800 3900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +12V #PWR75
-U 1 1 4C7B28EF
-P 4500 1800
-F 0 "#PWR75" H 4500 1750 20  0001 C CNN
-F 1 "+12V" H 4500 1900 30  0000 C CNN
-	1    4500 1800
-	0    1    1    0   
-$EndComp
-Connection ~ 4250 1800
 Wire Wire Line
-	4500 1800 3850 1800
+	1900 4550 2300 4550
 Wire Wire Line
-	2300 1550 2300 1000
+	2300 4550 2300 4300
+Wire Wire Line
+	2300 4300 2350 4300
+Wire Wire Line
+	1900 4350 2200 4350
+Wire Wire Line
+	2200 4350 2200 4100
+Wire Wire Line
+	2200 4100 2350 4100
+Wire Wire Line
+	1900 4150 2100 4150
+Wire Wire Line
+	2100 4150 2100 3900
+Wire Wire Line
+	2100 3900 2350 3900
+Wire Wire Line
+	1900 3850 2000 3850
+Wire Wire Line
+	2000 3850 2000 3700
+Wire Wire Line
+	2000 3700 2350 3700
+Wire Wire Line
+	1900 3550 1950 3550
+Wire Wire Line
+	1950 3550 1950 3500
+Wire Wire Line
+	1950 3500 2350 3500
+Wire Wire Line
+	3700 2950 3300 2950
+Wire Wire Line
+	3300 2950 3300 3400
+Wire Wire Line
+	3300 3400 3150 3400
+Wire Wire Line
+	3700 3250 3400 3250
+Wire Wire Line
+	3400 3250 3400 3600
+Wire Wire Line
+	3400 3600 3150 3600
+Wire Wire Line
+	3700 3550 3500 3550
+Wire Wire Line
+	3500 3550 3500 3800
+Wire Wire Line
+	3500 3800 3150 3800
+Wire Wire Line
+	3700 3850 3600 3850
+Wire Wire Line
+	3600 3850 3600 4000
+Wire Wire Line
+	3600 4000 3150 4000
+Wire Wire Line
+	3700 4150 3650 4150
+Wire Wire Line
+	3650 4150 3650 4200
+Wire Wire Line
+	3650 4200 3150 4200
+Wire Wire Line
+	3150 4850 3150 4900
+Wire Wire Line
+	3150 4900 3350 4900
+Wire Wire Line
+	2350 4850 2350 4900
+Wire Wire Line
+	2350 4900 2150 4900
 Wire Wire Line
 	850  2650 1250 2650
 Wire Wire Line
 	900  2300 1250 2300
-Wire Wire Line
-	900  2000 1250 2000
-Wire Wire Line
-	900  1700 1250 1700
-Wire Wire Line
-	3850 4900 3850 4650
-Wire Wire Line
-	3850 4650 3600 4650
-Wire Wire Line
-	4050 4900 4050 4450
-Wire Wire Line
-	4050 4450 3600 4450
-Wire Wire Line
-	2650 4900 2650 4650
-Wire Wire Line
-	2650 4650 2800 4650
-Wire Wire Line
-	2450 4900 2450 4450
-Wire Wire Line
-	2450 4450 2800 4450
-Wire Wire Line
-	2250 4900 2250 4250
-Wire Wire Line
-	2250 4250 2800 4250
-Wire Wire Line
-	4500 4350 4250 4350
-Wire Wire Line
-	4250 4350 4250 4150
-Wire Wire Line
-	4250 4150 3600 4150
-Wire Wire Line
-	4500 4050 4350 4050
-Wire Wire Line
-	4350 4050 4350 3950
-Wire Wire Line
-	4350 3950 3600 3950
-Wire Wire Line
-	1800 4500 2200 4500
-Wire Wire Line
-	2200 4500 2200 4150
-Wire Wire Line
-	2200 4150 2800 4150
-Wire Wire Line
-	1800 4200 2100 4200
-Wire Wire Line
-	2100 4200 2100 3950
-Wire Wire Line
-	2100 3950 2800 3950
-Wire Wire Line
-	3600 3750 4500 3750
-Wire Wire Line
-	3600 3650 3900 3650
-Wire Wire Line
-	1800 3750 1950 3750
-Wire Wire Line
-	1950 3750 1950 3650
-Wire Wire Line
-	1950 3650 2800 3650
-Wire Wire Line
-	1800 3600 1900 3600
-Wire Wire Line
-	1900 3600 1900 3550
-Wire Wire Line
-	1900 3550 2800 3550
-Wire Wire Line
-	1800 3450 2800 3450
-Wire Wire Line
-	2300 1550 2800 1550
-Wire Wire Line
-	4150 2200 4250 2200
-Connection ~ 3100 1800
-Wire Wire Line
-	3100 1800 3450 1800
-Wire Wire Line
-	3100 1750 3100 1850
-Wire Wire Line
-	3100 1200 3100 1350
-Wire Wire Line
-	3100 2450 3100 2600
-Wire Wire Line
-	3600 2200 3750 2200
-Wire Wire Line
-	2300 2200 2300 2050
-Wire Wire Line
-	3600 3450 4500 3450
-Wire Wire Line
-	3600 3550 4400 3550
-Wire Wire Line
-	4400 3550 4400 3600
-Wire Wire Line
-	4400 3600 4500 3600
-Wire Wire Line
-	2800 3750 2000 3750
-Wire Wire Line
-	2000 3750 2000 3900
-Wire Wire Line
-	2000 3900 1800 3900
-Wire Wire Line
-	2800 3850 2050 3850
-Wire Wire Line
-	2050 3850 2050 4050
-Wire Wire Line
-	2050 4050 1800 4050
-Wire Wire Line
-	2800 4050 2150 4050
-Wire Wire Line
-	2150 4050 2150 4350
-Wire Wire Line
-	2150 4350 1800 4350
-Wire Wire Line
-	3600 3850 4400 3850
-Wire Wire Line
-	4400 3850 4400 3900
-Wire Wire Line
-	4400 3900 4500 3900
-Wire Wire Line
-	3600 4050 4300 4050
-Wire Wire Line
-	4300 4050 4300 4200
-Wire Wire Line
-	4300 4200 4500 4200
-Wire Wire Line
-	3600 4250 4200 4250
-Wire Wire Line
-	4200 4250 4200 4500
-Wire Wire Line
-	4200 4500 4500 4500
-Wire Wire Line
-	2800 4350 2350 4350
-Wire Wire Line
-	2350 4350 2350 4900
-Wire Wire Line
-	2800 4550 2550 4550
-Wire Wire Line
-	2550 4550 2550 4900
-Wire Wire Line
-	3600 4350 4150 4350
-Wire Wire Line
-	4150 4350 4150 4900
-Wire Wire Line
-	3600 4550 3950 4550
-Wire Wire Line
-	3950 4550 3950 4900
-Wire Wire Line
-	900  1550 1250 1550
-Wire Wire Line
-	900  1850 1250 1850
 Wire Wire Line
 	900  2150 1250 2150
 Wire Wire Line
@@ -227,262 +125,184 @@ Wire Wire Line
 Wire Wire Line
 	850  2800 1250 2800
 Wire Wire Line
-	2300 1000 2100 1000
+	2150 4700 2350 4700
+Wire Wire Line
+	2350 4700 2350 4750
+Wire Wire Line
+	3350 4700 3150 4700
+Wire Wire Line
+	3150 4700 3150 4750
+Wire Wire Line
+	3150 4300 3700 4300
+Wire Wire Line
+	3150 4100 3650 4100
+Wire Wire Line
+	3650 4100 3650 4000
+Wire Wire Line
+	3650 4000 3700 4000
+Wire Wire Line
+	3150 3900 3550 3900
+Wire Wire Line
+	3550 3900 3550 3700
+Wire Wire Line
+	3550 3700 3700 3700
+Wire Wire Line
+	3150 3700 3450 3700
+Wire Wire Line
+	3450 3700 3450 3400
+Wire Wire Line
+	3450 3400 3700 3400
+Wire Wire Line
+	3150 3500 3350 3500
+Wire Wire Line
+	3350 3500 3350 3100
+Wire Wire Line
+	3350 3100 3700 3100
+Wire Wire Line
+	2350 3400 1900 3400
+Wire Wire Line
+	2350 3600 1950 3600
+Wire Wire Line
+	1950 3600 1950 3700
+Wire Wire Line
+	1950 3700 1900 3700
+Wire Wire Line
+	2350 3800 2050 3800
+Wire Wire Line
+	2050 3800 2050 4000
+Wire Wire Line
+	2050 4000 1900 4000
+Wire Wire Line
+	2350 4000 2150 4000
+Wire Wire Line
+	2150 4000 2150 4250
+Wire Wire Line
+	2150 4250 1900 4250
+Wire Wire Line
+	2350 4200 2250 4200
+Wire Wire Line
+	2250 4200 2250 4450
+Wire Wire Line
+	2250 4450 1900 4450
+Text Label 1900 4550 2    60   ~ 0
+LEDGND
+$Comp
+L CONN_2X2 P13
+U 1 1 4C7B7383
+P 2750 4800
+F 0 "P13" H 2750 4950 50  0000 C CNN
+F 1 "DISPLAY_LED" H 2760 4670 40  0000 C CNN
+	1    2750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_10X2 P12
+U 1 1 4C7B737C
+P 2750 3850
+F 0 "P12" H 2750 4400 60  0000 C CNN
+F 1 "DISPLAY_CTRL" V 2750 3750 50  0000 C CNN
+	1    2750 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3350 4900 2    60   Input ~ 0
+LED4PWM
+Text GLabel 3350 4700 2    60   Input ~ 0
+LED3PWM
+Text GLabel 2150 4900 0    60   Input ~ 0
+LED2PWM
+Text GLabel 2150 4700 0    60   Input ~ 0
+LED1PWM
 Text Label 1250 2800 0    60   ~ 0
 LEDGND
 Text Label 1250 2650 0    60   ~ 0
 GND
 $Comp
-L GND #PWR85
+L GND #PWR053
 U 1 1 4C7B2898
 P 850 2800
-F 0 "#PWR85" H 850 2800 30  0001 C CNN
+F 0 "#PWR053" H 850 2800 30  0001 C CNN
 F 1 "GND" H 850 2730 30  0001 C CNN
 	1    850  2800
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR84
+L GND #PWR054
 U 1 1 4C7B2894
 P 850 2650
-F 0 "#PWR84" H 850 2650 30  0001 C CNN
+F 0 "#PWR054" H 850 2650 30  0001 C CNN
 F 1 "GND" H 850 2580 30  0001 C CNN
 	1    850  2650
 	0    1    1    0   
 $EndComp
 Text Label 1250 2450 0    60   ~ 0
-LED4+
-Text Label 1250 2300 0    60   ~ 0
-LED3+
-Text Label 1250 2150 0    60   ~ 0
-LED2+
-Text Label 1250 2000 0    60   ~ 0
-LED1+
-Text Label 1250 1850 0    60   ~ 0
 VCI
-Text Label 1250 1700 0    60   ~ 0
+Text Label 1250 2300 0    60   ~ 0
 VCC
-Text Label 1250 1550 0    60   ~ 0
+Text Label 1250 2150 0    60   ~ 0
 IOVCC
 $Comp
-L +3.3V #PWR82
-U 1 1 4C7B284B
+L +3.3V #PWR055
+U 1 1 4C7B282B
 P 900 2450
-F 0 "#PWR82" H 900 2410 30  0001 C CNN
+F 0 "#PWR055" H 900 2410 30  0001 C CNN
 F 1 "+3.3V" H 900 2560 30  0000 C CNN
 	1    900  2450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR81
-U 1 1 4C7B2848
+L +3.3V #PWR056
+U 1 1 4C7B281D
 P 900 2300
-F 0 "#PWR81" H 900 2260 30  0001 C CNN
+F 0 "#PWR056" H 900 2260 30  0001 C CNN
 F 1 "+3.3V" H 900 2410 30  0000 C CNN
 	1    900  2300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR78
-U 1 1 4C7B2845
+L +3.3V #PWR057
+U 1 1 4C7B2819
 P 900 2150
-F 0 "#PWR78" H 900 2110 30  0001 C CNN
+F 0 "#PWR057" H 900 2110 30  0001 C CNN
 F 1 "+3.3V" H 900 2260 30  0000 C CNN
 	1    900  2150
 	0    -1   -1   0   
 $EndComp
-$Comp
-L +3.3V #PWR77
-U 1 1 4C7B282E
-P 900 2000
-F 0 "#PWR77" H 900 1960 30  0001 C CNN
-F 1 "+3.3V" H 900 2110 30  0000 C CNN
-	1    900  2000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +3.3V #PWR76
-U 1 1 4C7B282B
-P 900 1850
-F 0 "#PWR76" H 900 1810 30  0001 C CNN
-F 1 "+3.3V" H 900 1960 30  0000 C CNN
-	1    900  1850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +3.3V #PWR74
-U 1 1 4C7B281D
-P 900 1700
-F 0 "#PWR74" H 900 1660 30  0001 C CNN
-F 1 "+3.3V" H 900 1810 30  0000 C CNN
-	1    900  1700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +3.3V #PWR73
-U 1 1 4C7B2819
-P 900 1550
-F 0 "#PWR73" H 900 1510 30  0001 C CNN
-F 1 "+3.3V" H 900 1660 30  0000 C CNN
-	1    900  1550
-	0    -1   -1   0   
-$EndComp
-Text Label 3850 4900 3    60   ~ 0
+Text Label 1900 4450 2    60   ~ 0
 GND
-Text Label 3950 4900 3    60   ~ 0
+Text Label 1900 4350 2    60   ~ 0
 VCI
-Text Label 4050 4900 3    60   ~ 0
+Text Label 1900 4250 2    60   ~ 0
 VCC
-Text Label 4150 4900 3    60   ~ 0
+Text Label 1900 4150 2    60   ~ 0
 IOVCC
-Text Label 2250 4900 3    60   ~ 0
-LED4+
-Text Label 2350 4900 3    60   ~ 0
-LED3+
-Text Label 2450 4900 3    60   ~ 0
-LED2+
-Text Label 2550 4900 3    60   ~ 0
-LED1+
-Text Label 2650 4900 3    60   ~ 0
-LEDGND
-$Comp
-L GND #PWR86
-U 1 1 4C7B26D7
-P 3900 3650
-F 0 "#PWR86" H 3900 3650 30  0001 C CNN
-F 1 "GND" H 3900 3580 30  0001 C CNN
-	1    3900 3650
-	0    -1   -1   0   
-$EndComp
-Text GLabel 4500 3750 2    60   Output ~ 0
+Text GLabel 1900 3850 0    60   Output ~ 0
 SPI1_MISO
-Text GLabel 4500 4500 2    60   Output ~ 0
+Text GLabel 3700 4300 2    60   Output ~ 0
 Y-
-Text GLabel 4500 4200 2    60   Output ~ 0
+Text GLabel 3700 4000 2    60   Output ~ 0
 Y+
-Text GLabel 4500 4350 2    60   Output ~ 0
+Text GLabel 3700 4150 2    60   Output ~ 0
 X-
-Text GLabel 4500 4050 2    60   Output ~ 0
+Text GLabel 3700 3850 2    60   Output ~ 0
 X+
-Text GLabel 1800 3750 0    60   Input ~ 0
+Text GLabel 1900 4000 0    60   Input ~ 0
 SPI1_SCK
-Text GLabel 1800 3600 0    60   Input ~ 0
+Text GLabel 1900 3550 0    60   Input ~ 0
 CS
-Text GLabel 4500 3600 2    60   Input ~ 0
+Text GLabel 1900 3700 0    60   Input ~ 0
 SPI1_MOSI
-Text GLabel 4500 3450 2    60   Input ~ 0
+Text GLabel 1900 3400 0    60   Input ~ 0
 RESET
-Text GLabel 1800 3450 0    60   Input ~ 0
+Text GLabel 3700 2950 2    60   Input ~ 0
 RS
-Text GLabel 2100 1000 0    60   Input ~ 0
-S65_Backlight
-Text GLabel 1800 4500 0    60   Input ~ 0
+Text GLabel 3700 3550 2    60   Input ~ 0
 IM3
-Text GLabel 1800 4350 0    60   Input ~ 0
+Text GLabel 3700 3400 2    60   Input ~ 0
 IM2
-Text GLabel 1800 4200 0    60   Input ~ 0
+Text GLabel 3700 3250 2    60   Input ~ 0
 IM1
-Text GLabel 1800 4050 0    60   Input ~ 0
+Text GLabel 3700 3100 2    60   Input ~ 0
 IM0
-Text GLabel 4500 3900 2    60   Input ~ 0
+Text GLabel 3700 3700 2    60   Input ~ 0
 RD
-$Comp
-L CONN_13X2 P15
-U 1 1 4C7B11F5
-P 3200 4050
-F 0 "P15" H 3200 4750 60  0000 C CNN
-F 1 "CONN_13X2" V 3200 4050 50  0000 C CNN
-	1    3200 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR80
-U 1 1 4C7B115E
-P 3600 2200
-F 0 "#PWR80" H 3600 2200 30  0001 C CNN
-F 1 "GND" H 3600 2130 30  0001 C CNN
-	1    3600 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR72
-U 1 1 4C7B1159
-P 3100 1200
-F 0 "#PWR72" H 3100 1200 30  0001 C CNN
-F 1 "GND" H 3100 1130 30  0001 C CNN
-	1    3100 1200
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR79
-U 1 1 4C7B1157
-P 2300 2200
-F 0 "#PWR79" H 2300 2200 30  0001 C CNN
-F 1 "GND" H 2300 2130 30  0001 C CNN
-	1    2300 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR83
-U 1 1 4C7B1150
-P 3100 2600
-F 0 "#PWR83" H 3100 2690 20  0001 C CNN
-F 1 "+5V" H 3100 2690 30  0000 C CNN
-	1    3100 2600
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R17
-U 1 1 4C7B1107
-P 2300 1800
-F 0 "R17" V 2380 1800 50  0000 C CNN
-F 1 "470k" V 2300 1800 50  0000 C CNN
-	1    2300 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODE D4
-U 1 1 4C7B1103
-P 4250 2000
-F 0 "D4" H 4250 2100 40  0000 C CNN
-F 1 "6.2V" H 4250 1900 40  0000 C CNN
-	1    4250 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L DIODE D5
-U 1 1 4C7B1101
-P 3950 2200
-F 0 "D5" H 3950 2300 40  0000 C CNN
-F 1 "6.2V" H 3950 2100 40  0000 C CNN
-	1    3950 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L ZENER D3
-U 1 1 4C7B10FE
-P 3650 1800
-F 0 "D3" H 3650 1900 50  0000 C CNN
-F 1 "BAT54" H 3650 1700 40  0000 C CNN
-	1    3650 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L INDUCTOR L1
-U 1 1 4C7B10FB
-P 3100 2150
-F 0 "L1" V 3050 2150 40  0000 C CNN
-F 1 "820uH" V 3200 2150 40  0000 C CNN
-	1    3100 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOSFET_N Q1
-U 1 1 4C7B10E7
-P 3000 1550
-F 0 "Q1" H 3010 1720 60  0000 R CNN
-F 1 "BSS123" H 3010 1400 60  0000 R CNN
-	1    3000 1550
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

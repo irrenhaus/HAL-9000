@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Mo 30 Aug 2010 06:46:13 CEST
+Cmp-Mod V01 Created by CvPCB (2010-08-29 BZR 2466)-unstable date = Mo 30 Aug 2010 12:25:26 CEST
 
 BeginCmp
 TimeStamp = /4C68165B;
@@ -57,27 +57,6 @@ IdModule  = LED-1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C7B106B/4C7B10FE;
-Reference = D3;
-ValeurCmp = BAT54;
-IdModule  = SOT23-132;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C7B106B/4C7B1103;
-Reference = D4;
-ValeurCmp = 6.2V;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C7B106B/4C7B1101;
-Reference = D5;
-ValeurCmp = 6.2V;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
 TimeStamp = /4C782250;
 Reference = J2;
 ValeurCmp = USB-A;
@@ -85,30 +64,9 @@ IdModule  = con-usb-USB-A-S;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C7B106B/4C7B10FB;
-Reference = L1;
-ValeurCmp = 820uH;
-IdModule  = SM1812;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C6A29E4;
-Reference = P1;
-ValeurCmp = JTAG;
-IdModule  = pinhead-2X10SMD;
-EndCmp
-
-BeginCmp
 TimeStamp = /4C67F8EA;
 Reference = P2;
 ValeurCmp = VCC_3v3;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C680BC0;
-Reference = P3;
-ValeurCmp = VCC_2v9;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
@@ -150,43 +108,29 @@ EndCmp
 BeginCmp
 TimeStamp = /4C77FF78;
 Reference = P11;
-ValeurCmp = I2C1;
+ValeurCmp = I2C;
 IdModule  = pinhead-2X03SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C77FFBB;
+TimeStamp = /4C7B106B/4C7B737C;
 Reference = P12;
-ValeurCmp = I2C2;
-IdModule  = pinhead-2X03SMD;
+ValeurCmp = DISPLAY_CTRL;
+IdModule  = pinhead-2X10SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C77FFE9;
+TimeStamp = /4C7B106B/4C7B7383;
 Reference = P13;
-ValeurCmp = I2C3;
-IdModule  = pinhead-2X03SMD;
+ValeurCmp = DISPLAY_LED;
+IdModule  = pinhead-2X02SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /4C77FFED;
+TimeStamp = /4C7B8001;
 Reference = P14;
-ValeurCmp = I2C4;
-IdModule  = pinhead-2X03SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C7B106B/4C7B11F5;
-Reference = P15;
-ValeurCmp = CONN_13X2;
-IdModule  = pinhead-2X13SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C7B106B/4C7B10E7;
-Reference = Q1;
-ValeurCmp = BSS123;
-IdModule  = SOT23GDS;
+ValeurCmp = JTAG+USART;
+IdModule  = pinhead-2X05SMD;
 EndCmp
 
 BeginCmp
@@ -291,13 +235,6 @@ BeginCmp
 TimeStamp = /4C77F01D/4C77F20B;
 Reference = R16;
 ValeurCmp = 10k;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C7B106B/4C7B1107;
-Reference = R17;
-ValeurCmp = 470k;
 IdModule  = SM1206;
 EndCmp
 
