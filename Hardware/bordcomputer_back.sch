@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 28.08.2010 00:59:32
+EESchema Schematic File Version 2  date Mo 30 Aug 2010 04:26:39 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,16 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:STM32F10xVx
-LIBS:farnell
-LIBS:micro-sd
 LIBS:bordcomputer-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 2
+Sheet 3 3
 Title ""
-Date "27 aug 2010"
+Date "30 aug 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,6 +43,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 1150 1300 0    60   Output ~ 0
+SPI2_MISO
 Wire Wire Line
 	1150 1300 1650 1300
 Wire Wire Line
@@ -206,8 +205,6 @@ Text GLabel 1150 1950 0    60   Input ~ 0
 SD_SELECT
 Text GLabel 1150 1500 0    60   Input ~ 0
 SPI2_SCK
-Text GLabel 1150 1300 0    60   Input ~ 0
-SPI2_MISO
 Text GLabel 1150 1800 0    60   Input ~ 0
 SPI2_MOSI
 $EndSCHEMATC
