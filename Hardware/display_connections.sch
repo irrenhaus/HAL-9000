@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mo 30 Aug 2010 15:55:48 CEST
+EESchema Schematic File Version 2  date Mi 01 Sep 2010 19:34:14 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 3
 Title ""
-Date "30 aug 2010"
+Date "1 sep 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -217,19 +217,19 @@ LEDGND
 Text Label 1250 2650 0    60   ~ 0
 GND
 $Comp
-L GND #PWR053
+L GND #PWR057
 U 1 1 4C7B2898
 P 850 2800
-F 0 "#PWR053" H 850 2800 30  0001 C CNN
+F 0 "#PWR057" H 850 2800 30  0001 C CNN
 F 1 "GND" H 850 2730 30  0001 C CNN
 	1    850  2800
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR054
+L GND #PWR058
 U 1 1 4C7B2894
 P 850 2650
-F 0 "#PWR054" H 850 2650 30  0001 C CNN
+F 0 "#PWR058" H 850 2650 30  0001 C CNN
 F 1 "GND" H 850 2580 30  0001 C CNN
 	1    850  2650
 	0    1    1    0   
@@ -241,28 +241,28 @@ VCC
 Text Label 1250 2150 0    60   ~ 0
 IOVCC
 $Comp
-L +3.3V #PWR055
+L +3.3V #PWR059
 U 1 1 4C7B282B
 P 900 2450
-F 0 "#PWR055" H 900 2410 30  0001 C CNN
+F 0 "#PWR059" H 900 2410 30  0001 C CNN
 F 1 "+3.3V" H 900 2560 30  0000 C CNN
 	1    900  2450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR056
+L +3.3V #PWR060
 U 1 1 4C7B281D
 P 900 2300
-F 0 "#PWR056" H 900 2260 30  0001 C CNN
+F 0 "#PWR060" H 900 2260 30  0001 C CNN
 F 1 "+3.3V" H 900 2410 30  0000 C CNN
 	1    900  2300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR057
+L +3.3V #PWR061
 U 1 1 4C7B2819
 P 900 2150
-F 0 "#PWR057" H 900 2110 30  0001 C CNN
+F 0 "#PWR061" H 900 2110 30  0001 C CNN
 F 1 "+3.3V" H 900 2260 30  0000 C CNN
 	1    900  2150
 	0    -1   -1   0   

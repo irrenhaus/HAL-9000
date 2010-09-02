@@ -1,125 +1,70 @@
-# EESchema Netlist Version 1.1 created  28.08.2010 01:31:04
+# EESchema Netlist Version 1.1 created  Mi 01 Sep 2010 20:35:27 CEST
 (
- ( /4C69FB78 SM1206 C1 100nF
-  ( 1 N-000006 )
-  ( 2 GND )
+ ( /4C6D0455 $noname  D1 1N4001 {Lib=DIODE}
+  (    1 N-000002 )
+  (    2 N-000007 )
  )
- ( /4C69FDBD SM1206 C2 100nF
-  ( 1 +1.8V )
-  ( 2 GND )
+ ( /4C6D0431 $noname  L1 47uH {Lib=INDUCTOR}
+  (    1 N-000002 )
+  (    2 N-000006 )
  )
- ( /4C69FC33 SM1206 C3 100nF
-  ( 1 N-000006 )
-  ( 2 GND )
+ ( /4C6D0400 $noname  D2 1,5KE_22A {Lib=ZENER}
+  (    1 GND )
+  (    2 N-000006 )
  )
- ( /4C69FDB7 SM1206 C4 100nF
-  ( 1 +3.3V )
-  ( 2 GND )
+ ( /4C6D03CC $noname  F1 1A {Lib=FUSE}
+  (    1 +12V )
+  (    2 N-000006 )
  )
- ( /4C69FDA6 SM1206 C5 100nF
-  ( 1 N-000006 )
-  ( 2 GND )
+ ( /4C69FE80 $noname  P3 Bordnetz {Lib=CONN_2}
+  (    1 +12V )
+  (    2 GND )
  )
- ( /4C69FDA9 SM1206 C6 100nF
-  ( 1 +5V )
-  ( 2 GND )
+ ( /4C69FE28 $noname  P4 5V {Lib=CONN_2}
+  (    1 +5V )
+  (    2 GND )
  )
- ( /4C6D0455 SM1812 D1 1N4001
-  ( 1 N-000002 )
-  ( 2 N-000006 )
+ ( /4C69FE1D $noname  P2 3v3 {Lib=CONN_2}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /4C6D0400 PIN_ARRAY_2X1 D2 1,5KE_22A
-  ( 1 GND )
-  ( 2 N-000001 )
+ ( /4C69FDB7 $noname  C4 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /4C6D03CC SM1812 F1 1A
-  ( 1 +12V )
-  ( 2 N-000001 )
+ ( /4C69FDA9 $noname  C6 100nF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
  )
- ( /4C6D0431 SM1206 L1 47uH
-  ( 1 N-000002 )
-  ( 2 N-000001 )
+ ( /4C69FDA6 $noname  C5 100nF {Lib=C}
+  (    1 N-000007 )
+  (    2 GND )
  )
- ( /4C69FE17 PIN_ARRAY_2X1 P1 2v9
-  ( 1 +1.8V )
-  ( 2 GND )
+ ( /4C69FD01 $noname  R4 220 {Lib=R}
+  (    1 GND )
+  (    2 N-000003 )
  )
- ( /4C69FE1D PIN_ARRAY_2X1 P2 3v3
-  ( 1 +3.3V )
-  ( 2 GND )
+ ( /4C69FC33 $noname  C3 100nF {Lib=C}
+  (    1 N-000007 )
+  (    2 GND )
  )
- ( /4C69FE80 PIN_ARRAY_2X1 P3 Bordnetz
-  ( 1 +12V )
-  ( 2 GND )
+ ( /4C69FC20 $noname  R3 160 {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000003 )
  )
- ( /4C69FE28 PIN_ARRAY_2X1 P4 5V
-  ( 1 +5V )
-  ( 2 GND )
+ ( /4C69F806 $noname  U3 7805 {Lib=7805}
+  (  GND GND )
+  (   VI N-000007 )
+  (   VO +5V )
  )
- ( /4C69FB65 SM1206 R1 150
-  ( 1 +1.8V )
-  ( 2 N-000004 )
- )
- ( /4C69FC20 SM1206 R3 160
-  ( 1 +3.3V )
-  ( 2 N-000003 )
- )
- ( /4C69FD01 SM1206 R4 220
-  ( 1 GND )
-  ( 2 N-000003 )
- )
- ( /4C6A0D7B SM1206 R5 240
-  ( 1 N-000004 )
-  ( 2 GND )
- )
- ( /4C69F7EB TO220_VERT U1 LM317_(2v9)
-  ( 1 N-000006 )
-  ( 2 N-000004 )
-  ( 3 +1.8V )
- )
- ( /4C69F7F0 TO220_VERT U2 LM317_(3v3)
-  ( 1 N-000006 )
-  ( 2 N-000003 )
-  ( 3 +3.3V )
- )
- ( /4C69F806 TO220_VERT U3 7805
-  ( GND GND )
-  ( VI N-000006 )
-  ( VO +5V )
+ ( /4C69F7F0 $noname  U2 LM317_(3v3) {Lib=LM317}
+  (    1 N-000007 )
+  (    2 N-000003 )
+  (    3 +3.3V )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
 $component D1
  D?
  S*
@@ -129,33 +74,80 @@ $component D2
  SO*
  SM*
 $endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C4
+ SM*
+ C?
+ C1-1
 $endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
 $endlist
 $component R4
  R?
  SM0603
  SM0805
  R?-*
- SM1206
 $endlist
-$component R5
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
  R?
  SM0603
  SM0805
  R?-*
- SM1206
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ P4 2
+ P2 2
+ C4 2
+ C6 2
+ C5 2
+ C3 2
+ P3 2
+ D2 1
+ U3 GND
+ R4 1
+Net 2 "" ""
+ D1 1
+ L1 1
+Net 3 "" ""
+ R3 2
+ U2 2
+ R4 2
+Net 4 "+12V" "+12V"
+ F1 1
+ P3 1
+Net 5 "+3.3V" "+3.3V"
+ R3 1
+ U2 3
+ C4 1
+ P2 1
+Net 6 "" ""
+ D2 2
+ L1 2
+ F1 2
+Net 7 "" ""
+ U3 VI
+ D1 2
+ U2 1
+ C3 1
+ C5 1
+Net 8 "+5V" "+5V"
+ U3 VO
+ C6 1
+ P4 1
+}
+#End

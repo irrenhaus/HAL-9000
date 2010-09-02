@@ -1,26 +1,153 @@
-# EESchema Netlist Version 1.1 created  25.08.2010 16:47:32
+# EESchema Netlist Version 1.1 created  Mi 01 Sep 2010 16:24:51 CEST
 (
- ( /4C752B9A welectronic-S65 LCD1 S65
-  ( 1V8 +1.8V )
-  ( 2V9 +1.8V )
-  ( CLK N-000003 )
-  ( CS N-000001 )
-  ( DATA N-000006 )
-  ( GND GND )
-  ( LED+ +12V )
-  ( LED- GND )
-  ( RESE N-000005 )
-  ( RS N-000002 )
+ ( /4C7D2E07 $noname  P2 CONN_2X2 {Lib=CONN_2X2}
+  (    1 /LED1 )
+  (    2 /LED3 )
+  (    3 /LED2 )
+  (    4 /LED4 )
  )
- ( /4C752B75 pinhead-1X08SMD P1 CONN_8
-  ( 1 N-000002 )
-  ( 2 N-000005 )
-  ( 3 N-000001 )
-  ( 4 N-000006 )
-  ( 5 N-000003 )
-  ( 6 GND )
-  ( 7 +12V )
-  ( 8 +1.8V )
+ ( /4C7D2B7A $noname  P1 CONN_10X2 {Lib=CONN_10X2}
+  (    1 /RESET )
+  (    2 /RS )
+  (    3 /CS )
+  (    4 /IM0 )
+  (    5 /MOSI )
+  (    6 /IM1 )
+  (    7 /MISO )
+  (    8 /IM2 )
+  (    9 /SCK )
+  (   10 /IM3 )
+  (   11 /VCC )
+  (   12 /RD )
+  (   13 /VCC )
+  (   14 /X+ )
+  (   15 /VCC )
+  (   16 /Y+ )
+  (   17 /GND )
+  (   18 /X- )
+  (   19 /GND )
+  (   20 /Y- )
+ )
+ ( /4C7D2B30 $noname  U1 MI0283QT-2 {Lib=MI0283QT-2}
+  (    1 /GND )
+  (    2 /LED1 )
+  (    3 /LED2 )
+  (    4 /LED3 )
+  (    5 /LED4 )
+  (    6 /IM0 )
+  (    7 /IM1 )
+  (    8 /IM2 )
+  (    9 /IM3 )
+  (   10 /RESET )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+  (   21 ? )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 ? )
+  (   30 ? )
+  (   31 ? )
+  (   32 ? )
+  (   33 /MISO )
+  (   34 /MOSI )
+  (   35 /RD )
+  (   36 /SCK )
+  (   37 /RS )
+  (   38 /CS )
+  (   39 ? )
+  (   40 /VCC )
+  (   41 /VCC )
+  (   42 /VCC )
+  (   43 /GND )
+  (   44 /X+ )
+  (   45 /Y+ )
+  (   46 /X- )
+  (   47 /Y- )
  )
 )
 *
+{ Pin List by Nets
+Net 1 "/VCC" "VCC"
+ U1 41
+ U1 40
+ U1 42
+ P1 15
+ P1 11
+ P1 13
+Net 2 "/X-" "X-"
+ U1 46
+ P1 18
+Net 3 "/Y+" "Y+"
+ U1 45
+ P1 16
+Net 4 "/X+" "X+"
+ U1 44
+ P1 14
+Net 5 "/RD" "RD"
+ P1 12
+ U1 35
+Net 6 "/IM3" "IM3"
+ P1 10
+ U1 9
+Net 7 "/IM2" "IM2"
+ P1 8
+ U1 8
+Net 8 "/IM1" "IM1"
+ U1 7
+ P1 6
+Net 9 "/GND" "GND"
+ U1 43
+ P1 17
+ P1 19
+ U1 1
+Net 10 "/SCK" "SCK"
+ U1 36
+ P1 9
+Net 11 "/MISO" "MISO"
+ U1 33
+ P1 7
+Net 12 "/MOSI" "MOSI"
+ U1 34
+ P1 5
+Net 13 "/RESET" "RESET"
+ U1 10
+ P1 1
+Net 14 "/RS" "RS"
+ P1 2
+ U1 37
+Net 15 "/CS" "CS"
+ P1 3
+ U1 38
+Net 16 "/IM0" "IM0"
+ U1 6
+ P1 4
+Net 34 "/Y-" "Y-"
+ U1 47
+ P1 20
+Net 41 "/LED1" "LED1"
+ P2 1
+ U1 2
+Net 42 "/LED4" "LED4"
+ U1 5
+ P2 4
+Net 43 "/LED3" "LED3"
+ U1 4
+ P2 2
+Net 44 "/LED2" "LED2"
+ U1 3
+ P2 3
+}
+#End

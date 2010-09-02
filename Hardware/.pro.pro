@@ -1,15 +1,10 @@
-update=Mi 01 Sep 2010 20:38:09 CEST
+update=Di 31 Aug 2010 18:34:38 CEST
 last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=400
-PadDimH=800
-PadDimV=800
+PadDrlX=0
+PadDimH=700
+PadDimV=360
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
@@ -22,9 +17,9 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=netzteil.net
+LastNetListRead=display.net
 [pcbnew/libraries]
-LibDir=C:\\_dropbox\\My Dropbox\\_electronics\\_kicad_lib
+LibDir=../KiCadLib
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -35,5 +30,6 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=C:\\_dropbox\\My Dropbox\\_electronics\\_kicad_lib\\Potentiometres
-LibName12=pinhead
+LibName11=welectronic
+LibName12=MI0283QT-2
+LibName13=pinhead

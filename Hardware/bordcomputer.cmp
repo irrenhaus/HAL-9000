@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-08-29 BZR 2466)-unstable date = Mo 30 Aug 2010 12:25:26 CEST
+Cmp-Mod V01 Created by CvPCB (2010-08-29 BZR 2466)-unstable date = Mi 01 Sep 2010 19:35:04 CEST
 
 BeginCmp
 TimeStamp = /4C68165B;
@@ -134,6 +134,13 @@ IdModule  = pinhead-2X05SMD;
 EndCmp
 
 BeginCmp
+TimeStamp = /4C7E8E75;
+Reference = P15;
+ValeurCmp = Drehencoder;
+IdModule  = pinhead-2X02SMD;
+EndCmp
+
+BeginCmp
 TimeStamp = /4C6A2E82;
 Reference = R1;
 ValeurCmp = 10k;
@@ -234,6 +241,27 @@ EndCmp
 BeginCmp
 TimeStamp = /4C77F01D/4C77F20B;
 Reference = R16;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7E8DA1;
+Reference = R17;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7E8DA7;
+Reference = R18;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C7E8E15;
+Reference = R19;
 ValeurCmp = 10k;
 IdModule  = SM1206;
 EndCmp

@@ -1,4 +1,4 @@
-update=Do 02 Sep 2010 03:26:53 CEST
+update=Mi 01 Sep 2010 23:33:12 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -77,9 +77,9 @@ LibName32=STM32F10xVx
 LibName33=AD7843
 [pcbnew]
 version=1
-PadDrlX=390
-PadDimH=690
-PadDimV=690
+PadDrlX=0
+PadDimH=100
+PadDimV=400
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
