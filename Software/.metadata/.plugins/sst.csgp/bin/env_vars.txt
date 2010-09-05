@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ide\plugins\sst.tm_1.0.0\CSHOME\
+C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ide\plugins\sst.csgp_1.0.0\CSHOME
+C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ARMTools
+C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\Software\.metadata\.plugins\sst.tm

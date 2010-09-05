@@ -1,0 +1,672 @@
+!SESSION 2010-09-05 04:38:30.127 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.686
+!MESSAGE Could not install bundle plugins/com.atollic.hardwaredebug.launch_1.0.0.201006241317.jar   Bundle "com.atollic.hardwaredebug.launch" version "1.0.0.201006241317" has already been installed from: reference:file:plugins/com.atollic.hardwaredebug.launch_1.0.0.201006241317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.689
+!MESSAGE Could not install bundle plugins/com.atollic.hardwaredebug.stlink_1.0.0.201006241317.jar   Bundle "com.atollic.hardwaredebug.stlink" version "1.0.0.201006241317" has already been installed from: reference:file:plugins/com.atollic.hardwaredebug.stlink_1.0.0.201006241317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.691
+!MESSAGE Could not install bundle plugins/com.atollic.truestudio.common.wizards_1.1.0.201006241317.jar   Bundle "com.atollic.truestudio.common.wizards" version "1.1.0.201006241317" has already been installed from: reference:file:plugins/com.atollic.truestudio.common.wizards_1.1.0.201006241317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.694
+!MESSAGE Could not install bundle plugins/com.atollic.truestudio.lite.stm32.doc_1.0.0/   Bundle "com.atollic.truestudio.lite.stm32.doc" version "1.0.0" has already been installed from: reference:file:plugins/com.atollic.truestudio.lite.stm32.doc_1.0.0
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.699
+!MESSAGE Could not install bundle plugins/com.atollic.truestudio.lite.stm32.platform_1.1.0.201006241317.jar   Bundle "com.atollic.truestudio.lite.stm32.platform" version "1.1.0.201006241317" has already been installed from: reference:file:plugins/com.atollic.truestudio.lite.stm32.platform_1.1.0.201006241317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.701
+!MESSAGE Could not install bundle plugins/com.atollic.truestudio.mbs_1.1.0.201006241317.jar   Bundle "com.atollic.truestudio.mbs" version "1.1.0.201006241317" has already been installed from: reference:file:plugins/com.atollic.truestudio.mbs_1.1.0.201006241317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.704
+!MESSAGE Could not install bundle plugins/com.atollic.truestudio.productmanager_1.1.0.201006241317.jar   Bundle "com.atollic.truestudio.productmanager" version "1.1.0.201006241317" has already been installed from: reference:file:plugins/com.atollic.truestudio.productmanager_1.1.0.201006241317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.706
+!MESSAGE Could not install bundle plugins/com.atollic.truestudio.sfrview_1.0.0.201006241317.jar   Bundle "com.atollic.truestudio.sfrview" version "1.0.0.201006241317" has already been installed from: reference:file:plugins/com.atollic.truestudio.sfrview_1.0.0.201006241317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.709
+!MESSAGE Could not install bundle plugins/com.atollic.truestudio.startup_1.1.0.201006241317.jar   Bundle "com.atollic.truestudio.startup" version "1.1.0.201006241317" has already been installed from: reference:file:plugins/com.atollic.truestudio.startup_1.1.0.201006241317.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.717
+!MESSAGE Could not install bundle plugins/com.ibm.icu_4.0.1.v20090822.jar   Bundle "com.ibm.icu" version "4.0.1.v20090822" has already been installed from: reference:file:plugins/com.ibm.icu_4.0.1.v20090822.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.720
+!MESSAGE Could not install bundle plugins/com.jcraft.jsch_0.1.41.v200903070017.jar   Bundle "com.jcraft.jsch" version "0.1.41.v200903070017" has already been installed from: reference:file:plugins/com.jcraft.jsch_0.1.41.v200903070017.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.723
+!MESSAGE Could not install bundle plugins/javax.servlet.jsp_2.0.0.v200806031607.jar   Bundle "javax.servlet.jsp" version "2.0.0.v200806031607" has already been installed from: reference:file:plugins/javax.servlet.jsp_2.0.0.v200806031607.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.726
+!MESSAGE Could not install bundle plugins/javax.servlet_2.5.0.v200806031605.jar   Bundle "javax.servlet" version "2.5.0.v200806031605" has already been installed from: reference:file:plugins/javax.servlet_2.5.0.v200806031605.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.728
+!MESSAGE Could not install bundle plugins/org.apache.ant_1.7.1.v20090120-1145/   Bundle "org.apache.ant" version "1.7.1.v20090120-1145" has already been installed from: reference:file:plugins/org.apache.ant_1.7.1.v20090120-1145
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.731
+!MESSAGE Could not install bundle plugins/org.apache.commons.codec_1.3.0.v20080530-1600.jar   Bundle "org.apache.commons.codec" version "1.3.0.v20080530-1600" has already been installed from: reference:file:plugins/org.apache.commons.codec_1.3.0.v20080530-1600.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.734
+!MESSAGE Could not install bundle plugins/org.apache.commons.el_1.0.0.v200806031608.jar   Bundle "org.apache.commons.el" version "1.0.0.v200806031608" has already been installed from: reference:file:plugins/org.apache.commons.el_1.0.0.v200806031608.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.737
+!MESSAGE Could not install bundle plugins/org.apache.commons.httpclient_3.1.0.v20080605-1935.jar   Bundle "org.apache.commons.httpclient" version "3.1.0.v20080605-1935" has already been installed from: reference:file:plugins/org.apache.commons.httpclient_3.1.0.v20080605-1935.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.739
+!MESSAGE Could not install bundle plugins/org.apache.commons.logging_1.0.4.v200904062259.jar   Bundle "org.apache.commons.logging" version "1.0.4.v200904062259" has already been installed from: reference:file:plugins/org.apache.commons.logging_1.0.4.v200904062259.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.746
+!MESSAGE Could not install bundle plugins/org.apache.jasper_5.5.17.v200903231320.jar   Bundle "org.apache.jasper" version "5.5.17.v200903231320" has already been installed from: reference:file:plugins/org.apache.jasper_5.5.17.v200903231320.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.748
+!MESSAGE Could not install bundle plugins/org.apache.lucene.analysis_1.9.1.v20080530-1600.jar   Bundle "org.apache.lucene.analysis" version "1.9.1.v20080530-1600" has already been installed from: reference:file:plugins/org.apache.lucene.analysis_1.9.1.v20080530-1600.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.751
+!MESSAGE Could not install bundle plugins/org.apache.lucene_1.9.1.v20080530-1600.jar   Bundle "org.apache.lucene" version "1.9.1.v20080530-1600" has already been installed from: reference:file:plugins/org.apache.lucene_1.9.1.v20080530-1600.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.754
+!MESSAGE Could not install bundle plugins/org.eclipse.ant.core_3.2.101.v20091110_r352.jar   Bundle "org.eclipse.ant.core" version "3.2.101.v20091110_r352" has already been installed from: reference:file:plugins/org.eclipse.ant.core_3.2.101.v20091110_r352.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.757
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.core.win32_5.1.0.201002161416/   Bundle "org.eclipse.cdt.core.win32" version "5.1.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.core.win32_5.1.0.201002161416
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.767
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.core_5.1.2.201002161416.jar   Bundle "org.eclipse.cdt.core" version "5.1.2.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.core_5.1.2.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.771
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.debug.core_6.0.0.201002161416.jar   Bundle "org.eclipse.cdt.debug.core" version "6.0.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.debug.core_6.0.0.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.787
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.debug.mi.core_6.0.0.201002161416.jar   Bundle "org.eclipse.cdt.debug.mi.core" version "6.0.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.debug.mi.core_6.0.0.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.792
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.debug.mi.ui_6.0.0.201002161416.jar   Bundle "org.eclipse.cdt.debug.mi.ui" version "6.0.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.debug.mi.ui_6.0.0.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.797
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.debug.ui_6.0.0.201002161416.jar   Bundle "org.eclipse.cdt.debug.ui" version "6.0.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.debug.ui_6.0.0.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.803
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.doc.user_5.1.0.201002161416.jar   Bundle "org.eclipse.cdt.doc.user" version "5.1.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.doc.user_5.1.0.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.808
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.dsf.ui_2.0.1.201002161416.jar   Bundle "org.eclipse.cdt.dsf.ui" version "2.0.1.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.dsf.ui_2.0.1.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.811
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.dsf_2.0.0.201002161416.jar   Bundle "org.eclipse.cdt.dsf" version "2.0.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.dsf_2.0.0.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.814
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.launch_6.0.0.201002161416.jar   Bundle "org.eclipse.cdt.launch" version "6.0.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.launch_6.0.0.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.818
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.make.core_6.0.0.201002161416.jar   Bundle "org.eclipse.cdt.make.core" version "6.0.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.make.core_6.0.0.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.822
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.make.ui_6.0.1.201002161416.jar   Bundle "org.eclipse.cdt.make.ui" version "6.0.1.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.make.ui_6.0.1.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.826
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.managedbuilder.core_6.0.0.201002161416.jar   Bundle "org.eclipse.cdt.managedbuilder.core" version "6.0.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.managedbuilder.core_6.0.0.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.829
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.managedbuilder.ui_5.1.0.201002161416.jar   Bundle "org.eclipse.cdt.managedbuilder.ui" version "5.1.0.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.managedbuilder.ui_5.1.0.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.840
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt.ui_5.1.2.201002161416.jar   Bundle "org.eclipse.cdt.ui" version "5.1.2.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt.ui_5.1.2.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.843
+!MESSAGE Could not install bundle plugins/org.eclipse.cdt_6.0.2.201002161416.jar   Bundle "org.eclipse.cdt" version "6.0.2.201002161416" has already been installed from: reference:file:plugins/org.eclipse.cdt_6.0.2.201002161416.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.846
+!MESSAGE Could not install bundle plugins/org.eclipse.compare.core_3.5.0.I20090430-0408.jar   Bundle "org.eclipse.compare.core" version "3.5.0.I20090430-0408" has already been installed from: reference:file:plugins/org.eclipse.compare.core_3.5.0.I20090430-0408.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.848
+!MESSAGE Could not install bundle plugins/org.eclipse.compare.win32_1.0.0.I20090430-0408.jar   Bundle "org.eclipse.compare.win32" version "1.0.0.I20090430-0408" has already been installed from: reference:file:plugins/org.eclipse.compare.win32_1.0.0.I20090430-0408.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.852
+!MESSAGE Could not install bundle plugins/org.eclipse.compare_3.5.2.r35x_20100113-0800.jar   Bundle "org.eclipse.compare" version "3.5.2.r35x_20100113-0800" has already been installed from: reference:file:plugins/org.eclipse.compare_3.5.2.r35x_20100113-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.854
+!MESSAGE Could not install bundle plugins/org.eclipse.core.boot_3.1.100.v20080218.jar   Bundle "org.eclipse.core.boot" version "3.1.100.v20080218" has already been installed from: reference:file:plugins/org.eclipse.core.boot_3.1.100.v20080218.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.857
+!MESSAGE Could not install bundle plugins/org.eclipse.core.commands_3.5.0.I20090525-2000.jar   Bundle "org.eclipse.core.commands" version "3.5.0.I20090525-2000" has already been installed from: reference:file:plugins/org.eclipse.core.commands_3.5.0.I20090525-2000.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.860
+!MESSAGE Could not install bundle plugins/org.eclipse.core.contenttype_3.4.1.R35x_v20090826-0451.jar   Bundle "org.eclipse.core.contenttype" version "3.4.1.R35x_v20090826-0451" has already been installed from: reference:file:plugins/org.eclipse.core.contenttype_3.4.1.R35x_v20090826-0451.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.862
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.beans_1.2.0.I20090525-2000.jar   Bundle "org.eclipse.core.databinding.beans" version "1.2.0.I20090525-2000" has already been installed from: reference:file:plugins/org.eclipse.core.databinding.beans_1.2.0.I20090525-2000.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.866
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.observable_1.2.0.M20090902-0800.jar   Bundle "org.eclipse.core.databinding.observable" version "1.2.0.M20090902-0800" has already been installed from: reference:file:plugins/org.eclipse.core.databinding.observable_1.2.0.M20090902-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.869
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.property_1.2.0.M20090819-0800.jar   Bundle "org.eclipse.core.databinding.property" version "1.2.0.M20090819-0800" has already been installed from: reference:file:plugins/org.eclipse.core.databinding.property_1.2.0.M20090819-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.872
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding_1.2.0.M20090819-0800.jar   Bundle "org.eclipse.core.databinding" version "1.2.0.M20090819-0800" has already been installed from: reference:file:plugins/org.eclipse.core.databinding_1.2.0.M20090819-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.874
+!MESSAGE Could not install bundle plugins/org.eclipse.core.expressions_3.4.101.R35x_v20100209.jar   Bundle "org.eclipse.core.expressions" version "3.4.101.R35x_v20100209" has already been installed from: reference:file:plugins/org.eclipse.core.expressions_3.4.101.R35x_v20100209.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.877
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filebuffers_3.5.0.v20090526-2000.jar   Bundle "org.eclipse.core.filebuffers" version "3.5.0.v20090526-2000" has already been installed from: reference:file:plugins/org.eclipse.core.filebuffers_3.5.0.v20090526-2000.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.879
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filesystem.win32.x86_1.1.0.v20080604-1400.jar   Bundle "org.eclipse.core.filesystem.win32.x86" version "1.1.0.v20080604-1400" has already been installed from: reference:file:plugins/org.eclipse.core.filesystem.win32.x86_1.1.0.v20080604-1400.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.882
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filesystem_1.2.1.R35x_v20091203-1235.jar   Bundle "org.eclipse.core.filesystem" version "1.2.1.R35x_v20091203-1235" has already been installed from: reference:file:plugins/org.eclipse.core.filesystem_1.2.1.R35x_v20091203-1235.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.886
+!MESSAGE Could not install bundle plugins/org.eclipse.core.jobs_3.4.100.v20090429-1800.jar   Bundle "org.eclipse.core.jobs" version "3.4.100.v20090429-1800" has already been installed from: reference:file:plugins/org.eclipse.core.jobs_3.4.100.v20090429-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.889
+!MESSAGE Could not install bundle plugins/org.eclipse.core.net.win32.x86_1.0.0.I20080909.jar   Bundle "org.eclipse.core.net.win32.x86" version "1.0.0.I20080909" has already been installed from: reference:file:plugins/org.eclipse.core.net.win32.x86_1.0.0.I20080909.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.891
+!MESSAGE Could not install bundle plugins/org.eclipse.core.net_1.2.1.r35x_20090812-1200.jar   Bundle "org.eclipse.core.net" version "1.2.1.r35x_20090812-1200" has already been installed from: reference:file:plugins/org.eclipse.core.net_1.2.1.r35x_20090812-1200.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.894
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources.compatibility_3.4.1.R35x_v20100113-0530.jar   Bundle "org.eclipse.core.resources.compatibility" version "3.4.1.R35x_v20100113-0530" has already been installed from: reference:file:plugins/org.eclipse.core.resources.compatibility_3.4.1.R35x_v20100113-0530.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.896
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources.win32.x86_3.5.0.v20081020.jar   Bundle "org.eclipse.core.resources.win32.x86" version "3.5.0.v20081020" has already been installed from: reference:file:plugins/org.eclipse.core.resources.win32.x86_3.5.0.v20081020.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.899
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources_3.5.2.R35x_v20091203-1235.jar   Bundle "org.eclipse.core.resources" version "3.5.2.R35x_v20091203-1235" has already been installed from: reference:file:plugins/org.eclipse.core.resources_3.5.2.R35x_v20091203-1235.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.902
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility.auth_3.2.100.v20090413.jar   Bundle "org.eclipse.core.runtime.compatibility.auth" version "3.2.100.v20090413" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility.auth_3.2.100.v20090413.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.905
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility.registry_3.2.200.v20090429-1800/   Bundle "org.eclipse.core.runtime.compatibility.registry" version "3.2.200.v20090429-1800" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility.registry_3.2.200.v20090429-1800
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.908
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime.compatibility_3.2.0.v20090413.jar   Bundle "org.eclipse.core.runtime.compatibility" version "3.2.0.v20090413" has already been installed from: reference:file:plugins/org.eclipse.core.runtime.compatibility_3.2.0.v20090413.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.910
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime_3.5.0.v20090525.jar   Bundle "org.eclipse.core.runtime" version "3.5.0.v20090525" has already been installed from: reference:file:plugins/org.eclipse.core.runtime_3.5.0.v20090525.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.913
+!MESSAGE Could not install bundle plugins/org.eclipse.core.variables_3.2.200.v20090521.jar   Bundle "org.eclipse.core.variables" version "3.2.200.v20090521" has already been installed from: reference:file:plugins/org.eclipse.core.variables_3.2.200.v20090521.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.916
+!MESSAGE Could not install bundle plugins/org.eclipse.debug.core_3.5.1.v20091103_r352.jar   Bundle "org.eclipse.debug.core" version "3.5.1.v20091103_r352" has already been installed from: reference:file:plugins/org.eclipse.debug.core_3.5.1.v20091103_r352.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.923
+!MESSAGE Could not install bundle plugins/org.eclipse.debug.ui_3.5.2.v20091028_r352.jar   Bundle "org.eclipse.debug.ui" version "3.5.2.v20091028_r352" has already been installed from: reference:file:plugins/org.eclipse.debug.ui_3.5.2.v20091028_r352.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.926
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.filetransfer_3.0.0.v20090831-1906.jar   Bundle "org.eclipse.ecf.filetransfer" version "3.0.0.v20090831-1906" has already been installed from: reference:file:plugins/org.eclipse.ecf.filetransfer_3.0.0.v20090831-1906.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.929
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.identity_3.0.0.v20090831-1906.jar   Bundle "org.eclipse.ecf.identity" version "3.0.0.v20090831-1906" has already been installed from: reference:file:plugins/org.eclipse.ecf.identity_3.0.0.v20090831-1906.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.932
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.provider.filetransfer.httpclient.ssl_1.0.0.v20090831-1906.jar   Bundle "org.eclipse.ecf.provider.filetransfer.httpclient.ssl" version "1.0.0.v20090831-1906" has already been installed from: reference:file:plugins/org.eclipse.ecf.provider.filetransfer.httpclient.ssl_1.0.0.v20090831-1906.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.936
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.provider.filetransfer.httpclient_3.0.1.v20090831-1906.jar   Bundle "org.eclipse.ecf.provider.filetransfer.httpclient" version "3.0.1.v20090831-1906" has already been installed from: reference:file:plugins/org.eclipse.ecf.provider.filetransfer.httpclient_3.0.1.v20090831-1906.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.940
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20090831-1906.jar   Bundle "org.eclipse.ecf.provider.filetransfer.ssl" version "1.0.0.v20090831-1906" has already been installed from: reference:file:plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20090831-1906.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.947
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.provider.filetransfer_3.0.1.v20090831-1906.jar   Bundle "org.eclipse.ecf.provider.filetransfer" version "3.0.1.v20090831-1906" has already been installed from: reference:file:plugins/org.eclipse.ecf.provider.filetransfer_3.0.1.v20090831-1906.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.950
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf.ssl_1.0.0.v20090831-1906.jar   Bundle "org.eclipse.ecf.ssl" version "1.0.0.v20090831-1906" has already been installed from: reference:file:plugins/org.eclipse.ecf.ssl_1.0.0.v20090831-1906.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.952
+!MESSAGE Could not install bundle plugins/org.eclipse.ecf_3.0.0.v20090831-1906.jar   Bundle "org.eclipse.ecf" version "3.0.0.v20090831-1906" has already been installed from: reference:file:plugins/org.eclipse.ecf_3.0.0.v20090831-1906.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.955
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.app_1.2.1.R35x_v20091203.jar   Bundle "org.eclipse.equinox.app" version "1.2.1.R35x_v20091203" has already been installed from: reference:file:plugins/org.eclipse.equinox.app_1.2.1.R35x_v20091203.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.957
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.common_3.5.1.R35x_v20090807-1100.jar   Bundle "org.eclipse.equinox.common" version "3.5.1.R35x_v20090807-1100" has already been installed from: reference:file:plugins/org.eclipse.equinox.common_3.5.1.R35x_v20090807-1100.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.960
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.ds_1.1.1.R35x_v20090806.jar   Bundle "org.eclipse.equinox.ds" version "1.1.1.R35x_v20090806" has already been installed from: reference:file:plugins/org.eclipse.equinox.ds_1.1.1.R35x_v20090806.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.962
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.frameworkadmin.equinox_1.0.101.R35x_v20091214.jar   Bundle "org.eclipse.equinox.frameworkadmin.equinox" version "1.0.101.R35x_v20091214" has already been installed from: reference:file:plugins/org.eclipse.equinox.frameworkadmin.equinox_1.0.101.R35x_v20091214.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.965
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.frameworkadmin_1.0.100.v20090520-1905.jar   Bundle "org.eclipse.equinox.frameworkadmin" version "1.0.100.v20090520-1905" has already been installed from: reference:file:plugins/org.eclipse.equinox.frameworkadmin_1.0.100.v20090520-1905.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.967
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.jetty_2.0.0.v20090520-1800.jar   Bundle "org.eclipse.equinox.http.jetty" version "2.0.0.v20090520-1800" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.jetty_2.0.0.v20090520-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.970
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.registry_1.0.200.v20090520-1800.jar   Bundle "org.eclipse.equinox.http.registry" version "1.0.200.v20090520-1800" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.registry_1.0.200.v20090520-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.972
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.servlet_1.0.200.v20090520-1800.jar   Bundle "org.eclipse.equinox.http.servlet" version "1.0.200.v20090520-1800" has already been installed from: reference:file:plugins/org.eclipse.equinox.http.servlet_1.0.200.v20090520-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.975
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.jsp.jasper.registry_1.0.100.v20090520-1800.jar   Bundle "org.eclipse.equinox.jsp.jasper.registry" version "1.0.100.v20090520-1800" has already been installed from: reference:file:plugins/org.eclipse.equinox.jsp.jasper.registry_1.0.100.v20090520-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.977
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.jsp.jasper_1.0.200.v20090520-1800.jar   Bundle "org.eclipse.equinox.jsp.jasper" version "1.0.200.v20090520-1800" has already been installed from: reference:file:plugins/org.eclipse.equinox.jsp.jasper_1.0.200.v20090520-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.980
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.0.200.v20090519/   Bundle "org.eclipse.equinox.launcher.win32.win32.x86" version "1.0.200.v20090519" has already been installed from: reference:file:plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.0.200.v20090519
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.982
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher_1.0.201.R35x_v20090715.jar   Bundle "org.eclipse.equinox.launcher" version "1.0.201.R35x_v20090715" has already been installed from: reference:file:plugins/org.eclipse.equinox.launcher_1.0.201.R35x_v20090715.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.986
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.artifact.repository_1.0.101.R35x_v20090721.jar   Bundle "org.eclipse.equinox.p2.artifact.repository" version "1.0.101.R35x_v20090721" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.artifact.repository_1.0.101.R35x_v20090721.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.989
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.console_1.0.100.v20090520-1905.jar   Bundle "org.eclipse.equinox.p2.console" version "1.0.100.v20090520-1905" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.console_1.0.100.v20090520-1905.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.992
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.core_1.0.101.R35x_v20090819.jar   Bundle "org.eclipse.equinox.p2.core" version "1.0.101.R35x_v20090819" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.core_1.0.101.R35x_v20090819.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.995
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.director.app_1.0.101.R35x_v20091106.jar   Bundle "org.eclipse.equinox.p2.director.app" version "1.0.101.R35x_v20091106" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.director.app_1.0.101.R35x_v20091106.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.997
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.directorywatcher_1.0.100.v20090525.jar   Bundle "org.eclipse.equinox.p2.directorywatcher" version "1.0.100.v20090525" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.directorywatcher_1.0.100.v20090525.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:31.999
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.director_1.0.101.R35x_v20100112.jar   Bundle "org.eclipse.equinox.p2.director" version "1.0.101.R35x_v20100112" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.director_1.0.101.R35x_v20100112.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.002
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.engine_1.0.102.R35x_v20091117.jar   Bundle "org.eclipse.equinox.p2.engine" version "1.0.102.R35x_v20091117" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.engine_1.0.102.R35x_v20091117.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.005
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.exemplarysetup_1.0.100.v20090520-1905.jar   Bundle "org.eclipse.equinox.p2.exemplarysetup" version "1.0.100.v20090520-1905" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.exemplarysetup_1.0.100.v20090520-1905.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.007
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.extensionlocation_1.0.100.v20090520-1905.jar   Bundle "org.eclipse.equinox.p2.extensionlocation" version "1.0.100.v20090520-1905" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.extensionlocation_1.0.100.v20090520-1905.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.018
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.garbagecollector_1.0.100.v20090520-1905.jar   Bundle "org.eclipse.equinox.p2.garbagecollector" version "1.0.100.v20090520-1905" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.garbagecollector_1.0.100.v20090520-1905.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.020
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.jarprocessor_1.0.100.v20090520-1905.jar   Bundle "org.eclipse.equinox.p2.jarprocessor" version "1.0.100.v20090520-1905" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.jarprocessor_1.0.100.v20090520-1905.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.023
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata.generator_1.0.101.R35x_20100114.jar   Bundle "org.eclipse.equinox.p2.metadata.generator" version "1.0.101.R35x_20100114" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata.generator_1.0.101.R35x_20100114.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.026
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata.repository_1.0.101.R35x_v20090812.jar   Bundle "org.eclipse.equinox.p2.metadata.repository" version "1.0.101.R35x_v20090812" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata.repository_1.0.101.R35x_v20090812.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.028
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata_1.0.101.R35x_v20100112.jar   Bundle "org.eclipse.equinox.p2.metadata" version "1.0.101.R35x_v20100112" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.metadata_1.0.101.R35x_v20100112.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.031
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.publisher_1.0.1.R35x_20100105.jar   Bundle "org.eclipse.equinox.p2.publisher" version "1.0.1.R35x_20100105" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.publisher_1.0.1.R35x_20100105.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.034
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.reconciler.dropins_1.0.100.v20090520-1905.jar   Bundle "org.eclipse.equinox.p2.reconciler.dropins" version "1.0.100.v20090520-1905" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.reconciler.dropins_1.0.100.v20090520-1905.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.037
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.repository.tools_1.0.2.R35x_20100111.jar   Bundle "org.eclipse.equinox.p2.repository.tools" version "1.0.2.R35x_20100111" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.repository.tools_1.0.2.R35x_20100111.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.039
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.repository_1.0.1.R35x_v20100105.jar   Bundle "org.eclipse.equinox.p2.repository" version "1.0.1.R35x_v20100105" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.repository_1.0.1.R35x_v20100105.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.042
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.touchpoint.eclipse_1.0.101.R35x_20090820-1821.jar   Bundle "org.eclipse.equinox.p2.touchpoint.eclipse" version "1.0.101.R35x_20090820-1821" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.touchpoint.eclipse_1.0.101.R35x_20090820-1821.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.045
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.touchpoint.natives_1.0.101.R35x_v20090806.jar   Bundle "org.eclipse.equinox.p2.touchpoint.natives" version "1.0.101.R35x_v20090806" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.touchpoint.natives_1.0.101.R35x_v20090806.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.047
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui.sdk.scheduler_1.0.0.v20090520-1905.jar   Bundle "org.eclipse.equinox.p2.ui.sdk.scheduler" version "1.0.0.v20090520-1905" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui.sdk.scheduler_1.0.0.v20090520-1905.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.050
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui.sdk_1.0.100.v20090520-1905.jar   Bundle "org.eclipse.equinox.p2.ui.sdk" version "1.0.100.v20090520-1905" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui.sdk_1.0.100.v20090520-1905.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.054
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.ui_1.0.101.R35x_v20090819.jar   Bundle "org.eclipse.equinox.p2.ui" version "1.0.101.R35x_v20090819" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.ui_1.0.101.R35x_v20090819.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.056
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.updatechecker_1.1.0.v20090520-1905.jar   Bundle "org.eclipse.equinox.p2.updatechecker" version "1.1.0.v20090520-1905" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.updatechecker_1.1.0.v20090520-1905.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.059
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.updatesite_1.0.101.R35x_20100105.jar   Bundle "org.eclipse.equinox.p2.updatesite" version "1.0.101.R35x_20100105" has already been installed from: reference:file:plugins/org.eclipse.equinox.p2.updatesite_1.0.101.R35x_20100105.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.061
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.preferences_3.2.301.R35x_v20091117.jar   Bundle "org.eclipse.equinox.preferences" version "3.2.301.R35x_v20091117" has already been installed from: reference:file:plugins/org.eclipse.equinox.preferences_3.2.301.R35x_v20091117.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.064
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.registry_3.4.100.v20090520-1800.jar   Bundle "org.eclipse.equinox.registry" version "3.4.100.v20090520-1800" has already been installed from: reference:file:plugins/org.eclipse.equinox.registry_3.4.100.v20090520-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.067
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security.ui_1.0.100.v20090520-1800.jar   Bundle "org.eclipse.equinox.security.ui" version "1.0.100.v20090520-1800" has already been installed from: reference:file:plugins/org.eclipse.equinox.security.ui_1.0.100.v20090520-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.070
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security.win32.x86_1.0.100.v20090520-1800.jar   Bundle "org.eclipse.equinox.security.win32.x86" version "1.0.100.v20090520-1800" has already been installed from: reference:file:plugins/org.eclipse.equinox.security.win32.x86_1.0.100.v20090520-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.072
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security_1.0.100.v20090520-1800.jar   Bundle "org.eclipse.equinox.security" version "1.0.100.v20090520-1800" has already been installed from: reference:file:plugins/org.eclipse.equinox.security_1.0.100.v20090520-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.077
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.util_1.0.100.v20090520-1800.jar   Bundle "org.eclipse.equinox.util" version "1.0.100.v20090520-1800" has already been installed from: reference:file:plugins/org.eclipse.equinox.util_1.0.100.v20090520-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.079
+!MESSAGE Could not install bundle plugins/org.eclipse.help.appserver_3.1.400.v20090429_1800.jar   Bundle "org.eclipse.help.appserver" version "3.1.400.v20090429_1800" has already been installed from: reference:file:plugins/org.eclipse.help.appserver_3.1.400.v20090429_1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.083
+!MESSAGE Could not install bundle plugins/org.eclipse.help.base_3.4.0.v201002111343.jar   Bundle "org.eclipse.help.base" version "3.4.0.v201002111343" has already been installed from: reference:file:plugins/org.eclipse.help.base_3.4.0.v201002111343.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.087
+!MESSAGE Could not install bundle plugins/org.eclipse.help.ui_3.4.1.v20090819_35x.jar   Bundle "org.eclipse.help.ui" version "3.4.1.v20090819_35x" has already been installed from: reference:file:plugins/org.eclipse.help.ui_3.4.1.v20090819_35x.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.090
+!MESSAGE Could not install bundle plugins/org.eclipse.help.webapp_3.4.1.v20091009_35x.jar   Bundle "org.eclipse.help.webapp" version "3.4.1.v20091009_35x" has already been installed from: reference:file:plugins/org.eclipse.help.webapp_3.4.1.v20091009_35x.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.093
+!MESSAGE Could not install bundle plugins/org.eclipse.help_3.4.1.v20090805_35x.jar   Bundle "org.eclipse.help" version "3.4.1.v20090805_35x" has already been installed from: reference:file:plugins/org.eclipse.help_3.4.1.v20090805_35x.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.099
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.databinding_1.3.1.M20090826-0800.jar   Bundle "org.eclipse.jface.databinding" version "1.3.1.M20090826-0800" has already been installed from: reference:file:plugins/org.eclipse.jface.databinding_1.3.1.M20090826-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.103
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.text_3.5.2.r352_v20091118-0800.jar   Bundle "org.eclipse.jface.text" version "3.5.2.r352_v20091118-0800" has already been installed from: reference:file:plugins/org.eclipse.jface.text_3.5.2.r352_v20091118-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.109
+!MESSAGE Could not install bundle plugins/org.eclipse.jface_3.5.2.M20100120-0800.jar   Bundle "org.eclipse.jface" version "3.5.2.M20100120-0800" has already been installed from: reference:file:plugins/org.eclipse.jface_3.5.2.M20100120-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.111
+!MESSAGE Could not install bundle plugins/org.eclipse.jsch.core_1.1.100.I20090430-0408.jar   Bundle "org.eclipse.jsch.core" version "1.1.100.I20090430-0408" has already been installed from: reference:file:plugins/org.eclipse.jsch.core_1.1.100.I20090430-0408.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.114
+!MESSAGE Could not install bundle plugins/org.eclipse.jsch.ui_1.1.200.r35x_20100210-1114.jar   Bundle "org.eclipse.jsch.ui" version "1.1.200.r35x_20100210-1114" has already been installed from: reference:file:plugins/org.eclipse.jsch.ui_1.1.200.r35x_20100210-1114.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.117
+!MESSAGE Could not install bundle plugins/org.eclipse.ltk.core.refactoring_3.5.0.v20090513-2000.jar   Bundle "org.eclipse.ltk.core.refactoring" version "3.5.0.v20090513-2000" has already been installed from: reference:file:plugins/org.eclipse.ltk.core.refactoring_3.5.0.v20090513-2000.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.120
+!MESSAGE Could not install bundle plugins/org.eclipse.ltk.ui.refactoring_3.4.101.r352_v20100209.jar   Bundle "org.eclipse.ltk.ui.refactoring" version "3.4.101.r352_v20100209" has already been installed from: reference:file:plugins/org.eclipse.ltk.ui.refactoring_3.4.101.r352_v20100209.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.131
+!MESSAGE Could not install bundle plugins/org.eclipse.platform.doc.user_3.5.2.r352_v20091111-0800.jar   Bundle "org.eclipse.platform.doc.user" version "3.5.2.r352_v20091111-0800" has already been installed from: reference:file:plugins/org.eclipse.platform.doc.user_3.5.2.r352_v20091111-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.133
+!MESSAGE Could not install bundle plugins/org.eclipse.platform_3.3.202.v201002111343/   Bundle "org.eclipse.platform" version "3.3.202.v201002111343" has already been installed from: reference:file:plugins/org.eclipse.platform_3.3.202.v201002111343
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.136
+!MESSAGE Could not install bundle plugins/org.eclipse.rcp_3.5.0.v201002111343.jar   Bundle "org.eclipse.rcp" version "3.5.0.v201002111343" has already been installed from: reference:file:plugins/org.eclipse.rcp_3.5.0.v201002111343.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.139
+!MESSAGE Could not install bundle plugins/org.eclipse.search_3.5.1.r351_v20090708-0800.jar   Bundle "org.eclipse.search" version "3.5.1.r351_v20090708-0800" has already been installed from: reference:file:plugins/org.eclipse.search_3.5.1.r351_v20090708-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.144
+!MESSAGE Could not install bundle plugins/org.eclipse.swt.win32.win32.x86_3.5.2.v3557f.jar   Bundle "org.eclipse.swt.win32.win32.x86" version "3.5.2.v3557f" has already been installed from: reference:file:plugins/org.eclipse.swt.win32.win32.x86_3.5.2.v3557f.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.147
+!MESSAGE Could not install bundle plugins/org.eclipse.swt_3.5.2.v3557f.jar   Bundle "org.eclipse.swt" version "3.5.2.v3557f" has already been installed from: reference:file:plugins/org.eclipse.swt_3.5.2.v3557f.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.150
+!MESSAGE Could not install bundle plugins/org.eclipse.team.core_3.5.1.r35x_20100113-0800.jar   Bundle "org.eclipse.team.core" version "3.5.1.r35x_20100113-0800" has already been installed from: reference:file:plugins/org.eclipse.team.core_3.5.1.r35x_20100113-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.156
+!MESSAGE Could not install bundle plugins/org.eclipse.team.ui_3.5.0.I20090430-0408.jar   Bundle "org.eclipse.team.ui" version "3.5.0.I20090430-0408" has already been installed from: reference:file:plugins/org.eclipse.team.ui_3.5.0.I20090430-0408.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.159
+!MESSAGE Could not install bundle plugins/org.eclipse.text_3.5.0.v20090513-2000.jar   Bundle "org.eclipse.text" version "3.5.0.v20090513-2000" has already been installed from: reference:file:plugins/org.eclipse.text_3.5.0.v20090513-2000.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.162
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.browser_3.2.301.v20091215_35x.jar   Bundle "org.eclipse.ui.browser" version "3.2.301.v20091215_35x" has already been installed from: reference:file:plugins/org.eclipse.ui.browser_3.2.301.v20091215_35x.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.165
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.cheatsheets_3.3.200.v20090526.jar   Bundle "org.eclipse.ui.cheatsheets" version "3.3.200.v20090526" has already been installed from: reference:file:plugins/org.eclipse.ui.cheatsheets_3.3.200.v20090526.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.168
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.console_3.4.0.v20090513.jar   Bundle "org.eclipse.ui.console" version "3.4.0.v20090513" has already been installed from: reference:file:plugins/org.eclipse.ui.console_3.4.0.v20090513.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.172
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.editors_3.5.0.v20090527-2000.jar   Bundle "org.eclipse.ui.editors" version "3.5.0.v20090527-2000" has already been installed from: reference:file:plugins/org.eclipse.ui.editors_3.5.0.v20090527-2000.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.182
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.externaltools_3.2.0.v20090504.jar   Bundle "org.eclipse.ui.externaltools" version "3.2.0.v20090504" has already been installed from: reference:file:plugins/org.eclipse.ui.externaltools_3.2.0.v20090504.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.186
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.forms_3.4.1.v20090714_35x.jar   Bundle "org.eclipse.ui.forms" version "3.4.1.v20090714_35x" has already been installed from: reference:file:plugins/org.eclipse.ui.forms_3.4.1.v20090714_35x.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.188
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.ide.application_1.0.101.M20090826-0800.jar   Bundle "org.eclipse.ui.ide.application" version "1.0.101.M20090826-0800" has already been installed from: reference:file:plugins/org.eclipse.ui.ide.application_1.0.101.M20090826-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.195
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.ide_3.5.2.M20100113-0800.jar   Bundle "org.eclipse.ui.ide" version "3.5.2.M20100113-0800" has already been installed from: reference:file:plugins/org.eclipse.ui.ide_3.5.2.M20100113-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.198
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.intro.universal_3.2.300.v20090526/   Bundle "org.eclipse.ui.intro.universal" version "3.2.300.v20090526" has already been installed from: reference:file:plugins/org.eclipse.ui.intro.universal_3.2.300.v20090526
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.202
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.intro_3.3.2.v20100111_35x.jar   Bundle "org.eclipse.ui.intro" version "3.3.2.v20100111_35x" has already been installed from: reference:file:plugins/org.eclipse.ui.intro_3.3.2.v20100111_35x.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.205
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.navigator.resources_3.4.1.M20090826-0800.jar   Bundle "org.eclipse.ui.navigator.resources" version "3.4.1.M20090826-0800" has already been installed from: reference:file:plugins/org.eclipse.ui.navigator.resources_3.4.1.M20090826-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.208
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.navigator_3.4.2.M20100120-0800.jar   Bundle "org.eclipse.ui.navigator" version "3.4.2.M20100120-0800" has already been installed from: reference:file:plugins/org.eclipse.ui.navigator_3.4.2.M20100120-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.210
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.net_1.2.1.r35x_20090812-1200.jar   Bundle "org.eclipse.ui.net" version "1.2.1.r35x_20090812-1200" has already been installed from: reference:file:plugins/org.eclipse.ui.net_1.2.1.r35x_20090812-1200.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.213
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.presentations.r21_3.2.100.M20091015-0930.jar   Bundle "org.eclipse.ui.presentations.r21" version "3.2.100.M20091015-0930" has already been installed from: reference:file:plugins/org.eclipse.ui.presentations.r21_3.2.100.M20091015-0930.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.216
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.views.properties.tabbed_3.5.0.I20090429-1800.jar   Bundle "org.eclipse.ui.views.properties.tabbed" version "3.5.0.I20090429-1800" has already been installed from: reference:file:plugins/org.eclipse.ui.views.properties.tabbed_3.5.0.I20090429-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.218
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.views_3.4.1.M20090826-0800.jar   Bundle "org.eclipse.ui.views" version "3.4.1.M20090826-0800" has already been installed from: reference:file:plugins/org.eclipse.ui.views_3.4.1.M20090826-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.221
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.win32_3.2.100.v20090429-1800.jar   Bundle "org.eclipse.ui.win32" version "3.2.100.v20090429-1800" has already been installed from: reference:file:plugins/org.eclipse.ui.win32_3.2.100.v20090429-1800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.223
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench.compatibility_3.2.0.I20090429-1800/   Bundle "org.eclipse.ui.workbench.compatibility" version "3.2.0.I20090429-1800" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench.compatibility_3.2.0.I20090429-1800
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.227
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench.texteditor_3.5.1.r352_v20100105.jar   Bundle "org.eclipse.ui.workbench.texteditor" version "3.5.1.r352_v20100105" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench.texteditor_3.5.1.r352_v20100105.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.237
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench_3.5.2.M20100113-0800.jar   Bundle "org.eclipse.ui.workbench" version "3.5.2.M20100113-0800" has already been installed from: reference:file:plugins/org.eclipse.ui.workbench_3.5.2.M20100113-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.240
+!MESSAGE Could not install bundle plugins/org.eclipse.ui_3.5.2.M20100120-0800.jar   Bundle "org.eclipse.ui" version "3.5.2.M20100120-0800" has already been installed from: reference:file:plugins/org.eclipse.ui_3.5.2.M20100120-0800.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.242
+!MESSAGE Could not install bundle plugins/org.eclipse.update.configurator_3.3.0.v20090312.jar   Bundle "org.eclipse.update.configurator" version "3.3.0.v20090312" has already been installed from: reference:file:plugins/org.eclipse.update.configurator_3.3.0.v20090312.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.245
+!MESSAGE Could not install bundle plugins/org.eclipse.update.core.win32_3.2.100.v20080107.jar   Bundle "org.eclipse.update.core.win32" version "3.2.100.v20080107" has already been installed from: reference:file:plugins/org.eclipse.update.core.win32_3.2.100.v20080107.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.248
+!MESSAGE Could not install bundle plugins/org.eclipse.update.core_3.2.300.v20090525.jar   Bundle "org.eclipse.update.core" version "3.2.300.v20090525" has already been installed from: reference:file:plugins/org.eclipse.update.core_3.2.300.v20090525.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.250
+!MESSAGE Could not install bundle plugins/org.eclipse.update.scheduler_3.2.200.v20081127.jar   Bundle "org.eclipse.update.scheduler" version "3.2.200.v20081127" has already been installed from: reference:file:plugins/org.eclipse.update.scheduler_3.2.200.v20081127.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.254
+!MESSAGE Could not install bundle plugins/org.eclipse.update.ui_3.2.201.R35x_v20090813.jar   Bundle "org.eclipse.update.ui" version "3.2.201.R35x_v20090813" has already been installed from: reference:file:plugins/org.eclipse.update.ui_3.2.201.R35x_v20090813.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.257
+!MESSAGE Could not install bundle plugins/org.mortbay.jetty.server_6.1.15.v200905151201.jar   Bundle "org.mortbay.jetty.server" version "6.1.15.v200905151201" has already been installed from: reference:file:plugins/org.mortbay.jetty.server_6.1.15.v200905151201.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.260
+!MESSAGE Could not install bundle plugins/org.mortbay.jetty.util_6.1.15.v200905182336.jar   Bundle "org.mortbay.jetty.util" version "6.1.15.v200905182336" has already been installed from: reference:file:plugins/org.mortbay.jetty.util_6.1.15.v200905182336.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.263
+!MESSAGE Could not install bundle plugins/org.sat4j.core_2.1.1.v20090825.jar   Bundle "org.sat4j.core" version "2.1.1.v20090825" has already been installed from: reference:file:plugins/org.sat4j.core_2.1.1.v20090825.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-09-05 04:38:32.267
+!MESSAGE Could not install bundle plugins/org.sat4j.pb_2.1.1.v20090825.jar   Bundle "org.sat4j.pb" version "2.1.1.v20090825" has already been installed from: reference:file:plugins/org.sat4j.pb_2.1.1.v20090825.jar
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2010-09-05 04:38:46.096
+!MESSAGE iconv is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2010-09-05 04:38:46.104
+!MESSAGE est is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2010-09-05 04:38:46.107
+!MESSAGE libiconv-2 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2010-09-05 04:38:46.111
+!MESSAGE libintl-2 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2010-09-05 04:38:46.117
+!MESSAGE xerces-c_2_7 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2010-09-05 04:38:46.121
+!MESSAGE RIMXJNI is loaded.
+
+!ENTRY sst.csgp 1 0 2010-09-05 04:38:46.172
+!MESSAGE platform install loc : C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ide
+
+!ENTRY sst.tm 1 0 2010-09-05 04:38:46.176
+!MESSAGE C:\Program Files (x86)\Atollic\TrueSTUDIO STM32 Lite 1.4.0\ide\plugins\sst.tm_1.0.0\CSHOME\
+
+!ENTRY sst.tm 1 0 2010-09-05 04:38:46.190
+!MESSAGE C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.tm
+
+!ENTRY org.eclipse.ui 4 4 2010-09-05 04:38:47.058
+!MESSAGE Could not create action delegate for id: sst.tm.actions.TestLast
+
+!ENTRY org.eclipse.ui 4 4 2010-09-05 04:38:47.059
+!MESSAGE Internal plug-in action delegate error on creation.
+!STACK 0
+java.lang.NullPointerException: A handle object may not have a null identifier
+	at org.eclipse.core.commands.common.HandleObjectManager.checkId(HandleObjectManager.java:55)
+	at org.eclipse.core.commands.CommandManager.getCommand(CommandManager.java:544)
+	at org.eclipse.ui.internal.commands.CommandService.getCommand(CommandService.java:147)
+	at org.eclipse.debug.internal.ui.actions.RelaunchLastAction.initialize(RelaunchLastAction.java:136)
+	at org.eclipse.debug.internal.ui.actions.RelaunchLastAction.selectionChanged(RelaunchLastAction.java:118)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:126)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:165)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at com.atollic.truestudio.startup.exposed.MarketingDialog.open(Unknown Source)
+	at com.atollic.truestudio.startup.TrueStudioSplashHandler$3.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY sst.tm 1 0 2010-09-05 04:38:51.842
+!MESSAGE 
+
+
+---------------------------------------------------
+2010/09/05 04:38:51
+---------------------------------------------------
+
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-09-05 04:39:15.773
+!MESSAGE Indexed 'Software' (0 sources, 21 headers) in 1.37 sec: 137 declarations; 303 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.23%)
+
+!ENTRY org.eclipse.core.resources 4 2 2010-09-05 04:39:35.568
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at sst.csgp.prj.ResourceChangeManager.resourceChanged(ResourceChangeManager.java:87)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:367)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:220)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-09-05 04:39:35.807
+!MESSAGE Indexed 'Bordcomputer' (0 sources, 21 headers) in 0.10 sec: 137 declarations; 304 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.23%)
+
+!ENTRY sst.tm.gproject 1 0 2010-09-05 04:39:47.767
+!MESSAGE loadProject
+
+!ENTRY sst.tm.gproject 1 0 2010-09-05 04:39:47.784
+!MESSAGE RIMX Project OPEN=C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\Bordcomputer\.coverage\data\Bordcomputer.tmprj
+
+!ENTRY sst.tm.gproject 1 0 2010-09-05 04:39:47.788
+!MESSAGE Put Project : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\Bordcomputer\.coverage\data\Bordcomputer.tmprj
+
+!ENTRY sst.tm.gproject 1 0 2010-09-05 04:39:47.789
+!MESSAGE Does Not contain project :C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\Bordcomputer\.coverage\data\Bordcomputer.tmprj
+
+!ENTRY sst.tm.gproject 1 0 2010-09-05 04:39:47.856
+!MESSAGE Put Project : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\Bordcomputer\.coverage\data\Bordcomputer.tmprj
+
+!ENTRY sst.tm.gproject 1 0 2010-09-05 04:39:47.858
+!MESSAGE Remove project :C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\Bordcomputer\.coverage\data\Bordcomputer.tmprj
+
+!ENTRY sst.tm.gproject 1 0 2010-09-05 04:39:47.859
+!MESSAGE loadProject done
+
+!ENTRY sst.tm 1 0 2010-09-05 04:39:51.402
+!MESSAGE Release RIMXHande : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\Bordcomputer\.coverage\data\Bordcomputer.tmprj
+
+!ENTRY sst.tm.gproject 1 0 2010-09-05 04:39:51.405
+!MESSAGE closing rimxHandle
+
+!ENTRY sst.tm.gproject 1 0 2010-09-05 04:39:51.447
+!MESSAGE closing rimxHandle OK
+
+!ENTRY sst.tm 1 0 2010-09-05 04:39:51.448
+!MESSAGE Success Release RIMXHande : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\Bordcomputer\.coverage\data\Bordcomputer.tmprj
+
+!ENTRY org.eclipse.core.resources 4 2 2010-09-05 04:39:54.743
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at sst.csgp.prj.ResourceChangeManager.resourceChanged(ResourceChangeManager.java:87)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:367)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:220)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-09-05 04:39:54.961
+!MESSAGE Indexed 'Software' (0 sources, 21 headers) in 0.11 sec: 137 declarations; 304 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.23%)

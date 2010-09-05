@@ -4096,7 +4096,7 @@ OUTPUT(Debug/Bordcomputer.elf elf32-littlearm)
  .debug_pubnames
                 0x00003b39       0x20 c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(_udivdi3.o)
 
-.debug_str      0x00000000     0x7547
+.debug_str      0x00000000     0x758b
  .debug_str     0x00000000      0x31e Debug/src/ad7843.o
                                 0x352 (size before relaxing)
  .debug_str     0x0000031e      0x4d9 Debug/src/config.o
@@ -4105,101 +4105,101 @@ OUTPUT(Debug/Bordcomputer.elf elf32-littlearm)
                                  0xfd (size before relaxing)
  .debug_str     0x0000080f       0x63 Debug/src/displayTask.o
                                 0x391 (size before relaxing)
- .debug_str     0x00000872      0x2d7 Debug/src/main.o
-                                0x9f7 (size before relaxing)
- .debug_str     0x00000b49       0xaa Debug/src/rtc.o
+ .debug_str     0x00000872      0x31b Debug/src/main.o
+                                0x9f8 (size before relaxing)
+ .debug_str     0x00000b8d       0xaa Debug/src/rtc.o
                                 0x1cb (size before relaxing)
- .debug_str     0x00000bf3       0x96 Debug/src/stm32f10x_it.o
+ .debug_str     0x00000c37       0x96 Debug/src/stm32f10x_it.o
                                 0x189 (size before relaxing)
- .debug_str     0x00000c89       0x14 Debug/src/util.o
+ .debug_str     0x00000ccd       0x14 Debug/src/util.o
                                  0xf4 (size before relaxing)
- .debug_str     0x00000c9d      0x154 Debug/FreeRTOS/heap_2.o
+ .debug_str     0x00000ce1      0x154 Debug/FreeRTOS/heap_2.o
                                 0x233 (size before relaxing)
- .debug_str     0x00000df1      0x130 Debug/FreeRTOS/list.o
+ .debug_str     0x00000e35      0x130 Debug/FreeRTOS/list.o
                                 0x219 (size before relaxing)
- .debug_str     0x00000f21      0x141 Debug/FreeRTOS/port.o
+ .debug_str     0x00000f65      0x141 Debug/FreeRTOS/port.o
                                 0x22a (size before relaxing)
- .debug_str     0x00001062      0x34d Debug/FreeRTOS/queue.o
+ .debug_str     0x000010a6      0x34d Debug/FreeRTOS/queue.o
                                 0x4e8 (size before relaxing)
- .debug_str     0x000013af      0x679 Debug/FreeRTOS/tasks.o
+ .debug_str     0x000013f3      0x679 Debug/FreeRTOS/tasks.o
                                 0x86f (size before relaxing)
- .debug_str     0x00001a28       0x1b Debug/src/font/font_8x12.o
+ .debug_str     0x00001a6c       0x1b Debug/src/font/font_8x12.o
                                  0x78 (size before relaxing)
- .debug_str     0x00001a43       0x1a Debug/src/font/font_8x8.o
+ .debug_str     0x00001a87       0x1a Debug/src/font/font_8x8.o
                                  0x77 (size before relaxing)
- .debug_str     0x00001a5d       0x1c Debug/src/font/font_clock.o
+ .debug_str     0x00001aa1       0x1c Debug/src/font/font_clock.o
                                  0x79 (size before relaxing)
- .debug_str     0x00001a79      0x2a6 Debug/src/lib/lcd/lcd.o
+ .debug_str     0x00001abd      0x2a6 Debug/src/lib/lcd/lcd.o
                                 0x4a6 (size before relaxing)
- .debug_str     0x00001d1f       0x82 Debug/src/lib/lcd/MI0283QT-2.o
+ .debug_str     0x00001d63       0x82 Debug/src/lib/lcd/MI0283QT-2.o
                                 0x217 (size before relaxing)
- .debug_str     0x00001da1       0x25 Debug/src/lib/fat_sd/fattime.o
+ .debug_str     0x00001de5       0x25 Debug/src/lib/fat_sd/fattime.o
                                 0x142 (size before relaxing)
- .debug_str     0x00001dc6      0x34e Debug/src/lib/fat_sd/ff.o
+ .debug_str     0x00001e0a      0x34e Debug/src/lib/fat_sd/ff.o
                                 0x653 (size before relaxing)
- .debug_str     0x00002114      0x1e3 Debug/src/lib/fat_sd/sd_spi_stm32.o
+ .debug_str     0x00002158      0x1e3 Debug/src/lib/fat_sd/sd_spi_stm32.o
                                 0x583 (size before relaxing)
- .debug_str     0x000022f7      0x17d Debug/src/lib/minIni/minIni.o
+ .debug_str     0x0000233b      0x17d Debug/src/lib/minIni/minIni.o
                                 0x3a3 (size before relaxing)
- .debug_str     0x00002474      0x104 Debug/firmware/STM32F10x_StdPeriph_Driver/src/misc.o
+ .debug_str     0x000024b8      0x104 Debug/firmware/STM32F10x_StdPeriph_Driver/src/misc.o
                                 0x33a (size before relaxing)
- .debug_str     0x00002578      0x537 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.o
+ .debug_str     0x000025bc      0x537 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.o
                                 0x692 (size before relaxing)
- .debug_str     0x00002aaf      0x38d Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.o
+ .debug_str     0x00002af3      0x38d Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.o
                                 0x540 (size before relaxing)
- .debug_str     0x00002e3c      0x46e Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.o
+ .debug_str     0x00002e80      0x46e Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.o
                                 0x608 (size before relaxing)
- .debug_str     0x000032aa      0x19d Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.o
+ .debug_str     0x000032ee      0x19d Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.o
                                 0x301 (size before relaxing)
- .debug_str     0x00003447       0xad Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.o
+ .debug_str     0x0000348b       0xad Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.o
                                 0x1c6 (size before relaxing)
- .debug_str     0x000034f4      0x1fe Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.o
+ .debug_str     0x00003538      0x1fe Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.o
                                 0x332 (size before relaxing)
- .debug_str     0x000036f2       0x7e Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.o
+ .debug_str     0x00003736       0x7e Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.o
                                 0x18f (size before relaxing)
- .debug_str     0x00003770      0x1dc Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.o
+ .debug_str     0x000037b4      0x1dc Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.o
                                 0x321 (size before relaxing)
- .debug_str     0x0000394c       0xe2 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.o
+ .debug_str     0x00003990       0xe2 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.o
                                 0x2e8 (size before relaxing)
- .debug_str     0x00003a2e      0x3ed Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.o
+ .debug_str     0x00003a72      0x3ed Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.o
                                 0x566 (size before relaxing)
- .debug_str     0x00003e1b      0x554 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.o
+ .debug_str     0x00003e5f      0x554 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.o
                                 0x69c (size before relaxing)
- .debug_str     0x0000436f      0x244 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.o
+ .debug_str     0x000043b3      0x244 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.o
                                 0x4a3 (size before relaxing)
- .debug_str     0x000045b3      0x3ec Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.o
+ .debug_str     0x000045f7      0x3ec Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.o
                                 0x5d5 (size before relaxing)
- .debug_str     0x0000499f       0xca Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.o
+ .debug_str     0x000049e3       0xca Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.o
                                 0x1e6 (size before relaxing)
- .debug_str     0x00004a69      0x10b Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.o
+ .debug_str     0x00004aad      0x10b Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.o
                                 0x246 (size before relaxing)
- .debug_str     0x00004b74      0x503 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.o
+ .debug_str     0x00004bb8      0x503 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.o
                                 0x6e4 (size before relaxing)
- .debug_str     0x00005077      0x174 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.o
+ .debug_str     0x000050bb      0x174 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.o
                                 0x325 (size before relaxing)
- .debug_str     0x000051eb      0x463 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.o
+ .debug_str     0x0000522f      0x463 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.o
                                 0x5c5 (size before relaxing)
- .debug_str     0x0000564e      0x2bb Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.o
+ .debug_str     0x00005692      0x2bb Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.o
                                 0x5d5 (size before relaxing)
- .debug_str     0x00005909      0xaf1 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.o
+ .debug_str     0x0000594d      0xaf1 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.o
                                 0xd74 (size before relaxing)
- .debug_str     0x000063fa      0x41f Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.o
+ .debug_str     0x0000643e      0x41f Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.o
                                 0x627 (size before relaxing)
- .debug_str     0x00006819       0xc6 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.o
+ .debug_str     0x0000685d       0xc6 Debug/firmware/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.o
                                 0x1f2 (size before relaxing)
- .debug_str     0x000068df      0x156 Debug/firmware/CMSIS/CM3/CoreSupport/core_cm3.o
+ .debug_str     0x00006923      0x156 Debug/firmware/CMSIS/CM3/CoreSupport/core_cm3.o
                                 0x260 (size before relaxing)
- .debug_str     0x00006a35       0x7e Debug/firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.o
+ .debug_str     0x00006a79       0x7e Debug/firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.o
                                 0x24d (size before relaxing)
- .debug_str     0x00006ab3       0xca c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(bpabi.o)
+ .debug_str     0x00006af7       0xca c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(bpabi.o)
                                  0xfb (size before relaxing)
- .debug_str     0x00006b7d      0x7e2 c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(unwind-arm.o)
+ .debug_str     0x00006bc1      0x7e2 c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(unwind-arm.o)
                                 0x911 (size before relaxing)
- .debug_str     0x0000735f      0x10e c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(pr-support.o)
+ .debug_str     0x000073a3      0x10e c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(pr-support.o)
                                 0x477 (size before relaxing)
- .debug_str     0x0000746d       0xd0 c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(_divdi3.o)
+ .debug_str     0x000074b1       0xd0 c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(_divdi3.o)
                                 0x1d2 (size before relaxing)
- .debug_str     0x0000753d        0xa c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(_udivdi3.o)
+ .debug_str     0x00007581        0xa c:/program files (x86)/atollic/truestudio stm32 lite 1.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.4.1/thumb/thumb2\libgcc.a(_udivdi3.o)
                                 0x1d3 (size before relaxing)
 
 .debug_frame    0x00000000       0x50
