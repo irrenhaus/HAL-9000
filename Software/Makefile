@@ -23,7 +23,7 @@ OBJECT_DIR = Debug
 BIN_DIR = $(OBJECT_DIR)
 
 # Define sources and objects
-SRCS := $(wildcard src/*.c) $(wildcard FreeRTOS/*.c)
+SRCS := $(wildcard src/*.c) $(wildcard FreeRTOS/*.c) $(wildcard src/font/*.c) $(wildcard src/lib/lcd/*.c) $(wildcard src/lib/fat_sd/*.c) $(wildcard src/lib/minIni/*.c)
 OBJS := $(SRCS:%.c=$(OBJECT_DIR)/%.o)  
 LIBSRCS := $(wildcard firmware/*/src/*.c) $(wildcard firmware/CMSIS/CM3/CoreSupport/*.c) $(wildcard STM32_EVAL/Board/*.c) $(wildcard STM32_EVAL/Common/*.c) $(wildcard firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x/*.c)
 LIBSRCSASM :=  $(wildcard firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/TrueSTUDIO/*.s) 

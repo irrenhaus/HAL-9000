@@ -9,5 +9,8 @@
 #include "../FreeRTOS/task.h"
 
 void delay_ms(int ms) {
+	if(portTICK_RATE_MS == 0)
+		return;
+
 	vTaskDelay(ms / portTICK_RATE_MS);
 }

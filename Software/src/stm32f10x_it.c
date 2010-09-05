@@ -53,7 +53,7 @@ void NMI_Handler(void) {
  */
 void HardFault_Handler(void) {
 
-	GPIO_SetBits(GPIOA, GPIO_Pin_1);
+	GPIO_SetBits(GPIOE, GPIO_Pin_2);
 	/* Go to infinite loop when Hard Fault exception occurs */
 	while (1) {
 	}

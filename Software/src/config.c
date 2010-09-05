@@ -8,6 +8,13 @@
 #include "config.h"
 #include "rtc.h"
 
+int sysTick = 0;
+int lastFATCall = 0;
+
+void configureNVIC(void) {
+
+}
+
 void configureSystem(void) {
 	/* SYSCLK, HCLK, PCLK2 and PCLK1 configuration -----------------------------*/
 	/* RCC system reset(for debug purpose) */
@@ -77,6 +84,9 @@ void configureSystem(void) {
 		}
 	}
 
-	RTC_Init();
-	RTC_SetTime(6, 43, 30);
+	rtc_init();
+
+	configureNVIC();
+
+	SysTick_Config(72000);
 }

@@ -1,4 +1,4 @@
-update=Do 02 Sep 2010 00:26:49 CEST
+update=04.09.2010 19:13:50
 last_client=pcbnew
 [eeschema]
 version=1
@@ -30,6 +30,8 @@ offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
+SimCmd=
+UseNetN=0
 LabSize=60
 PrintMonochrome=1
 ShowSheetReferenceAndTitleBlock=1
@@ -67,6 +69,7 @@ LibName30=valves
 LibName31=welectronic
 LibName32=pinhead
 LibName33=MI0283QT-2
+LibName34=AD7843
 [cvpcb]
 version=1
 NetIExt=net
@@ -74,9 +77,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=390
-PadDimH=690
-PadDimV=690
+PadDrlX=0
+PadDimH=700
+PadDimV=400
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
@@ -105,3 +108,4 @@ LibName10=dip_sockets
 LibName11=welectronic
 LibName12=MI0283QT-2
 LibName13=pinhead
+LibName14=QSOP16
