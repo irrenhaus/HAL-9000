@@ -5,12 +5,23 @@
  *      Author: irrenhaus
  */
 #include "util.h"
-#include "../FreeRTOS/FreeRTOS.h"
-#include "../FreeRTOS/task.h"
+
+extern void disk_timerproc();
+
+int SysTickCounter = 0;
+int lastDiskTimerCall = 0;
+
+void SysTick_Handler(void) {
+	SysTickCounter++;
+	lastDiskTimerCall++;
+
+	if (lastDiskTimerCall >= 10) {
+		disk_timerproc();
+		lastDiskTimerCall = 0;
+	}
+}
 
 void delay_ms(int ms) {
-	if(portTICK_RATE_MS == 0)
-		return;
-
-	vTaskDelay(ms / portTICK_RATE_MS);
+	int to = SysTickCounter + ms;
+	while(SysTickCounter < to) ;
 }

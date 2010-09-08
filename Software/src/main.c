@@ -9,23 +9,7 @@
 #include "lib/fat_sd/ff.h"
 #include "lib/fat_sd/diskio.h"
 
-#include "../FreeRTOS/FreeRTOS.h"
-#include "../FreeRTOS/task.h"
-
 #define F_CPU SystemCoreClock
-
-static int SysTickCounter = 0;
-int lastDiskTimerCall = 0;
-
-void vApplicationTickHook(void) {
-	SysTickCounter++;
-	lastDiskTimerCall++;
-
-	if (lastDiskTimerCall >= 10) {
-		disk_timerproc();
-		lastDiskTimerCall = 0;
-	}
-}
 
 /* REED Sensor & Touch handling */
 int reed = 0;
@@ -87,7 +71,7 @@ void initTouchController() {
 	SPI_InitStructure.SPI_CPOL = SPI_CPOL_Low;
 	SPI_InitStructure.SPI_CPHA = SPI_CPHA_1Edge;
 	SPI_InitStructure.SPI_NSS = SPI_NSS_Soft;
-	SPI_InitStructure.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_8; // 72000kHz/256=281kHz < 400kHz
+	SPI_InitStructure.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_128; // 72000kHz/256=281kHz < 400kHz
 	SPI_InitStructure.SPI_FirstBit = SPI_FirstBit_MSB;
 	SPI_InitStructure.SPI_CRCPolynomial = 7;
 
@@ -110,7 +94,7 @@ void touchTask(void *params) {
 
 			GPIO_ResetBits(GPIOD, GPIO_Pin_8);
 			/* Differential read of X coordinate */
-			SPI_I2S_SendData(SPI2, 0x9A); //S[1]A2[0]A1[0]A0[1]MODE[1]SER/DFR[0]PD1[1]PD0[0]
+			SPI_I2S_SendData(SPI2, 0x99); //S[1]A2[0]A1[0]A0[1]MODE[1]SER/DFR[0]PD1[1]PD0[0]
 			while (SPI_I2S_GetFlagStatus(SPI2, SPI_I2S_FLAG_TXE) == RESET)
 				;
 
@@ -120,7 +104,7 @@ void touchTask(void *params) {
 			touchX = SPI_I2S_ReceiveData(SPI2);
 
 			/* Differential read of Y coordinate */
-			SPI_I2S_SendData(SPI2, 0xDA); //S[1]A2[1]A1[0]A0[1]MODE[1]SER/DFR[0]PD1[1]PD0[0]
+			SPI_I2S_SendData(SPI2, 0xD9); //S[1]A2[1]A1[0]A0[1]MODE[1]SER/DFR[0]PD1[1]PD0[0]
 			while ((SPI_I2S_GetFlagStatus(SPI2, SPI_I2S_FLAG_RXNE) == RESET))
 				;
 			touchY = SPI_I2S_ReceiveData(SPI2);
@@ -131,22 +115,11 @@ void touchTask(void *params) {
 
 			touchAwaiting = 0;
 		//}
-
-		if (GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_10) == 0)
-			sprintf(dbgMessage, "Low");
-		else
-			sprintf(dbgMessage, "High");
-
-		delay_ms(100);
 	}
 }
 
 int main(void) {
 	configureSystem();
-
-	/* Tasks */
-	xTaskCreate(displayTask, "display", DISPLAY_TASK_STACK_SIZE, NULL, DISPLAY_TASK_PRIORITY, NULL);
-	xTaskCreate(touchTask, "touch", DISPLAY_TASK_STACK_SIZE, NULL, DISPLAY_TASK_PRIORITY, NULL);
 
 	/* GPIO Initialisation */
 	GPIO_InitTypeDef GPIO_InitStructure;
@@ -228,8 +201,6 @@ int main(void) {
 
 	//if (f_mount(0, &fatfs) != FR_OK)
 	//	sprintf(dbgMessage, "Mount failed");
-
-	vTaskStartScheduler();
 
 	for (;;)
 		;

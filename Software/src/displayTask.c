@@ -95,7 +95,7 @@ void displayTask(void *params) {
 		drawHeaderLine();
 
 		extern u16 touchX, touchY;
-		sprintf(buffer, "Touch[x: %d, y: %d]", touchX, touchY);
+		sprintf(buffer, "Touch[x: %.4d, y: %.4d]", touchX, touchY);
 		lcd_puts(10, 50, buffer, NORMALFONT, 1, RGB(255, 255, 255), RGB(0, 0, 0));
 		lcd_puts(100, 150, dbgMessage, NORMALFONT, 1, RGB(0, 0, 0), RGB(255, 0, 0));
 		extern int reed;
