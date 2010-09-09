@@ -3,7 +3,7 @@
 #include "stm32f10x_conf.h"
 #include "util.h"
 #include "config.h"
-#include "displayTask.h"
+#include "screen.h"
 #include "dbgMsg.h"
 #include "lib/fat_sd/ffconf.h"
 #include "lib/fat_sd/ff.h"
