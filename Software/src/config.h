@@ -38,6 +38,4 @@
 /** Functions **/
 void configureSystem(void);
 
-extern int SysTickCounter;
-
 #endif /* CONFIG_H_ */

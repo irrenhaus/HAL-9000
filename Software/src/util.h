@@ -12,4 +12,6 @@
 
 void delay_ms(int ms);
 
+extern unsigned int SysTickCounter;
+
 #endif /* UTIL_H_ */

@@ -8,8 +8,8 @@
 
 extern void disk_timerproc();
 
-int SysTickCounter = 0;
-int lastDiskTimerCall = 0;
+unsigned int SysTickCounter = 0;
+unsigned int lastDiskTimerCall = 0;
 
 void SysTick_Handler(void) {
 	SysTickCounter++;

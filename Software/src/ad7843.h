@@ -10,7 +10,7 @@
 
 #include "stm32f10x.h"
 
-#define AD_CS_ENABLE() GPIO_WriteBit(GPIOD, GPIO_Pin_8, Bit_RESET);
-#define AD_CS_DISABLE() GPIO_WriteBit(GPIOD, GPIO_Pin_8, Bit_SET);
+void initTouchController();
+void touchHandler();
 
 #endif /* AD7843_H_ */
