@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mi 01 Sep 2010 19:34:14 CEST
+EESchema Schematic File Version 2  date 14.09.2010 06:42:34
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,14 @@ LIBS:valves
 LIBS:farnell
 LIBS:STM32F10xVx
 LIBS:AD7843
+LIBS:LM75CIM
 LIBS:bordcomputer-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 2 3
 Title ""
-Date "1 sep 2010"
+Date "14 sep 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,6 +47,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 2400 2100 0    60   Output ~ 0
+TOUCHCS
+Text GLabel 2400 2250 0    60   Input ~ 0
+PENIRQ
 Wire Wire Line
 	1900 4550 2300 4550
 Wire Wire Line
