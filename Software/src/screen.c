@@ -5,6 +5,7 @@
  *      Author: irrenhaus
  */
 #include <stdio.h>
+#include <stdlib.h>
 #include "stm32f10x.h"
 #include "util.h"
 #include "config.h"
@@ -14,6 +15,7 @@
 #include "font/font_8x12.h"
 #include "font/font_clock.h"
 #include <string.h>
+#include "rotary.h"
 
 #define DISPLAYBG RGB(0, 0, 0)
 
@@ -86,13 +88,31 @@ void drawHeaderLine(void) {
 }
 
 void updateScreen() {
+	unsigned int frameStart = SysTickCounter;
 	char buffer[32];
+	static unsigned int lastRotary = 0;
+	static int8_t rotary = 0;
+
+	unsigned int before = SysTickCounter;
+	//lcd_clear(RGB(0, 0, 0));
+	unsigned int after = SysTickCounter;
+
+	sprintf(buffer, "Draw Time: %d ms", (after - before));
+	lcd_puts(10, 80, buffer, NORMALFONT, 1, RGB(255, 255, 255), DISPLAYBG);
 
 	drawHeaderLine();
 
+	//lcd_fillrect(100, 150, HEADER_WIDTH, 150+NORMALFONT_HEIGHT, RGB(255, 0, 0));
 	lcd_puts(100, 150, dbgMessage, NORMALFONT, 1, RGB(0, 0, 0), RGB(255, 0, 0));
-	extern int reed;
+	extern int reedDifference;
 
-	sprintf(buffer, "Reed: %d", reed);
-	lcd_puts(5, 100, buffer, NORMALFONT, 1, HEADERFG, HEADERBG);
+	float kmh = ((((1000.0f / reedDifference) * TIRE_OUTLINE) / 60.0f) / 60.0f);
+
+	sprintf(buffer, "Reed: %.6d", reedDifference);
+	lcd_puts(5, 100, buffer, NORMALFONT, 1, HEADERFG, DISPLAYBG);
+
+	unsigned int frameEnd = SysTickCounter;
+
+	sprintf(buffer, "Frame Time: %d ms", (frameEnd - frameStart));
+	lcd_puts(10, 1200, buffer, NORMALFONT, 1, RGB(255, 255, 255), DISPLAYBG);
 }

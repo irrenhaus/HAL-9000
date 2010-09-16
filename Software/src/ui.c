@@ -33,8 +33,8 @@ void downPressed(void) {
 void processUI(void) {
 	static unsigned int last = 0;
 
-	//if(SysTickCounter - last > 1500) {
+	if(SysTickCounter - last > 100) {
 		last = SysTickCounter;
-		sprintf(dbgMessage, "UI: %d", fifo_get_wait(&fifo));
-	//}
+		sprintf(dbgMessage, "UI: %d", fifo_get_nowait(&fifo));
+	}
 }

@@ -35,6 +35,10 @@
 #define LCD_RST_DISABLE() GPIO_WriteBit(DISPLAY_RESET_GPIO, DISPLAY_RESET_PIN, Bit_SET);
 #define LCD_RST_ENABLE() GPIO_WriteBit(DISPLAY_RESET_GPIO, DISPLAY_RESET_PIN, Bit_RESET);
 
+#define CONFIG_ROTARY_SAMPLE_COUNT 16
+
+#define TIRE_OUTLINE ((float)154)
+
 /** Functions **/
 void configureSystem(void);
 
