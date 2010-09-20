@@ -1,0 +1,35 @@
+/*
+ * rotary.c
+ *
+ *  Created on: Sep 12, 2010
+ *      Author: irrenhaus
+ */
+
+#include "rotary.h"
+#include "stm32f10x.h"
+#include "ui.h"
+#include "util.h"
+#include "dbgMsg.h"
+#include <stdio.h>
+
+#define ROTARY_GPIO GPIOD
+#define PHASEA GPIO_Pin_11
+#define PHASEB GPIO_Pin_12
+
+volatile char enc_delta = 0;
+
+void updateRotary(void) {
+	u8 state = 0;
+			u8 stateCount = 0;
+
+			state = GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_11);
+
+			while (stateCount < CONFIG_ROTARY_SAMPLE_COUNT) {
+				if (GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_11) == state)
+					stateCount++;
+				else
+					stateCount = 0;
+			}
+
+			upPressed();
+}

@@ -1,0 +1,49 @@
+/*
+ * ui.c
+ *
+ *  Created on: Sep 10, 2010
+ *      Author: irrenhaus
+ */
+
+#include "ui.h"
+#include "fifo.h"
+#include "util.h"
+#include "dbgMsg.h"
+#include "rotary."
+#include <stdio.h>
+
+fifo_t fifo;
+u8 buffer[32];
+
+void initUI(void) {
+	fifo_init(&fifo, buffer, 32);
+}
+
+void enterPressed(void) {
+	fifo_put(&fifo, UI_CMD_ENTER);
+}
+
+void upPressed(void) {
+	fifo_put(&fifo, UI_CMD_UP);
+}
+
+void downPressed(void) {
+	fifo_put(&fifo, UI_CMD_DOWN);
+}
+
+void processUI(void) {
+	int8_t rotary = readRotary();
+
+	if (rotary > 0) {
+		upPressed();
+	} else if (rotary < 0) {
+		downPressed();
+	}
+
+	static unsigned int last = 0;
+
+	if (SysTickCounter - last > 100) {
+		last = SysTickCounter;
+		sprintf(dbgMessage, "UI: %d", fifo_get_nowait(&fifo));
+	}
+}

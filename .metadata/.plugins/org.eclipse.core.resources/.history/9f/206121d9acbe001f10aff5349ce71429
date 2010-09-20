@@ -1,0 +1,60 @@
+/*
+ * rotary.c
+ *
+ *  Created on: Sep 12, 2010
+ *      Author: irrenhaus
+ */
+
+#include "rotary.h"
+#include "stm32f10x.h"
+#include "ui.h"
+#include "util.h"
+#include "dbgMsg.h"
+#include <stdio.h>
+
+#define ROTARY_GPIO GPIOD
+#define PHASEA GPIO_Pin_11
+#define PHASEB GPIO_Pin_12
+
+volatile char enc_delta = 0;
+
+/*void TIM1_UP_IRQHandler(void) {
+	sprintf(dbgMessage, "NO PHASE");
+
+	if (!GPIO_ReadInputDataBit(ROTARY_GPIO, PHASEA)) {
+		sprintf(dbgMessage, "PHASE A");
+	}
+	if (!GPIO_ReadInputDataBit(ROTARY_GPIO, PHASEB)) {
+		sprintf(dbgMessage, "%s & PHASE B", dbgMessage);
+	}
+
+	extern u8 rotaryInWork;
+	rotaryInWork = 0;
+
+	toggle();
+
+	TIM_Cmd(TIM1, DISABLE);
+}*/
+
+void updateRotary(void) {
+	static char enc_last = 0x01;
+	char i = 0;
+
+	if (!(GPIOD->IDR & GPIO_Pin_11)) {
+		i = 1; // convert gray to binary
+	}
+
+	if (!(GPIOD->IDR & GPIO_Pin_12)) {
+		i ^= 3; // convert gray to binary
+	}
+
+	i -= enc_last; // difference new - last
+
+	if (i & 1) { // bit 0 = value (1)
+		enc_last += i; // store new as next last
+
+		enc_delta += (i & 2) - 1; // bit 1 = direction (+/-)
+
+		sprintf(dbgMessage, "Delta: %d", enc_delta);
+	}
+}

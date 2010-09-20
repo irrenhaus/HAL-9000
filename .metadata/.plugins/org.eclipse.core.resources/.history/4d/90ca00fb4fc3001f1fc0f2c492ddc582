@@ -1,0 +1,58 @@
+/*
+ * gui.c
+ *
+ *  Created on: Sep 18, 2010
+ *      Author: irrenhaus
+ */
+
+#include "gui.h"
+#include "lib/lcd/lcd.h"
+
+void drawMenu(MenuDef *menu) {
+	if (menu->menuType == ICON_MENU) {
+		if (menu->hotButton >= menu->menuButtonCount) {
+			menu->hotButton = 0;
+		}
+
+		char buffer[32];
+		sprintf(buffer, "C: %d, H: %d", menu->menuButtonCount, menu->hotButton);
+		lcd_puts(0, 100, buffer, NORMALFONT, 1, RGB(255, 255, 255), RGB(0,0,0));
+
+		lcd_drawbmp(MENU_ICON_MENU_HOT_IMAGE, MENU_VIEWPORT_X+MENU_ICON_MENU_HOT_X - 4,
+				MENU_VIEWPORT_Y+MENU_ICON_MENU_HOT_Y - 4);
+		lcd_drawbmp(menu->menuButtons[menu->hotButton].buttonImage,
+				MENU_VIEWPORT_X+MENU_ICON_MENU_HOT_X, MENU_VIEWPORT_Y+MENU_ICON_MENU_HOT_Y);
+
+		//draw icons to top
+		u8 i;
+		int8_t icon = menu->hotButton;
+		for (i = 1; i < 3; i++) {
+			if ((icon - 1) < 0)
+				icon = menu->menuButtonCount-1;
+			else
+				icon--;
+
+			u16 y = MENU_VIEWPORT_Y + MENU_ICON_MENU_HOT_Y - (MENU_ICON_SIZE
+					* i) - (i*4);
+
+			lcd_drawbmp(menu->menuButtons[icon].buttonImage, MENU_VIEWPORT_X
+					+ MENU_ICON_MENU_HOT_X, y);
+		}
+
+		//draw icons to bottom
+
+		icon = menu->hotButton;
+		for (i = 1; i < 3; i++) {
+			if (icon + 1 >= menu->menuButtonCount)
+				icon = 0;
+			else
+				icon++;
+
+			u16 y = MENU_VIEWPORT_Y + MENU_ICON_MENU_HOT_Y + (MENU_ICON_SIZE
+					* i) + (i*4);
+
+			lcd_drawbmp(menu->menuButtons[icon].buttonImage, MENU_VIEWPORT_X
+					+ MENU_ICON_MENU_HOT_X, y);
+		}
+	}
+}
