@@ -1,0 +1,652 @@
+# EESchema Netlist Version 1.1 created  20.09.2010 21:51:07
+(
+ ( /4C96991A SMTU-2032-1-LF BT1 BATTERY
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /4C957617 SM1206 C1 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C95762C SM1206 C2 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C95761A SM1206 C3 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C95762F SM1206 C4 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C95761C SM1206 C5 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C957631 SM1206 C6 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C95761E SM1206 C7 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C957633 SM1206 C8 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C957622 SM1206 C9 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C957635 SM1206 C10 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C95762A SM1206 C11 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C957637 SM1206 C12 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4C9572B9 SM1206 C13 22pF
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /4C9572BD SM1206 C14 22pF
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /4C9572C3 SM1206 C15 22pF
+  ( 1 N-000013 )
+  ( 2 GND )
+ )
+ ( /4C9572C9 SM1206 C16 22pF
+  ( 1 N-000014 )
+  ( 2 GND )
+ )
+ ( /4C95775A/4C978464 SM1206 C17 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4C95775A/4C97846E SM1206 C18 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4C969EA8/4C96A165 SM1206 C19 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4C969944 LED-1206 D1 StatusLED
+  ( 1 N-000084 )
+  ( 2 GND )
+ )
+ ( /4C969511/4C969CC5 con-usb-USB-B-SMT_num J1 USB
+  ( 1 ? )
+  ( 2 N-000045 )
+  ( 3 N-000113 )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 GND )
+ )
+ ( /4C969511/4C97A05E pinhead-1X08 P1 DisplayTop1
+  ( 1 /Connections/CS )
+  ( 2 /Connections/RS )
+  ( 3 /Connect1 )
+  ( 4 /LCD_RD )
+  ( 5 /PB0 )
+  ( 6 /LCD_DB1 )
+  ( 7 /Connections/DB2 )
+  ( 8 GND )
+ )
+ ( /4C969511/4C97A06C pinhead-1X08 P2 DisplayTop2
+  ( 1 /Connections/DB3 )
+  ( 2 /LCD_DB4 )
+  ( 3 /Connections/DB5 )
+  ( 4 /LCD_DB6 )
+  ( 5 /LCD_DB7 )
+  ( 6 /LCD_DB8 )
+  ( 7 /LCD_DB10 )
+  ( 8 GND )
+ )
+ ( /4C969511/4C97A073 pinhead-1X08 P3 DisplayBottom1
+  ( 1 /LCD_DB11 )
+  ( 2 /LCD_DB12 )
+  ( 3 /Connect2 )
+  ( 4 /LCD_DB14 )
+  ( 5 /Connect3 )
+  ( 6 /LCD_DB16 )
+  ( 7 /Connect4 )
+  ( 8 GND )
+ )
+ ( /4C969511/4C97A078 pinhead-1X08 P4 DisplayBottom2
+  ( 1 /PA3 )
+  ( 2 /Connections/SDO )
+  ( 3 /Connections/SDI )
+  ( 4 /Connections/PA4 )
+  ( 5 /Connections/PC4 )
+  ( 6 /Connections/PC5 )
+  ( 7 /PA5 )
+  ( 8 +3.3V )
+ )
+ ( /4C969511/4C9787FF PIN_ARRAY_2X2 P5 Rotary
+  ( 1 N-000030 )
+  ( 2 N-000025 )
+  ( 3 N-000003 )
+  ( 4 GND )
+ )
+ ( /4C969511/4C9788C1 PIN_ARRAY_2X1 P6 FuncBtn
+  ( 1 GND )
+  ( 2 N-000065 )
+ )
+ ( /4C969511/4C9789A6 PIN_ARRAY_2X1 P7 REED
+  ( 1 GND )
+  ( 2 N-000060 )
+ )
+ ( /4C969511/4C978A0D PIN_ARRAY_2X1 P8 CONN_2
+  ( 1 GND )
+  ( 2 N-000075 )
+ )
+ ( /4C969511/4C96A0A7 PIN_ARRAY_2X2 P9 I2C
+  ( 1 N-000112 )
+  ( 2 N-000085 )
+  ( 3 +3.3V )
+  ( 4 GND )
+ )
+ ( /4C969511/4C96A366 PIN_ARRAY_2X2 P10 Reservoir
+  ( 1 N-000087 )
+  ( 2 +3.3V )
+  ( 3 GND )
+  ( 4 GND )
+ )
+ ( /4C969511/4C969B4A PIN_ARRAY_5x2 P11 JTAG
+  ( 1 +3.3V )
+  ( 2 GND )
+  ( 3 N-000080 )
+  ( 4 N-000049 )
+  ( 5 N-000115 )
+  ( 6 N-000114 )
+  ( 7 N-000047 )
+  ( 8 N-000019 )
+  ( 9 N-000118 )
+  ( 10 N-000017 )
+ )
+ ( /4C969956 SM1206 R1 22
+  ( 1 N-000010 )
+  ( 2 N-000084 )
+ )
+ ( /4C969F43 SM1206 R2 10k
+  ( 1 +3.3V )
+  ( 2 N-000112 )
+ )
+ ( /4C969F46 SM1206 R3 10k
+  ( 1 +3.3V )
+  ( 2 N-000085 )
+ )
+ ( /4C969511/4C9789B9 SM1206 R4 10k
+  ( 1 N-000060 )
+  ( 2 +3.3V )
+ )
+ ( /4C969511/4C978A12 SM1206 R5 10k
+  ( 1 N-000075 )
+  ( 2 +3.3V )
+ )
+ ( /4C969511/4C97892C SM1206 R6 10k
+  ( 1 N-000065 )
+  ( 2 +3.3V )
+ )
+ ( /4C969511/4C97884D SM1206 R7 10k
+  ( 1 +3.3V )
+  ( 2 N-000030 )
+ )
+ ( /4C969511/4C978851 SM1206 R8 10k
+  ( 1 +3.3V )
+  ( 2 N-000003 )
+ )
+ ( /4C969511/4C978848 SM1206 R9 10k
+  ( 1 +3.3V )
+  ( 2 N-000025 )
+ )
+ ( /4C969511/4C969D81 SM1206 R10 1k5
+  ( 1 +3.3V )
+  ( 2 N-000113 )
+ )
+ ( /4C969511/4C969BFC SM1206 R11 10k
+  ( 1 +3.3V )
+  ( 2 N-000115 )
+ )
+ ( /4C969511/4C969BFE SM1206 R12 10k
+  ( 1 +3.3V )
+  ( 2 N-000114 )
+ )
+ ( /4C969511/4C969C00 SM1206 R13 10k
+  ( 1 +3.3V )
+  ( 2 N-000019 )
+ )
+ ( /4C95718E TQFP144 U1 STM32F10XZX
+  ( 1 N-000010 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 N-000005 )
+  ( 7 ? )
+  ( 8 N-000012 )
+  ( 9 N-000011 )
+  ( 10 /Connections/RS )
+  ( 11 N-000066 )
+  ( 12 N-000061 )
+  ( 13 N-000056 )
+  ( 14 N-000051 )
+  ( 15 N-000079 )
+  ( 16 GND )
+  ( 17 +3.3V )
+  ( 18 N-000030 )
+  ( 19 N-000025 )
+  ( 20 N-000003 )
+  ( 21 N-000065 )
+  ( 22 N-000060 )
+  ( 23 N-000013 )
+  ( 24 N-000014 )
+  ( 25 N-000080 )
+  ( 26 N-000075 )
+  ( 27 N-000087 )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 GND )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 +3.3V )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 ? )
+  ( 37 /PA3 )
+  ( 38 GND )
+  ( 39 +3.3V )
+  ( 40 /Connections/PA4 )
+  ( 41 /PA5 )
+  ( 42 /Connections/SDO )
+  ( 43 /Connections/SDI )
+  ( 44 /Connections/PC4 )
+  ( 45 /Connections/PC5 )
+  ( 46 /PB0 )
+  ( 47 ? )
+  ( 48 ? )
+  ( 49 ? )
+  ( 50 N-000002 )
+  ( 51 GND )
+  ( 52 +3.3V )
+  ( 53 N-000054 )
+  ( 54 N-000077 )
+  ( 55 N-000082 )
+  ( 56 N-000073 )
+  ( 57 N-000069 )
+  ( 58 /Connections/DB5 )
+  ( 59 /LCD_DB6 )
+  ( 60 /LCD_DB7 )
+  ( 61 GND )
+  ( 62 +3.3V )
+  ( 63 /LCD_DB8 )
+  ( 64 /LCD_DB10 )
+  ( 65 /LCD_DB11 )
+  ( 66 /LCD_DB12 )
+  ( 67 /Connect2 )
+  ( 68 /LCD_DB14 )
+  ( 69 N-000112 )
+  ( 70 N-000085 )
+  ( 71 GND )
+  ( 72 +3.3V )
+  ( 73 ? )
+  ( 74 ? )
+  ( 75 ? )
+  ( 76 ? )
+  ( 77 /Connect3 )
+  ( 78 /LCD_DB16 )
+  ( 79 /Connect4 )
+  ( 80 N-000068 )
+  ( 81 N-000063 )
+  ( 82 ? )
+  ( 83 GND )
+  ( 84 +3.3V )
+  ( 85 /LCD_DB1 )
+  ( 86 /Connections/DB2 )
+  ( 87 N-000032 )
+  ( 88 N-000027 )
+  ( 89 N-000022 )
+  ( 90 N-000067 )
+  ( 91 ? )
+  ( 92 ? )
+  ( 93 ? )
+  ( 94 GND )
+  ( 95 +3.3V )
+  ( 96 ? )
+  ( 97 ? )
+  ( 98 N-000026 )
+  ( 99 N-000021 )
+  ( 100 ? )
+  ( 101 N-000017 )
+  ( 102 N-000118 )
+  ( 103 N-000045 )
+  ( 104 N-000113 )
+  ( 105 N-000049 )
+  ( 106 ? )
+  ( 107 GND )
+  ( 108 +3.3V )
+  ( 109 N-000114 )
+  ( 110 N-000019 )
+  ( 111 N-000016 )
+  ( 112 N-000116 )
+  ( 113 N-000117 )
+  ( 114 /Connections/DB3 )
+  ( 115 /LCD_DB4 )
+  ( 116 N-000040 )
+  ( 117 /PD3 )
+  ( 118 /LCD_RD )
+  ( 119 /Connect1 )
+  ( 120 GND )
+  ( 121 +3.3V )
+  ( 122 ? )
+  ( 123 ? )
+  ( 124 ? )
+  ( 125 /SD_CS )
+  ( 126 ? )
+  ( 127 /Connections/CS )
+  ( 128 ? )
+  ( 129 ? )
+  ( 130 GND )
+  ( 131 +3.3V )
+  ( 132 ? )
+  ( 133 N-000047 )
+  ( 134 N-000115 )
+  ( 135 ? )
+  ( 136 ? )
+  ( 137 ? )
+  ( 138 ? )
+  ( 139 ? )
+  ( 140 ? )
+  ( 141 N-000015 )
+  ( 142 N-000044 )
+  ( 143 GND )
+  ( 144 +3.3V )
+ )
+ ( /4C95775A/4C976D62 TSOP44 U2 AS7C34098A
+  ( 1 /Connections/RS )
+  ( 2 N-000066 )
+  ( 3 N-000061 )
+  ( 4 N-000056 )
+  ( 5 N-000051 )
+  ( 6 /SD_CS )
+  ( 7 /LCD_DB1 )
+  ( 8 /Connections/DB2 )
+  ( 9 /Connections/DB3 )
+  ( 10 /LCD_DB4 )
+  ( 11 +3.3V )
+  ( 12 GND )
+  ( 13 /Connections/DB5 )
+  ( 14 /LCD_DB6 )
+  ( 15 /LCD_DB7 )
+  ( 16 /LCD_DB8 )
+  ( 17 /Connect1 )
+  ( 18 N-000079 )
+  ( 19 N-000002 )
+  ( 20 N-000054 )
+  ( 21 N-000077 )
+  ( 22 N-000082 )
+  ( 23 N-000073 )
+  ( 24 N-000069 )
+  ( 25 N-000032 )
+  ( 26 N-000027 )
+  ( 27 N-000022 )
+  ( 28 ? )
+  ( 29 /LCD_DB10 )
+  ( 30 /LCD_DB11 )
+  ( 31 /LCD_DB12 )
+  ( 32 /Connect2 )
+  ( 33 +3.3V )
+  ( 34 GND )
+  ( 35 /LCD_DB14 )
+  ( 36 /Connect3 )
+  ( 37 /LCD_DB16 )
+  ( 38 /Connect4 )
+  ( 39 N-000015 )
+  ( 40 N-000044 )
+  ( 41 /LCD_RD )
+  ( 42 N-000067 )
+  ( 43 N-000068 )
+  ( 44 N-000063 )
+ )
+ ( /4C969EA8/4C969F76 MSOP_8 U3 LM75CIM
+  ( 1 N-000085 )
+  ( 2 N-000112 )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 +3.3V )
+ )
+ ( /4C957277 crystal-SM49 X1 32.768
+  ( 1 N-000012 )
+  ( 2 N-000011 )
+ )
+ ( /4C957295 crystal-SM49 X2 8MHz
+  ( 1 N-000013 )
+  ( 2 N-000014 )
+ )
+ ( /4C95775A/4C969872 farnell-SDBMF-009XXBXX2 X3 SDBMF
+  ( 1 N-000116 )
+  ( 2 N-000040 )
+  ( 3 GND )
+  ( 4 +3.3V )
+  ( 5 N-000117 )
+  ( 6 GND )
+  ( 7 N-000026 )
+  ( 8 N-000021 )
+  ( 9 N-000016 )
+  ( SW1 /PD3 )
+  ( SW2 ? )
+  ( SW3 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
