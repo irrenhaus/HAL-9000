@@ -12,6 +12,9 @@
 #define UI_CMD_UP 2
 #define UI_CMD_DOWN 3
 
+#define APP_STATE_MAIN 1
+#define APP_STATE_MENU 2
+
 void initUI(void);
 
 void enterPressed(void);

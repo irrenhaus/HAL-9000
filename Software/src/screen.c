@@ -16,6 +16,7 @@
 #include "font/font_clock.h"
 #include <string.h>
 #include "rotary.h"
+#include "gui.h"
 
 #define DISPLAYBG RGB(0, 0, 0)
 
@@ -23,6 +24,9 @@
 #define HEADERFG RGB(255, 255, 255)
 #define HEADER_HEIGHT (32)
 #define HEADER_WIDTH (LCD_WIDTH-1)
+
+u8 redrawScreen = 1;
+u8 firstDraw = 1;
 
 void initDisplay(void) {
 	SPI_InitTypeDef SPI_S65Init;
@@ -57,15 +61,13 @@ void initDisplay(void) {
 
 void drawHeaderLine(void) {
 	char buffer[16];
-	static u8 filled = 0;
 
 	int rtc = RTC_GetCounter();
 	int h = rtc / 3600;
 	int m = (rtc % 3600) / 60;
 
-	if (!filled) {
+	if (redrawScreen) {
 		lcd_fillrect(0, 0, HEADER_WIDTH, HEADER_HEIGHT, HEADERBG);
-		filled = 1;
 	}
 
 	sprintf(buffer, "%.2d:%.2d", h, m);
@@ -87,32 +89,66 @@ void drawHeaderLine(void) {
 	lcd_puts(posx, posy, buffer, NORMALFONT, 1, HEADERFG, HEADERBG);
 }
 
+void clearScreenOnNextDraw() {
+	firstDraw = 1;
+	redrawScreen = 1;
+}
+
 void updateScreen() {
 	unsigned int frameStart = SysTickCounter;
 	char buffer[32];
 	static unsigned int lastRotary = 0;
 	static int8_t rotary = 0;
+	extern u8 applicationState;
 
-	unsigned int before = SysTickCounter;
-	//lcd_clear(RGB(0, 0, 0));
-	unsigned int after = SysTickCounter;
+	if (firstDraw) {
+		lcd_clear(DISPLAYBG);
+		firstDraw = 0;
 
-	sprintf(buffer, "Draw Time: %d ms", (after - before));
-	lcd_puts(10, 80, buffer, NORMALFONT, 1, RGB(255, 255, 255), DISPLAYBG);
+		MenuButtonDef buttonSettings;
+		buttonSettings.actionCommand = 1;
+		buttonSettings.buttonImage = "settings.bmp";
+		buttonSettings.buttonTitle = "Settings";
+
+		MenuButtonDef buttonBack;
+		buttonBack.actionCommand = 1;
+		buttonBack.buttonImage = "back.bmp";
+		buttonBack.buttonTitle = "Back";
+
+		MenuDef menu;
+		menu.menuType = ICON_MENU;
+		menu.hotButton = 0;
+		menu.menuButtonCount = 2;
+		menu.menuTitle = "MainMenu";
+		menu.menuButtons[0] = buttonSettings;
+		menu.menuButtons[1] = buttonBack;
+
+		guiStartMenu(&menu);
+	}
 
 	drawHeaderLine();
 
-	//lcd_fillrect(100, 150, HEADER_WIDTH, 150+NORMALFONT_HEIGHT, RGB(255, 0, 0));
-	lcd_puts(100, 150, dbgMessage, NORMALFONT, 1, RGB(0, 0, 0), RGB(255, 0, 0));
-	extern int reedDifference;
+	if (1 == 0) {
 
-	float kmh = ((((1000.0f / reedDifference) * TIRE_OUTLINE) / 60.0f) / 60.0f);
+		//lcd_fillrect(100, 150, HEADER_WIDTH, 150+NORMALFONT_HEIGHT, RGB(255, 0, 0));
+		lcd_puts(100, 150, dbgMessage, NORMALFONT, 1, RGB(0, 0, 0),
+				RGB(255, 0, 0));
+		extern int reedDifference;
 
-	sprintf(buffer, "Reed: %.6d", reedDifference);
-	lcd_puts(5, 100, buffer, NORMALFONT, 1, HEADERFG, DISPLAYBG);
+		float kmh = ((((1000.0f / reedDifference) * TIRE_OUTLINE) / 60.0f)
+				/ 60.0f);
+
+		sprintf(buffer, "Reed: %.6d", reedDifference);
+		lcd_puts(5, 100, buffer, NORMALFONT, 1, HEADERFG, DISPLAYBG);
+	} else {
+		guiDraw();
+	}
+
+	if (redrawScreen)
+		redrawScreen = 0;
 
 	unsigned int frameEnd = SysTickCounter;
 
-	sprintf(buffer, "Frame Time: %d ms", (frameEnd - frameStart));
+	sprintf(buffer, "Frame Time: %.4d ms", (frameEnd - frameStart));
 	lcd_puts(10, 1200, buffer, NORMALFONT, 1, RGB(255, 255, 255), DISPLAYBG);
 }

@@ -8,7 +8,7 @@
 #include "screen.h"
 #include "dbgMsg.h"
 #include "ad7843.h"
-#include "ui.h"
+#include "gui.h"
 #include "lib/fat_sd/ffconf.h"
 #include "lib/fat_sd/ff.h"
 #include "lib/fat_sd/diskio.h"
@@ -39,7 +39,7 @@ void EXTI15_10_IRQHandler(void) {
 	//DTASTER
 	if (EXTI_GetITStatus(EXTI_Line13) != RESET) {
 		enterPressed();
-		toggle();
+
 		EXTI_ClearITPendingBit(EXTI_Line13);
 	}
 }
@@ -63,17 +63,8 @@ int main(void) {
 		sprintf(dbgMessage, "Mount failed");
 
 	for (;;) {
-		int8_t rotary = readRotary();
-
-		if(rotary > 0) {
-			upPressed();
-		} else if(rotary < 0) {
-			downPressed();
-		}
-
+		guiHandleInput();
 		updateScreen();
-
-		processUI();
 	}
 
 	return 0;

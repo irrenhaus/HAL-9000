@@ -9,6 +9,7 @@
 #define CONFIG_H_
 
 #include "stm32f10x.h"
+#include "lib/lcd/lcd.h"
 
 #define LCD_MIO283QT2
 
@@ -35,7 +36,18 @@
 #define LCD_RST_DISABLE() GPIO_WriteBit(DISPLAY_RESET_GPIO, DISPLAY_RESET_PIN, Bit_SET);
 #define LCD_RST_ENABLE() GPIO_WriteBit(DISPLAY_RESET_GPIO, DISPLAY_RESET_PIN, Bit_RESET);
 
-#define CONFIG_ROTARY_SAMPLE_COUNT 16
+////////////////////////////////////
+#define MENU_ICON_SIZE (32)
+#define MENU_ICON_COUNT (4)
+
+#define MENU_VIEWPORT_X (0)
+#define MENU_VIEWPORT_Y (48)
+#define MENU_VIEWPORT_W (LCD_WIDTH-1)
+#define MENU_VIEWPORT_H (LCD_HEIGHT-48-1)
+
+#define MENU_ICON_MENU_HOT_IMAGE ("hoticon.bmp")
+#define MENU_ICON_MENU_HOT_X (((MENU_VIEWPORT_X + MENU_VIEWPORT_W) / 2) + (MENU_ICON_SIZE/2))
+#define MENU_ICON_MENU_HOT_Y (((MENU_VIEWPORT_Y + MENU_VIEWPORT_H) / 2) - (MENU_ICON_SIZE/2))
 
 #define TIRE_OUTLINE ((float)154)
 
