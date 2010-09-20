@@ -38,3 +38,123 @@ GUI is waiting for subprocess to be done...
 Execution done. EXIT CODE = 0
   Logging finished.  ## CURRENT TIME  : [9/9, 2010   21:44  17.139]
 ------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/9, 2010   23:4  31.493]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/9, 2010   23:4  36.473]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/10, 2010   2:57  21.86]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/10, 2010   2:57  25.866]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/10, 2010   2:58  28.495]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/10, 2010   2:58  31.993]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/10, 2010   5:45  25.56]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/10, 2010   5:45  29.322]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/10, 2010   19:12  37.246]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/10, 2010   19:12  40.803]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/12, 2010   15:51  42.973]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/12, 2010   15:51  46.676]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/12, 2010   22:56  18.244]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/12, 2010   22:56  22.85]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/14, 2010   1:28  57.631]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/14, 2010   1:29  1.125]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/14, 2010   3:12  36.875]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/14, 2010   3:12  40.396]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/15, 2010   11:18  46.328]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/15, 2010   11:18  50.260]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/16, 2010   17:8  37.619]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/16, 2010   17:8  41.878]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [9/18, 2010   17:23  7.326]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : C:\_dropbox\My Dropbox\_electronics\_projects\Bordcomputer\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [9/18, 2010   17:23  11.756]
+------------------------------------
