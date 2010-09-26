@@ -1,494 +1,605 @@
-# EESchema Netlist Version 1.1 created  Fr 24 Sep 2010 05:02:17 CEST
+# EESchema Netlist Version 1.1 created  26.09.2010 06:54:51
 (
- ( /4C9A0693 $noname  P1 VCC {Lib=CONN_2}
-  (    1 GND )
-  (    2 +3.3V )
+ ( /4C96991A SMTU-2032-1-LF BT1 BATTERY
+  ( 1 /VBAT )
+  ( 2 GND )
  )
- ( /4C969F46 $noname  R3 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 I2C2_SDA )
+ ( /4C957617 SM0805 C1 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C969F43 $noname  R2 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 /I2C2_SCL )
+ ( /4C95762C SM0805 C2 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C969956 $noname  R1 22 {Lib=R}
-  (    1 /SLED )
-  (    2 N-000005 )
+ ( /4C95761A SM0805 C3 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C969944 $noname  D1 StatusLED {Lib=LED}
-  (    1 N-000005 )
-  (    2 GND )
+ ( /4C95762F SM0805 C4 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C96991A $noname  BT1 BATTERY {Lib=BATTERY}
-  (    1 /VBAT )
-  (    2 GND )
+ ( /4C95761C SM0805 C5 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C957637 $noname  C12 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C957631 SM0805 C6 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C957635 $noname  C10 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C95761E SM0805 C7 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C957633 $noname  C8 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C957633 SM0805 C8 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C957631 $noname  C6 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C957622 SM0805 C9 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C95762F $noname  C4 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C957635 SM0805 C10 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C95762C $noname  C2 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C95762A SM0805 C11 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C95762A $noname  C11 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C957637 SM0805 C12 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4C957622 $noname  C9 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C9572B9 SM0805 C13 22pF
+  ( 1 /OSC32_IN )
+  ( 2 GND )
  )
- ( /4C95761E $noname  C7 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C9572BD SM0805 C14 22pF
+  ( 1 /OSC32_OUT )
+  ( 2 GND )
  )
- ( /4C95761C $noname  C5 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C9572C3 SM0805 C15 22pF
+  ( 1 /OSC_IN )
+  ( 2 GND )
  )
- ( /4C95761A $noname  C3 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C9572C9 SM0805 C16 22pF
+  ( 1 /OSC_OUT )
+  ( 2 GND )
  )
- ( /4C957617 $noname  C1 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4C95775A/4C9A0569 SM0805 C17 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
  )
- ( /4C9572C9 $noname  C16 22pF {Lib=C}
-  (    1 /OSC_OUT )
-  (    2 GND )
+ ( /4C95775A/4C978464 SM0805 C18 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
  )
- ( /4C9572C3 $noname  C15 22pF {Lib=C}
-  (    1 /OSC_IN )
-  (    2 GND )
+ ( /4C95775A/4C97846E SM0805 C19 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
  )
- ( /4C9572BD $noname  C14 22pF {Lib=C}
-  (    1 /OSC32_OUT )
-  (    2 GND )
+ ( /4C969511/4C9A0071 SM1812 C20 470nF
+  ( 1 GND )
+  ( 2 N-000126 )
  )
- ( /4C9572B9 $noname  C13 22pF {Lib=C}
-  (    1 /OSC32_IN )
-  (    2 GND )
+ ( /4C969EA8/4C96A165 SM0805 C21 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
  )
- ( /4C957295 $noname  X2 8MHz {Lib=CRYSTAL}
-  (    1 /OSC_IN )
-  (    2 /OSC_OUT )
+ ( /4C969944 LED-1206 D1 StatusLED
+  ( 1 N-000003 )
+  ( 2 GND )
  )
- ( /4C957277 $noname  X1 32.768 {Lib=CRYSTAL}
-  (    1 /OSC32_IN )
-  (    2 /OSC32_OUT )
+ ( /4C969511/4C9ED08D SM1206 D2 3.6V
+  ( 1 N-000049 )
+  ( 2 +3.3V )
  )
- ( /4C95718E $noname  U1 STM32F10XZX {Lib=STM32F10XZX}
-  (    1 /SLED )
-  (    2 ? )
-  (    3 ? )
-  (    4 ? )
-  (    5 ? )
-  (    6 /VBAT )
-  (    7 ? )
-  (    8 /OSC32_IN )
-  (    9 /OSC32_OUT )
-  (   10 FSMC_A0 )
-  (   11 FSMC_A1 )
-  (   12 FSMC_A2 )
-  (   13 FSMC_A3 )
-  (   14 FSMC_A4 )
-  (   15 FSMC_A5 )
-  (   16 GND )
-  (   17 +3.3V )
-  (   18 ROT_PHASEA )
-  (   19 ROT_PHASEB )
-  (   20 /ROT_BTN )
-  (   21 FUNC_BTN )
-  (   22 REED )
-  (   23 /OSC_IN )
-  (   24 /OSC_OUT )
-  (   25 NRST )
-  (   26 FLOWMETER )
-  (   27 RESERVOIR )
-  (   28 ? )
-  (   29 ? )
-  (   30 GND )
-  (   31 ? )
-  (   32 ? )
-  (   33 +3.3V )
-  (   34 ? )
-  (   35 ? )
-  (   36 ? )
-  (   37 LCDBACKLIGHT )
-  (   38 GND )
-  (   39 +3.3V )
-  (   40 TOUCHCS )
-  (   41 SPI1_SCK )
-  (   42 SPI1_MISO )
-  (   43 SPI1_MOSI )
-  (   44 TOUCHBUSY )
-  (   45 /PC5 )
-  (   46 LCDRESET )
-  (   47 ? )
-  (   48 ? )
-  (   49 ? )
-  (   50 /A6 )
-  (   51 GND )
-  (   52 +3.3V )
-  (   53 FSMC_A7 )
-  (   54 FSMC_A8 )
-  (   55 /A9 )
-  (   56 FSMC_A10 )
-  (   57 /A11 )
-  (   58 FSMC_D4 )
-  (   59 FSMC_D5 )
-  (   60 FSMC_D6 )
-  (   61 GND )
-  (   62 +3.3V )
-  (   63 FSMC_D7 )
-  (   64 FSMC_D8 )
-  (   65 FSMC_D9 )
-  (   66 FSMC_D10 )
-  (   67 /Connections/DB13 )
-  (   68 FSMC_D12 )
-  (   69 /I2C2_SCL )
-  (   70 I2C2_SDA )
-  (   71 GND )
-  (   72 +3.3V )
-  (   73 ? )
-  (   74 ? )
-  (   75 ? )
-  (   76 ? )
-  (   77 FSMC_D13 )
-  (   78 FSMC_D14 )
-  (   79 FSMC_D15 )
-  (   80 FSMC_A16 )
-  (   81 /A17 )
-  (   82 ? )
-  (   83 GND )
-  (   84 +3.3V )
-  (   85 FSMC_D0 )
-  (   86 FSMC_D1 )
-  (   87 /A12 )
-  (   88 /A13 )
-  (   89 FSMC_A14 )
-  (   90 FSMC_A15 )
-  (   91 ? )
-  (   92 ? )
-  (   93 ? )
-  (   94 GND )
-  (   95 +3.3V )
-  (   96 ? )
-  (   97 ? )
-  (   98 SDIO_D0 )
-  (   99 SDIO_D1 )
-  (  100 ? )
-  (  101 ? )
-  (  102 ? )
-  (  103 /USBDM )
-  (  104 USBDP )
-  (  105 JTMS )
-  (  106 ? )
-  (  107 GND )
-  (  108 +3.3V )
-  (  109 /JTCK )
-  (  110 /JTDI )
-  (  111 SDIO_D2 )
-  (  112 /SDIO_D3 )
-  (  113 SDIO_CK )
-  (  114 FSMC_D2 )
-  (  115 FSMC_D3 )
-  (  116 SDIO_CMD )
-  (  117 SDCARD_DETECT )
-  (  118 FSMC_NOE )
-  (  119 FSMC_NWE )
-  (  120 GND )
-  (  121 +3.3V )
-  (  122 ? )
-  (  123 ? )
-  (  124 ? )
-  (  125 FSMC_NE3 )
-  (  126 ? )
-  (  127 FSMC_NE4 )
-  (  128 ? )
-  (  129 ? )
-  (  130 GND )
-  (  131 +3.3V )
-  (  132 ? )
-  (  133 JTDO )
-  (  134 /NJTRST )
-  (  135 ? )
-  (  136 ? )
-  (  137 ? )
-  (  138 ? )
-  (  139 ? )
-  (  140 ? )
-  (  141 FSMC_NBL0 )
-  (  142 FSMC_NBL1 )
-  (  143 GND )
-  (  144 +3.3V )
+ ( /4C969511/4C9ED091 SM1206 D3 3.6V
+  ( 1 GND )
+  ( 2 N-000049 )
  )
- ( /4C969EA8/4C96A165 $noname  C21 100nF {Lib=C}
-  (    1 GND )
-  (    2 +3.3V )
+ ( /4C969511/4C969CC5 con-usb-USB-B-SMT_num J1 USB
+  ( 1 N-000126 )
+  ( 2 /USBDM )
+  ( 3 /USBDP )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 GND )
  )
- ( /4C969EA8/4C969F76 $noname  U5 LM75CIMM-3 {Lib=LM75CIM}
-  (    1 I2C2_SDA )
-  (    2 /I2C2_SCL )
-  (    3 ? )
-  (    4 GND )
-  (    5 GND )
-  (    6 GND )
-  (    7 GND )
-  (    8 +3.3V )
+ ( /4C9A0693 pinhead-1X02 P1 VCC
+  ( 1 GND )
+  ( 2 +3.3V )
  )
- ( /4C969511/4C9A1C78 $noname  R14 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 RESERVOIR )
+ ( /4C969511/4C9788C1 pinhead-1X02 P2 FuncBtn
+  ( 1 GND )
+  ( 2 /FUNC_BTN )
  )
- ( /4C969511/4C9A0A24 $noname  U6 LM3940 {Lib=LM3940}
-  (    1 +3.3V )
-  (    2 N-000125 )
-  (    3 GND )
+ ( /4C969511/4C9789A6 pinhead-1X02 P3 REED
+  ( 1 GND )
+  ( 2 /REED )
  )
- ( /4C969511/4C9A0071 SM1812  C20 470nF {Lib=C}
-  (    1 GND )
-  (    2 N-000125 )
+ ( /4C969511/4C978A0D pinhead-1X02 P4 Flowmeter
+  ( 1 GND )
+  ( 2 /FLOW )
  )
- ( /4C969511/4C98BCB0 $noname  U3 Display {Lib=CONN_17X2}
-  (    1 FSMC_NE4 )
-  (    2 FSMC_D9 )
-  (    3 FSMC_A0 )
-  (    4 FSMC_D10 )
-  (    5 FSMC_NWE )
-  (    6 /Connections/DB13 )
-  (    7 FSMC_NOE )
-  (    8 FSMC_D12 )
-  (    9 LCDRESET )
-  (   10 FSMC_D13 )
-  (   11 FSMC_D0 )
-  (   12 FSMC_D14 )
-  (   13 FSMC_D1 )
-  (   14 FSMC_D15 )
-  (   15 GND )
-  (   16 LCDBACKLIGHT )
-  (   17 FSMC_D2 )
-  (   18 GND )
-  (   19 FSMC_D3 )
-  (   20 SPI1_MISO )
-  (   21 FSMC_D4 )
-  (   22 SPI1_MOSI )
-  (   23 FSMC_D5 )
-  (   24 TOUCHCS )
-  (   25 FSMC_D6 )
-  (   26 TOUCHBUSY )
-  (   27 FSMC_D7 )
-  (   28 /PC5 )
-  (   29 FSMC_D8 )
-  (   30 SPI1_SCK )
-  (   31 GND )
-  (   32 GND )
-  (   33 +3.3V )
-  (   34 +3.3V )
+ ( /4C969511/4C96A0A7 pinhead-2X02 P5 I2C
+  ( 1 /I2C2_SCL )
+  ( 2 /I2C2_SDA )
+  ( 3 +3.3V )
+  ( 4 GND )
  )
- ( /4C969511/4C978A12 $noname  R5 10k {Lib=R}
-  (    1 FLOWMETER )
-  (    2 +3.3V )
+ ( /4C969511/4C96A366 pinhead-2X02 P6 Reservoir
+  ( 1 /RES )
+  ( 2 +3.3V )
+  ( 3 GND )
+  ( 4 GND )
  )
- ( /4C969511/4C978A0D $noname  P4 Flowmeter {Lib=CONN_2}
-  (    1 GND )
-  (    2 FLOWMETER )
+ ( /4C969511/4C969B4A pinhead-2X05 P7 JTAG
+  ( 1 +3.3V )
+  ( 2 GND )
+  ( 3 /NRST )
+  ( 4 /JTMS )
+  ( 5 /NJTRST )
+  ( 6 /JTCK )
+  ( 7 /JTDO )
+  ( 8 /JTDI )
+  ( 9 ? )
+  ( 10 ? )
  )
- ( /4C969511/4C9789B9 $noname  R4 10k {Lib=R}
-  (    1 REED )
-  (    2 +3.3V )
+ ( /4C969511/4C9787FF pinhead-2X02 P8 Rotary
+  ( 1 /ROT_PHASEA )
+  ( 2 /ROT_PHASEB )
+  ( 3 /ROT_BTN )
+  ( 4 GND )
  )
- ( /4C969511/4C9789A6 $noname  P3 REED {Lib=CONN_2}
-  (    1 GND )
-  (    2 REED )
+ ( /4C969511/4C9EC56D pinhead-1X02 P9 Voltmeter
+  ( 1 N-000125 )
+  ( 2 GND )
  )
- ( /4C969511/4C97892C $noname  R6 10k {Lib=R}
-  (    1 FUNC_BTN )
-  (    2 +3.3V )
+ ( /4C969956 SM0805 R1 22
+  ( 1 /SLED )
+  ( 2 N-000003 )
  )
- ( /4C969511/4C9788C1 $noname  P2 FuncBtn {Lib=CONN_2}
-  (    1 GND )
-  (    2 FUNC_BTN )
+ ( /4C969F43 SM0805 R2 10k
+  ( 1 +3.3V )
+  ( 2 /I2C2_SCL )
  )
- ( /4C969511/4C978851 $noname  R9 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 /ROT_BTN )
+ ( /4C969F46 SM0805 R3 10k
+  ( 1 +3.3V )
+  ( 2 /I2C2_SDA )
  )
- ( /4C969511/4C97884D $noname  R8 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 ROT_PHASEA )
+ ( /4C969511/4C9789B9 SM0805 R4 10k
+  ( 1 /REED )
+  ( 2 +3.3V )
  )
- ( /4C969511/4C978848 $noname  R10 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 ROT_PHASEB )
+ ( /4C969511/4C978A12 SM0805 R5 10k
+  ( 1 /FLOW )
+  ( 2 +3.3V )
  )
- ( /4C969511/4C9787FF $noname  P8 Rotary {Lib=CONN_2X2}
-  (    1 ROT_PHASEA )
-  (    2 ROT_PHASEB )
-  (    3 /ROT_BTN )
-  (    4 GND )
+ ( /4C969511/4C97892C SM0805 R6 10k
+  ( 1 /FUNC_BTN )
+  ( 2 +3.3V )
  )
- ( /4C969511/4C96A366 $noname  P6 Reservoir {Lib=CONN_2X2}
-  (    1 RESERVOIR )
-  (    2 +3.3V )
-  (    3 GND )
-  (    4 GND )
+ ( /4C969511/4C969D81 SM0805 R7 1k5
+  ( 1 +3.3V )
+  ( 2 /USBDP )
  )
- ( /4C969511/4C96A0A7 $noname  P5 I2C {Lib=CONN_2X2}
-  (    1 /I2C2_SCL )
-  (    2 I2C2_SDA )
-  (    3 +3.3V )
-  (    4 GND )
+ ( /4C969511/4C97884D SM0805 R8 10k
+  ( 1 +3.3V )
+  ( 2 /ROT_PHASEA )
  )
- ( /4C969511/4C969D81 $noname  R7 1k5 {Lib=R}
-  (    1 +3.3V )
-  (    2 USBDP )
+ ( /4C969511/4C978851 SM0805 R9 10k
+  ( 1 +3.3V )
+  ( 2 /ROT_BTN )
  )
- ( /4C969511/4C969CC5 $noname  J1 USB {Lib=USB}
-  (    1 N-000125 )
-  (    2 /USBDM )
-  (    3 USBDP )
-  (    4 GND )
-  (    5 GND )
-  (    6 GND )
+ ( /4C969511/4C978848 SM0805 R10 10k
+  ( 1 +3.3V )
+  ( 2 /ROT_PHASEB )
  )
- ( /4C969511/4C969C00 $noname  R13 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 /JTDI )
+ ( /4C969511/4C969BFC SM0805 R11 10k
+  ( 1 +3.3V )
+  ( 2 /NJTRST )
  )
- ( /4C969511/4C969BFE $noname  R12 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 /JTCK )
+ ( /4C969511/4C969BFE SM0805 R12 10k
+  ( 1 +3.3V )
+  ( 2 /JTCK )
  )
- ( /4C969511/4C969BFC $noname  R11 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 /NJTRST )
+ ( /4C969511/4C969C00 SM0805 R13 10k
+  ( 1 +3.3V )
+  ( 2 /JTDI )
  )
- ( /4C969511/4C969B4A $noname  P7 JTAG {Lib=CONN_5X2}
-  (    1 +3.3V )
-  (    2 GND )
-  (    3 NRST )
-  (    4 JTMS )
-  (    5 /NJTRST )
-  (    6 /JTCK )
-  (    7 JTDO )
-  (    8 /JTDI )
-  (    9 ? )
-  (   10 ? )
+ ( /4C969511/4C9A1C78 SM0805 R14 10k
+  ( 1 +3.3V )
+  ( 2 /RES )
  )
- ( /4C95775A/4C9BEBFE $noname  R15 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 SDCARD_DETECT )
+ ( /4C95775A/4C9BEBFE SM0805 R15 10k
+  ( 1 +3.3V )
+  ( 2 /PD3 )
  )
- ( /4C95775A/4C9BEADA welectronic-MICRO-SD  X3 MICRO-SD {Lib=MICRO-SD}
-  (    1 SDIO_D2 )
-  (    2 /SDIO_D3 )
-  (    3 SDIO_CMD )
-  (    4 +3.3V )
-  (    5 SDIO_CK )
-  (    6 GND )
-  (    7 SDIO_D0 )
-  (    8 SDIO_D1 )
-  (   K1 GND )
-  (   K2 SDCARD_DETECT )
+ ( /4C969511/4C9EC604 SM0805 R16 16V-20V
+  ( 1 GND )
+  ( 2 N-000125 )
  )
- ( /4C95775A/4C9A0569 $noname  C17 100nF {Lib=C}
-  (    1 GND )
-  (    2 +3.3V )
+ ( /4C969511/4C9EC63D SM1206 R17 7,5
+  ( 1 N-000049 )
+  ( 2 N-000125 )
  )
- ( /4C95775A/4C97846E $noname  C19 100nF {Lib=C}
-  (    1 GND )
-  (    2 +3.3V )
+ ( /4C969511/4C9EC640 SM0805 R18 1,5
+  ( 1 GND )
+  ( 2 N-000049 )
  )
- ( /4C95775A/4C978464 $noname  C18 100nF {Lib=C}
-  (    1 GND )
-  (    2 +3.3V )
+ ( /4C95718E TQFP144 U1 STM32F10XZX
+  ( 1 /SLED )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 /VBAT )
+  ( 7 ? )
+  ( 8 /OSC32_IN )
+  ( 9 /OSC32_OUT )
+  ( 10 /Connections/RS )
+  ( 11 /A1 )
+  ( 12 /A2 )
+  ( 13 /A3 )
+  ( 14 /A4 )
+  ( 15 /A5 )
+  ( 16 GND )
+  ( 17 +3.3V )
+  ( 18 /ROT_PHASEA )
+  ( 19 /ROT_PHASEB )
+  ( 20 /ROT_BTN )
+  ( 21 /FUNC_BTN )
+  ( 22 /REED )
+  ( 23 /OSC_IN )
+  ( 24 /OSC_OUT )
+  ( 25 /NRST )
+  ( 26 /FLOW )
+  ( 27 /RES )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 GND )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 +3.3V )
+  ( 34 ? )
+  ( 35 N-000049 )
+  ( 36 ? )
+  ( 37 /PA3 )
+  ( 38 GND )
+  ( 39 +3.3V )
+  ( 40 /PA4 )
+  ( 41 /PA5 )
+  ( 42 /PA6 )
+  ( 43 /Connections/SDI )
+  ( 44 /PC4 )
+  ( 45 /PC5 )
+  ( 46 /PB0 )
+  ( 47 ? )
+  ( 48 ? )
+  ( 49 ? )
+  ( 50 /A6 )
+  ( 51 GND )
+  ( 52 +3.3V )
+  ( 53 /A7 )
+  ( 54 /A8 )
+  ( 55 /A9 )
+  ( 56 /A10 )
+  ( 57 /A11 )
+  ( 58 /Connections/DB5 )
+  ( 59 /LCD_DB6 )
+  ( 60 /Connections/DB7 )
+  ( 61 GND )
+  ( 62 +3.3V )
+  ( 63 /LCD_DB8 )
+  ( 64 /LCD_DB10 )
+  ( 65 /LCD_DB11 )
+  ( 66 /LCD_DB12 )
+  ( 67 /Connect1 )
+  ( 68 /Connect2 )
+  ( 69 /I2C2_SCL )
+  ( 70 /I2C2_SDA )
+  ( 71 GND )
+  ( 72 +3.3V )
+  ( 73 ? )
+  ( 74 ? )
+  ( 75 ? )
+  ( 76 ? )
+  ( 77 /LCD_DB15 )
+  ( 78 /LCD_DB16 )
+  ( 79 /Connect3 )
+  ( 80 /A16 )
+  ( 81 /A17 )
+  ( 82 ? )
+  ( 83 GND )
+  ( 84 +3.3V )
+  ( 85 /LCD_DB1 )
+  ( 86 /LCD_DB2 )
+  ( 87 /A12 )
+  ( 88 /A13 )
+  ( 89 /A14 )
+  ( 90 /A15 )
+  ( 91 ? )
+  ( 92 ? )
+  ( 93 ? )
+  ( 94 GND )
+  ( 95 +3.3V )
+  ( 96 ? )
+  ( 97 ? )
+  ( 98 /SDIO_D0 )
+  ( 99 /SDIO_D1 )
+  ( 100 ? )
+  ( 101 ? )
+  ( 102 ? )
+  ( 103 /USBDM )
+  ( 104 /USBDP )
+  ( 105 /JTMS )
+  ( 106 ? )
+  ( 107 GND )
+  ( 108 +3.3V )
+  ( 109 /JTCK )
+  ( 110 /JTDI )
+  ( 111 /SDIO_D2 )
+  ( 112 /SDIO_D3 )
+  ( 113 /SDIO_CK )
+  ( 114 /Connections/DB3 )
+  ( 115 /Connections/DB4 )
+  ( 116 /SDIO_CMD )
+  ( 117 /PD3 )
+  ( 118 /LCD_RD )
+  ( 119 /Connect4 )
+  ( 120 GND )
+  ( 121 +3.3V )
+  ( 122 ? )
+  ( 123 ? )
+  ( 124 ? )
+  ( 125 /SD_CS )
+  ( 126 ? )
+  ( 127 /Connections/CS )
+  ( 128 ? )
+  ( 129 ? )
+  ( 130 GND )
+  ( 131 +3.3V )
+  ( 132 ? )
+  ( 133 /JTDO )
+  ( 134 /NJTRST )
+  ( 135 ? )
+  ( 136 ? )
+  ( 137 ? )
+  ( 138 ? )
+  ( 139 ? )
+  ( 140 ? )
+  ( 141 /NBL0 )
+  ( 142 /NBL1 )
+  ( 143 GND )
+  ( 144 +3.3V )
  )
- ( /4C95775A/4C976D62 $noname  U2 AS7C34098A {Lib=AS7C34098A}
-  (    1 FSMC_A0 )
-  (    2 FSMC_A1 )
-  (    3 FSMC_A2 )
-  (    4 FSMC_A3 )
-  (    5 FSMC_A4 )
-  (    6 FSMC_NE3 )
-  (    7 FSMC_D0 )
-  (    8 FSMC_D1 )
-  (    9 FSMC_D2 )
-  (   10 FSMC_D3 )
-  (   11 +3.3V )
-  (   12 GND )
-  (   13 FSMC_D4 )
-  (   14 FSMC_D5 )
-  (   15 FSMC_D6 )
-  (   16 FSMC_D7 )
-  (   17 FSMC_NWE )
-  (   18 FSMC_A5 )
-  (   19 /A6 )
-  (   20 FSMC_A7 )
-  (   21 FSMC_A8 )
-  (   22 /A9 )
-  (   23 FSMC_A10 )
-  (   24 /A11 )
-  (   25 /A12 )
-  (   26 /A13 )
-  (   27 FSMC_A14 )
-  (   28 ? )
-  (   29 FSMC_D8 )
-  (   30 FSMC_D9 )
-  (   31 FSMC_D10 )
-  (   32 /Connections/DB13 )
-  (   33 +3.3V )
-  (   34 GND )
-  (   35 FSMC_D12 )
-  (   36 FSMC_D13 )
-  (   37 FSMC_D14 )
-  (   38 FSMC_D15 )
-  (   39 FSMC_NBL0 )
-  (   40 FSMC_NBL1 )
-  (   41 FSMC_NOE )
-  (   42 FSMC_A15 )
-  (   43 FSMC_A16 )
-  (   44 /A17 )
+ ( /4C95775A/4C976D62 TSOP44 U2 AS7C34098A
+  ( 1 /Connections/RS )
+  ( 2 /A1 )
+  ( 3 /A2 )
+  ( 4 /A3 )
+  ( 5 /A4 )
+  ( 6 /SD_CS )
+  ( 7 /LCD_DB1 )
+  ( 8 /LCD_DB2 )
+  ( 9 /Connections/DB3 )
+  ( 10 /Connections/DB4 )
+  ( 11 +3.3V )
+  ( 12 GND )
+  ( 13 /Connections/DB5 )
+  ( 14 /LCD_DB6 )
+  ( 15 /Connections/DB7 )
+  ( 16 /LCD_DB8 )
+  ( 17 /Connect4 )
+  ( 18 /A5 )
+  ( 19 /A6 )
+  ( 20 /A7 )
+  ( 21 /A8 )
+  ( 22 /A9 )
+  ( 23 /A10 )
+  ( 24 /A11 )
+  ( 25 /A12 )
+  ( 26 /A13 )
+  ( 27 /A14 )
+  ( 28 ? )
+  ( 29 /LCD_DB10 )
+  ( 30 /LCD_DB11 )
+  ( 31 /LCD_DB12 )
+  ( 32 /Connect1 )
+  ( 33 +3.3V )
+  ( 34 GND )
+  ( 35 /Connect2 )
+  ( 36 /LCD_DB15 )
+  ( 37 /LCD_DB16 )
+  ( 38 /Connect3 )
+  ( 39 /NBL0 )
+  ( 40 /NBL1 )
+  ( 41 /LCD_RD )
+  ( 42 /A15 )
+  ( 43 /A16 )
+  ( 44 /A17 )
+ )
+ ( /4C969511/4C98BCB0 pinhead-2X17 U3 Display
+  ( 1 /Connections/CS )
+  ( 2 /LCD_DB11 )
+  ( 3 /Connections/RS )
+  ( 4 /LCD_DB12 )
+  ( 5 /Connect4 )
+  ( 6 /Connect1 )
+  ( 7 /LCD_RD )
+  ( 8 /Connect2 )
+  ( 9 /PB0 )
+  ( 10 /LCD_DB15 )
+  ( 11 /LCD_DB1 )
+  ( 12 /LCD_DB16 )
+  ( 13 /LCD_DB2 )
+  ( 14 /Connect3 )
+  ( 15 GND )
+  ( 16 /PA3 )
+  ( 17 /Connections/DB3 )
+  ( 18 GND )
+  ( 19 /Connections/DB4 )
+  ( 20 /PA6 )
+  ( 21 /Connections/DB5 )
+  ( 22 /Connections/SDI )
+  ( 23 /LCD_DB6 )
+  ( 24 /PA4 )
+  ( 25 /Connections/DB7 )
+  ( 26 /PC4 )
+  ( 27 /LCD_DB8 )
+  ( 28 /PC5 )
+  ( 29 /LCD_DB10 )
+  ( 30 /PA5 )
+  ( 31 GND )
+  ( 32 GND )
+  ( 33 +3.3V )
+  ( 34 +3.3V )
+ )
+ ( /4C969EA8/4C969F76 MSOP_8 U5 LM75CIMM-3
+  ( 1 /I2C2_SDA )
+  ( 2 /I2C2_SCL )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 +3.3V )
+ )
+ ( /4C969511/4C9A0A24 TO220 U6 LM3940
+  ( 1 +3.3V )
+  ( 2 N-000126 )
+  ( 3 GND )
+ )
+ ( /4C957277 crystal-SM49 X1 32.768
+  ( 1 /OSC32_IN )
+  ( 2 /OSC32_OUT )
+ )
+ ( /4C957295 crystal-SM49 X2 8MHz
+  ( 1 /OSC_IN )
+  ( 2 /OSC_OUT )
+ )
+ ( /4C95775A/4C9BEADA welectronic-MICRO-SD X3 MICRO-SD
+  ( 1 /SDIO_D2 )
+  ( 2 /SDIO_D3 )
+  ( 3 /SDIO_CMD )
+  ( 4 +3.3V )
+  ( 5 /SDIO_CK )
+  ( 6 GND )
+  ( 7 /SDIO_D0 )
+  ( 8 /SDIO_D1 )
+  ( K1 GND )
+  ( K2 /PD3 )
  )
 )
 *
 { Allowed footprints by component:
-$component R3
- R?
- SM0603
- SM0805
- R?-*
+$component C1
+ SM*
+ C?
+ C1-1
 $endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
+$component C2
+ SM*
+ C?
+ C1-1
 $endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
 $endlist
 $component D1
  LED-3MM
@@ -499,580 +610,134 @@ $component D1
  LED-1206
  LEDV
 $endlist
-$component C12
+$component D2
+ D?
+ SO*
  SM*
- C?
- C1-1
 $endlist
-$component C10
+$component D3
+ D?
+ SO*
  SM*
- C?
- C1-1
 $endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C16
- SM*
- C?
- C1-1
-$endlist
-$component C15
- SM*
- C?
- C1-1
-$endlist
-$component C14
- SM*
- C?
- C1-1
-$endlist
-$component C13
- SM*
- C?
- C1-1
-$endlist
-$component C21
- SM*
- C?
- C1-1
-$endlist
-$component R14
+$component R1
  R?
  SM0603
  SM0805
  R?-*
+ SM1206
 $endlist
-$component C20
- SM*
- C?
- C1-1
-$endlist
-$component R5
+$component R2
  R?
  SM0603
  SM0805
  R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $component R4
  R?
  SM0603
  SM0805
  R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $component R6
  R?
  SM0603
  SM0805
  R?-*
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R10
- R?
- SM0603
- SM0805
- R?-*
+ SM1206
 $endlist
 $component R7
  R?
  SM0603
  SM0805
  R?-*
+ SM1206
 $endlist
-$component R13
+$component R8
  R?
  SM0603
  SM0805
  R?-*
+ SM1206
 $endlist
-$component R12
+$component R9
  R?
  SM0603
  SM0805
  R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $component R11
  R?
  SM0603
  SM0805
  R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $component R15
  R?
  SM0603
  SM0805
  R?-*
+ SM1206
 $endlist
-$component C17
- SM*
- C?
- C1-1
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
-$component C19
- SM*
- C?
- C1-1
-$endlist
-$component C18
- SM*
- C?
- C1-1
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "/OSC32_IN" "OSC32_IN"
- C13 1
- X1 1
- U1 8
-Net 2 "/OSC32_OUT" "OSC32_OUT"
- C14 1
- X1 2
- U1 9
-Net 4 "/SLED" "SLED"
- R1 1
- U1 1
-Net 5 "" ""
- R1 2
- D1 1
-Net 17 "FSMC_D12" "FSMC_D12"
- U1 68
- U2 35
- U3 8
-Net 18 "ROT_PHASEB" "ROT_PHASEB"
- P8 2
- U1 19
- R10 2
-Net 22 "GND" "GND"
- U1 143
- C20 1
- P2 1
- U1 51
- X3 K1
- X3 6
- P8 4
- U1 38
- P6 3
- P6 4
- U1 107
- U1 16
- U3 18
- U1 83
- U3 15
- C17 1
- U3 32
- U3 31
- U1 30
- U1 71
- U6 3
- U1 94
- U1 61
- C21 1
- J1 4
- C13 2
- C15 2
- C16 2
- J1 5
- C19 1
- C18 1
- J1 6
- U2 34
- U5 6
- U5 5
- U5 4
- U5 7
- U2 12
- C14 2
- U1 130
- C9 2
- C6 2
- C4 2
- C2 2
- C11 2
- P5 4
- C7 2
- C1 2
- C5 2
- P7 2
- C3 2
- D1 2
- U1 120
- P3 1
- C8 2
- C10 2
- P4 1
- BT1 2
- C12 2
- P1 1
-Net 38 "FSMC_A3" "FSMC_A3"
- U2 4
- U1 13
-Net 42 "FSMC_A1" "FSMC_A1"
- U1 11
- U2 2
-Net 46 "FSMC_D10" "FSMC_D10"
- U2 31
- U1 66
- U3 4
-Net 52 "FSMC_D8" "FSMC_D8"
- U2 29
- U1 64
- U3 29
-Net 54 "+3.3V" "+3.3V"
- R2 1
- R3 1
- C17 2
- X3 4
- R15 1
- P1 2
- P7 1
- R4 2
- R5 2
- P6 2
- R6 2
- R9 1
- C21 2
- U5 8
- R8 1
- R13 1
- R12 1
- R11 1
- P5 3
- R7 1
- U6 1
- R14 1
- C19 2
- C18 2
- U2 33
- R10 1
- U2 11
- U3 34
- U3 33
- U1 108
- U1 84
- U1 17
- U1 95
- U1 33
- U1 72
- U1 62
- U1 52
- U1 144
- U1 131
- U1 121
- U1 39
- C8 1
- C10 1
- C12 1
- C2 1
- C1 1
- C3 1
- C5 1
- C7 1
- C6 1
- C9 1
- C11 1
- C4 1
-Net 55 "FSMC_A5" "FSMC_A5"
- U2 18
- U1 15
-Net 56 "I2C2_SDA" "I2C2_SDA"
- U1 70
- P5 2
- R3 2
- U5 1
-Net 57 "FSMC_A8" "FSMC_A8"
- U1 54
- U2 21
-Net 58 "/A13" "A13"
- U1 88
- U2 26
-Net 59 "/A17" "A17"
- U2 44
- U1 81
-Net 60 "FSMC_A10" "FSMC_A10"
- U2 23
- U1 56
-Net 61 "/A6" "A6"
- U2 19
- U1 50
-Net 62 "FLOWMETER" "FLOWMETER"
- P4 2
- U1 26
- R5 1
-Net 63 "NRST" "NRST"
- P7 3
- U1 25
-Net 64 "/OSC_OUT" "OSC_OUT"
- U1 24
- C16 1
- X2 2
-Net 65 "/OSC_IN" "OSC_IN"
- C15 1
- U1 23
- X2 1
-Net 66 "/JTDI" "JTDI"
- U1 110
- R13 2
- P7 8
-Net 67 "FSMC_NBL1" "FSMC_NBL1"
- U2 40
- U1 142
-Net 68 "/NJTRST" "NJTRST"
- R11 2
- U1 134
- P7 5
-Net 69 "JTDO" "JTDO"
- P7 7
- U1 133
-Net 70 "SDIO_CMD" "SDIO_CMD"
- X3 3
- U1 116
-Net 71 "/SDIO_D3" "SDIO_D3"
- X3 2
- U1 112
-Net 72 "SDIO_D2" "SDIO_D2"
- X3 1
- U1 111
-Net 73 "FUNC_BTN" "FUNC_BTN"
- U1 21
- R6 1
- P2 2
-Net 74 "JTMS" "JTMS"
- P7 4
- U1 105
-Net 75 "/USBDM" "USBDM"
- J1 2
- U1 103
-Net 76 "SDIO_D1" "SDIO_D1"
- X3 8
- U1 99
-Net 77 "FSMC_A15" "FSMC_A15"
- U1 90
- U2 42
-Net 78 "/VBAT" "VBAT"
- U1 6
- BT1 1
-Net 79 "FSMC_A2" "FSMC_A2"
- U1 12
- U2 3
-Net 80 "/A9" "A9"
- U2 22
- U1 55
-Net 81 "FSMC_A7" "FSMC_A7"
- U1 53
- U2 20
-Net 82 "FSMC_A4" "FSMC_A4"
- U2 5
- U1 14
-Net 83 "/A11" "A11"
- U1 57
- U2 24
-Net 84 "LCDBACKLIGHT" "LCDBACKLIGHT"
- U1 37
- U3 16
-Net 85 "TOUCHCS" "TOUCHCS"
- U1 40
- U3 24
-Net 86 "SPI1_SCK" "SPI1_SCK"
- U1 41
- U3 30
-Net 87 "SPI1_MISO" "SPI1_MISO"
- U1 42
- U3 20
-Net 88 "SPI1_MOSI" "SPI1_MOSI"
- U1 43
- U3 22
-Net 89 "TOUCHBUSY" "TOUCHBUSY"
- U3 26
- U1 44
-Net 90 "/PC5" "PC5"
- U3 28
- U1 45
-Net 91 "SDIO_D0" "SDIO_D0"
- X3 7
- U1 98
-Net 92 "REED" "REED"
- U1 22
- R4 1
- P3 2
-Net 93 "/ROT_BTN" "ROT_BTN"
- U1 20
- R9 2
- P8 3
-Net 94 "ROT_PHASEA" "ROT_PHASEA"
- U1 18
- P8 1
- R8 2
-Net 95 "LCDRESET" "LCDRESET"
- U3 9
- U1 46
-Net 96 "FSMC_NBL0" "FSMC_NBL0"
- U2 39
- U1 141
-Net 97 "FSMC_A16" "FSMC_A16"
- U2 43
- U1 80
-Net 98 "FSMC_A14" "FSMC_A14"
- U2 27
- U1 89
-Net 99 "/A12" "A12"
- U1 87
- U2 25
-Net 100 "FSMC_D5" "FSMC_D5"
- U2 14
- U1 59
- U3 23
-Net 101 "FSMC_D4" "FSMC_D4"
- U1 58
- U3 21
- U2 13
-Net 102 "RESERVOIR" "RESERVOIR"
- P6 1
- R14 2
- U1 27
-Net 103 "FSMC_D6" "FSMC_D6"
- U1 60
- U3 25
- U2 15
-Net 104 "/I2C2_SCL" "I2C2_SCL"
- P5 1
- U5 2
- U1 69
- R2 2
-Net 105 "USBDP" "USBDP"
- U1 104
- J1 3
- R7 2
-Net 106 "/JTCK" "JTCK"
- P7 6
- R12 2
- U1 109
-Net 107 "FSMC_D13" "FSMC_D13"
- U1 77
- U3 10
- U2 36
-Net 108 "FSMC_A0" "FSMC_A0"
- U1 10
- U3 3
- U2 1
-Net 109 "FSMC_NE4" "FSMC_NE4"
- U3 1
- U1 127
-Net 110 "FSMC_NWE" "FSMC_NWE"
- U3 5
- U1 119
- U2 17
-Net 111 "FSMC_NOE" "FSMC_NOE"
- U3 7
- U2 41
- U1 118
-Net 112 "FSMC_D3" "FSMC_D3"
- U1 115
- U3 19
- U2 10
-Net 113 "FSMC_D2" "FSMC_D2"
- U1 114
- U2 9
- U3 17
-Net 114 "FSMC_D1" "FSMC_D1"
- U3 13
- U1 86
- U2 8
-Net 115 "FSMC_D0" "FSMC_D0"
- U2 7
- U1 85
- U3 11
-Net 116 "FSMC_D14" "FSMC_D14"
- U1 78
- U3 12
- U2 37
-Net 117 "FSMC_D15" "FSMC_D15"
- U2 38
- U3 14
- U1 79
-Net 118 "/Connections/DB13" "DB13"
- U2 32
- U1 67
- U3 6
-Net 119 "FSMC_D9" "FSMC_D9"
- U2 30
- U3 2
- U1 65
-Net 120 "FSMC_D7" "FSMC_D7"
- U3 27
- U1 63
- U2 16
-Net 121 "FSMC_NE3" "FSMC_NE3"
- U2 6
- U1 125
-Net 122 "SDCARD_DETECT" "SDCARD_DETECT"
- R15 2
- X3 K2
- U1 117
-Net 123 "SDIO_CK" "SDIO_CK"
- X3 5
- U1 113
-Net 125 "" ""
- J1 1
- U6 2
- C20 2
-}
-#End

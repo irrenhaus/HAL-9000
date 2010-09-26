@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-08-29 BZR 2466)-unstable date = Fr 24 Sep 2010 02:14:02 CEST
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 26.09.2010 06:54:51
 
 BeginCmp
 TimeStamp = /4C96991A;
@@ -162,6 +162,20 @@ IdModule  = LED-1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /4C969511/4C9ED08D;
+Reference = D2;
+ValeurCmp = 3.6V;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C969511/4C9ED091;
+Reference = D3;
+ValeurCmp = 3.6V;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /4C969511/4C969CC5;
 Reference = J1;
 ValeurCmp = USB;
@@ -222,6 +236,13 @@ TimeStamp = /4C969511/4C9787FF;
 Reference = P8;
 ValeurCmp = Rotary;
 IdModule  = pinhead-2X02;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C969511/4C9EC56D;
+Reference = P9;
+ValeurCmp = Voltmeter;
+IdModule  = pinhead-1X02;
 EndCmp
 
 BeginCmp
@@ -326,6 +347,27 @@ BeginCmp
 TimeStamp = /4C95775A/4C9BEBFE;
 Reference = R15;
 ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C969511/4C9EC604;
+Reference = R16;
+ValeurCmp = 16V-20V;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C969511/4C9EC63D;
+Reference = R17;
+ValeurCmp = 7,5;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C969511/4C9EC640;
+Reference = R18;
+ValeurCmp = 1,5;
 IdModule  = SM0805;
 EndCmp
 
