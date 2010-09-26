@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fr 24 Sep 2010 02:12:24 CEST
+EESchema Schematic File Version 2  date Fr 24 Sep 2010 05:02:11 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -77,10 +77,6 @@ Text Label 8450 2500 0    60   ~ 0
 USBDP
 Text Label 8450 2600 0    60   ~ 0
 USBDM
-Text Label 8450 2700 0    60   ~ 0
-USART1_RX
-Text Label 8450 2800 0    60   ~ 0
-USART1_TX
 Text Label 8750 3000 0    60   ~ 0
 SDIO_D1
 Text Label 8750 3100 0    60   ~ 0
@@ -175,8 +171,6 @@ Wire Wire Line
 	3300 3100 2650 3100
 Wire Wire Line
 	5400 6900 5400 6100
-Wire Wire Line
-	8950 2800 8400 2800
 Wire Wire Line
 	6900 1600 6900 1000
 Wire Wire Line
@@ -412,8 +406,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 1000 7200 1600
 Wire Wire Line
-	8400 2700 8950 2700
-Wire Wire Line
 	2650 3000 3300 3000
 Wire Wire Line
 	2650 3200 3300 3200
@@ -469,10 +461,6 @@ Text Label 6800 1450 1    60   ~ 0
 PD3
 Text GLabel 6800 1100 1    45   Input ~ 0
 SDCARD_DETECT
-Text GLabel 8950 2700 2    45   Input ~ 0
-USART1_RX
-Text GLabel 8950 2800 2    45   Output ~ 0
-USART1_TX
 Text GLabel 6900 1000 1    45   Output ~ 0
 SDIO_CMD
 Text GLabel 7200 1000 1    45   Output ~ 0
