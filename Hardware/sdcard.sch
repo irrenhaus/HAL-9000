@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 20.09.2010 01:01:54
+EESchema Schematic File Version 2  date Mi 09 Mär 2011 16:26:06 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:STM32F10xZx
-EELAYER 24  0
+LIBS:nhesse
+LIBS:bordcomputer-cache
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 4
+Sheet 8 11
 Title ""
-Date "19 sep 2010"
+Date "9 mar 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -43,4 +44,77 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L +3.3V #PWR071
+U 1 1 4D7434A2
+P 1150 1450
+F 0 "#PWR071" H 1150 1410 30  0001 C CNN
+F 1 "+3.3V" H 1150 1560 30  0000 C CNN
+	1    1150 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR072
+U 1 1 4D7434A0
+P 1150 1250
+F 0 "#PWR072" H 1150 1250 30  0001 C CNN
+F 1 "GND" H 1150 1180 30  0001 C CNN
+	1    1150 1250
+	0    1    1    0   
+$EndComp
+Text HLabel 1150 1750 0    60   BiDi ~ 0
+SDD2
+Text HLabel 1150 1650 0    60   BiDi ~ 0
+SDD3
+Text HLabel 1150 1550 0    60   Input ~ 0
+SDCMD
+Text HLabel 1150 1350 0    60   Input ~ 0
+SDCLK
+Text HLabel 1150 1150 0    60   BiDi ~ 0
+SDD0
+Text HLabel 1150 1050 0    60   BiDi ~ 0
+SDD1
+Connection ~ 3050 1050
+Wire Wire Line
+	3050 850  3050 1050
+Wire Wire Line
+	2900 1050 3150 1050
+$Comp
+L GND #PWR073
+U 1 1 4D743467
+P 3550 850
+F 0 "#PWR073" H 3550 850 30  0001 C CNN
+F 1 "GND" H 3550 780 30  0001 C CNN
+	1    3550 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R801
+U 1 1 4D743462
+P 3300 850
+F 0 "R801" V 3380 850 50  0000 C CNN
+F 1 "100k" V 3300 850 50  0000 C CNN
+	1    3300 850 
+	0    1    1    0   
+$EndComp
+Text HLabel 3150 1050 2    60   Output ~ 0
+SDDETECT
+$Comp
+L +3.3V #PWR074
+U 1 1 4D74344F
+P 2900 1150
+F 0 "#PWR074" H 2900 1110 30  0001 C CNN
+F 1 "+3.3V" H 2900 1260 30  0000 C CNN
+	1    2900 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L MICROSD U801
+U 1 1 4D743442
+P 2000 1450
+F 0 "U801" H 1500 650 60  0000 C CNN
+F 1 "MICROSD" H 1850 750 60  0000 C CNN
+	1    2000 1450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

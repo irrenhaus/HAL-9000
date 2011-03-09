@@ -37,7 +37,7 @@
 #include "diskio.h"
 
 // demo uses a command line option to define this (see Makefile):
- #define STM32_SD_USE_DMA
+// #define STM32_SD_USE_DMA
 
 
 #ifdef STM32_SD_USE_DMA
@@ -118,10 +118,10 @@
  #define GPIO_CS                  GPIOE
  #define RCC_APB2Periph_GPIO_CS   RCC_APB2Periph_GPIOE
  #define GPIO_Pin_CS              GPIO_Pin_10
- #define DMA_Channel_SPI_SD_RX    DMA1_Channel4
- #define DMA_Channel_SPI_SD_TX    DMA1_Channel5
- #define DMA_FLAG_SPI_SD_TC_RX    DMA1_FLAG_TC4
- #define DMA_FLAG_SPI_SD_TC_TX    DMA1_FLAG_TC5
+ #define DMA_Channel_SPI_SD_RX    DMA1_Channel2
+ #define DMA_Channel_SPI_SD_TX    DMA1_Channel3
+ #define DMA_FLAG_SPI_SD_TC_RX    DMA1_FLAG_TC2
+ #define DMA_FLAG_SPI_SD_TC_TX    DMA1_FLAG_TC3
  #define GPIO_SPI_SD              GPIOB
  #define GPIO_Pin_SPI_SD_SCK      GPIO_Pin_13
  #define GPIO_Pin_SPI_SD_MISO     GPIO_Pin_14

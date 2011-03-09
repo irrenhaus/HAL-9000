@@ -1,0 +1,953 @@
+
+(session display.ses
+  (base_design display.dsn)
+  (placement
+    (resolution mil 10)
+    (component "pinhead-1X03SMD/90"
+      (place JP1 33020 -53260 front 180)
+    )
+    (component "pinhead-1X12SMD/90"
+      (place P1 29840 -53260 front 180)
+    )
+    (component SM1206
+      (place R2 34700 -48120 front 90)
+      (place R1 35740 -48120 front 90)
+      (place C2 21500 -46200 front 90)
+      (place R3 33660 -48120 front 90)
+      (place R4 32620 -48120 front 90)
+      (place C1 30940 -48120 front 90)
+    )
+    (component SOT23GDS
+      (place Q1 35800 -44040 front 180)
+    )
+    (component "MI0283QT-2"
+      (place U1 26378 -35039 front 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(2010-08-29 BZR 2466)-unstable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_69:39_mil"
+        (shape
+          (circle Vorderseite 690 0 0)
+        )
+        (shape
+          (circle Back 690 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_69:0_mil"
+        (shape
+          (circle Vorderseite 690 0 0)
+        )
+        (shape
+          (circle Back 690 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net +3.3V
+        (wire
+          (path Vorderseite 140
+            29943 -51784
+            29943 -50787
+            29994 -50736
+            30766 -50736
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            31889 -43639
+            31889 -42770
+            31966 -42693
+            36518 -42693
+            36864 -43039
+            36864 -49089
+            33656 -52297
+            30456 -52297
+            29943 -51784
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            24714 -51744
+            24754 -51784
+            29943 -51784
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30766 -50736
+            30766 -51379
+            31170 -51783
+            32792 -51783
+            33147 -51428
+            33147 -51260
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30940 -49243
+            30766 -49417
+            30766 -50736
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21500 -47323
+            24714 -50537
+            24714 -51744
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            24714 -51744
+            24675 -51783
+            20340 -51783
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21500 -46850
+            21500 -46377
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            20340 -51260
+            20340 -51783
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21500 -46850
+            21500 -47323
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21812 -43639
+            21812 -44617
+            22074 -44879
+            22074 -46276
+            21973 -46377
+            21500 -46377
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            33520 -51260
+            33147 -51260
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30940 -48770
+            30940 -49243
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            35740 -48770
+            34700 -48770
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            33660 -48770
+            34700 -48770
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            33193 -48770
+            33660 -48770
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            32620 -48770
+            33193 -48770
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            33660 -48770
+            33660 -50597
+            33520 -50737
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21182 -42974
+            21374 -42974
+            21497 -43097
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21497 -43097
+            21620 -42974
+            21812 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21497 -43306
+            21497 -43097
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21182 -43639
+            21182 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21812 -43639
+            21812 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21497 -43639
+            21497 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            33520 -51260
+            33520 -50737
+          )
+        )
+      )
+      (net /LCDCS
+        (wire
+          (path Vorderseite 140
+            25340 -51260
+            25340 -50737
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            25340 -50737
+            22441 -47838
+            22441 -43639
+          )
+        )
+      )
+      (net /LCDLED
+        (wire
+          (path Vorderseite 140
+            35450 -44793
+            36314 -45657
+            36314 -49294
+            33582 -52026
+            30583 -52026
+            30340 -51783
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            35450 -44440
+            35450 -44793
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30340 -51260
+            30340 -51783
+          )
+        )
+      )
+      (net /LCDRST
+        (wire
+          (path Vorderseite 140
+            31259 -43639
+            31259 -45897
+            29340 -47816
+            29340 -51260
+          )
+        )
+      )
+      (net /SCK
+        (wire
+          (path Vorderseite 140
+            26340 -51260
+            26340 -50737
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            23071 -43639
+            23071 -47468
+            26340 -50737
+          )
+        )
+      )
+      (net /SDI
+        (wire
+          (path Vorderseite 140
+            27340 -51260
+            27340 -50737
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            23701 -43639
+            23701 -47098
+            27340 -50737
+          )
+        )
+      )
+      (net /SDO
+        (wire
+          (path Vorderseite 140
+            28340 -50737
+            24016 -46413
+            24016 -43639
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            28340 -51260
+            28340 -50737
+          )
+        )
+      )
+      (net /X+
+        (wire
+          (path Vorderseite 140
+            24340 -51260
+            24340 -50737
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            24340 -50737
+            20552 -46949
+            20552 -43639
+          )
+        )
+      )
+      (net "/X-"
+        (wire
+          (path Vorderseite 140
+            22340 -50737
+            19922 -48319
+            19922 -43639
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            22340 -51260
+            22340 -50737
+          )
+        )
+      )
+      (net /Y+
+        (wire
+          (path Vorderseite 140
+            23340 -50737
+            20237 -47634
+            20237 -43639
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            23340 -51260
+            23340 -50737
+          )
+        )
+      )
+      (net "/Y-"
+        (wire
+          (path Vorderseite 140
+            21340 -51260
+            21340 -50737
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21340 -50737
+            19607 -49004
+            19607 -43639
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path Vorderseite 140
+            24331 -43306
+            24331 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            24331 -43639
+            24331 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            24331 -43306
+            24646 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            23386 -42974
+            24331 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            22756 -42974
+            23386 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            24646 -43639
+            24646 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            24646 -43306
+            24961 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            26221 -43306
+            26221 -43014
+            26261 -42974
+            26535 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            26221 -43472
+            26221 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            26535 -43306
+            26535 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            26535 -43639
+            26535 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            26535 -43306
+            26850 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            26221 -43639
+            26221 -43472
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            24961 -43639
+            24961 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            24961 -43306
+            25276 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            25276 -43639
+            25276 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            25276 -43306
+            25591 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            32204 -43639
+            32204 -44304
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            31574 -44304
+            32204 -44304
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30940 -46997
+            31574 -46363
+            31574 -44304
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            28740 -43306
+            28740 -43014
+            28780 -42974
+            29055 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            28740 -43472
+            28740 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            29055 -43306
+            29055 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            29055 -43639
+            29055 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            29055 -43306
+            29370 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            28740 -43639
+            28740 -43472
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            27480 -43306
+            27480 -43014
+            27520 -42974
+            27795 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            27480 -43472
+            27480 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            27795 -43306
+            27795 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            27795 -43639
+            27795 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            27795 -43306
+            28110 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            27480 -43639
+            27480 -43472
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            28110 -43639
+            28110 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            28110 -43306
+            28425 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            26850 -43639
+            26850 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            26850 -43306
+            27165 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            27165 -43639
+            27165 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            27165 -43306
+            27480 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            25591 -43639
+            25591 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            25591 -43306
+            25906 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            25906 -43639
+            25906 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            25906 -43306
+            26221 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            36150 -44440
+            36150 -44087
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            32204 -43639
+            32204 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            32204 -42974
+            36115 -42974
+            36154 -43013
+            36154 -44083
+            36150 -44087
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            31574 -43639
+            31574 -44304
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30940 -47470
+            30940 -46997
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30000 -43306
+            30000 -43014
+            30040 -42974
+            30315 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30000 -43472
+            30000 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30315 -43306
+            30315 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30315 -43639
+            30315 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30629 -43306
+            30629 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30629 -43639
+            30629 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30315 -43306
+            30629 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30000 -43639
+            30000 -43472
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            29370 -43639
+            29370 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            29370 -43306
+            29685 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            29685 -43639
+            29685 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            29685 -43306
+            30000 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            28425 -43639
+            28425 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            28425 -43306
+            28740 -43306
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            22756 -43035
+            22756 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            22756 -43639
+            22756 -43035
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            22756 -42974
+            22433 -42651
+            21161 -42651
+            20867 -42945
+            20867 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30940 -47470
+            30940 -47943
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30940 -47943
+            31413 -47943
+            31520 -48050
+            31520 -51260
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            20867 -43639
+            20867 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            20867 -42974
+            19372 -42974
+            19340 -43006
+            19340 -51260
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21500 -45077
+            20867 -44444
+            20867 -43639
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            21500 -45550
+            21500 -45077
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            23386 -43639
+            23386 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            31574 -43639
+            31574 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            31574 -42974
+            30944 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30944 -42974
+            30629 -42974
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            30944 -43639
+            30944 -42974
+          )
+        )
+      )
+      (net "N-000013"
+        (wire
+          (path Vorderseite 140
+            32520 -51260
+            32147 -51260
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            32519 -43639
+            32519 -45763
+            32046 -46236
+            32046 -51159
+            32147 -51260
+          )
+        )
+      )
+      (net "N-000014"
+        (wire
+          (path Vorderseite 140
+            34094 -43639
+            34094 -44304
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            35800 -43640
+            34950 -43640
+            34286 -44304
+            34094 -44304
+          )
+        )
+      )
+      (net "N-000015"
+        (wire
+          (path Vorderseite 140
+            35740 -47470
+            35740 -46997
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            35740 -46997
+            33779 -45036
+            33779 -43639
+          )
+        )
+      )
+      (net "N-000016"
+        (wire
+          (path Vorderseite 140
+            34700 -47470
+            34700 -46997
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            34700 -46997
+            33464 -45761
+            33464 -43639
+          )
+        )
+      )
+      (net "N-000017"
+        (wire
+          (path Vorderseite 140
+            33660 -47470
+            33660 -46997
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            33149 -43639
+            33149 -46486
+            33660 -46997
+          )
+        )
+      )
+      (net "N-000018"
+        (wire
+          (path Vorderseite 140
+            32620 -47470
+            32620 -46997
+          )
+        )
+        (wire
+          (path Vorderseite 140
+            32620 -46997
+            32834 -46783
+            32834 -43639
+          )
+        )
+      )
+    )
+  )
+)

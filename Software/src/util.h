@@ -10,10 +10,6 @@
 
 #include "stm32f10x.h"
 
-void toggle(void);
 void delay_ms(int ms);
-char *itoa(int val, char *buf, unsigned radix) ;
-
-extern unsigned int SysTickCounter;
 
 #endif /* UTIL_H_ */

@@ -6,16 +6,11 @@
 #include "MI0283QT-2.h"
 #include "lcd.h"
 #include "config.h"
-#include "util.h"
 
 void ssi_write(u16 data) {
 	SPI_I2S_SendData(DISPLAY_SPI, data);
 	//while (SPI_I2S_GetFlagStatus(DISPLAY_SPI, SPI_I2S_FLAG_TXE) == RESET)
 	//	;
-}
-
-void ssi_wait(void) {
-
 }
 
 void lcd_draw(unsigned int color)

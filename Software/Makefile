@@ -9,7 +9,7 @@
 ###############################################################################
 
 # System configuration
-CC = arm-atollic-eabi-gcc
+CC = arm-none-eabi-gcc
 RM=rm -rf
 
 # Assembler, Compiler and Linker flags and linker script settings

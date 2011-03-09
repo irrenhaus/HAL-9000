@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPCB (2010-05-05 BZR 2356)-stable date = 28.08.2010 01:31:04
+
+BeginCmp
+TimeStamp = /4C69FB78;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FDBD;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FC33;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FDB7;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FDA6;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FDA9;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6D0455;
+Reference = D1;
+ValeurCmp = 1N4001;
+IdModule  = SM1812;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6D0400;
+Reference = D2;
+ValeurCmp = 1,5KE_22A;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6D03CC;
+Reference = F1;
+ValeurCmp = 1A;
+IdModule  = SM1812;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6D0431;
+Reference = L1;
+ValeurCmp = 47uH;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FE17;
+Reference = P1;
+ValeurCmp = 2v9;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FE1D;
+Reference = P2;
+ValeurCmp = 3v3;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FE80;
+Reference = P3;
+ValeurCmp = Bordnetz;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FE28;
+Reference = P4;
+ValeurCmp = 5V;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FB65;
+Reference = R1;
+ValeurCmp = 150;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FC20;
+Reference = R3;
+ValeurCmp = 160;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69FD01;
+Reference = R4;
+ValeurCmp = 220;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6A0D7B;
+Reference = R5;
+ValeurCmp = 240;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69F7EB;
+Reference = U1;
+ValeurCmp = LM317_(2v9);
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69F7F0;
+Reference = U2;
+ValeurCmp = LM317_(3v3);
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69F806;
+Reference = U3;
+ValeurCmp = 7805;
+IdModule  = TO220_VERT;
+EndCmp
+
+EndListe

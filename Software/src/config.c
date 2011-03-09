@@ -11,82 +11,8 @@
 int sysTick = 0;
 int lastFATCall = 0;
 
-void configureGPIO(void) {
-	/* GPIO Initialisation */
-	GPIO_InitTypeDef GPIO_InitStructure;
-
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_All;
-	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-	GPIO_Init(GPIOA, &GPIO_InitStructure);
-
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_All;
-	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-	GPIO_Init(GPIOB, &GPIO_InitStructure);
-
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_All;
-	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-	GPIO_Init(GPIOC, &GPIO_InitStructure);
-
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOE, ENABLE);
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_All;
-	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-	GPIO_Init(GPIOE, &GPIO_InitStructure);
-
-	//PD10 = PENIRQ, PD11 = DIN2, PD12 = DIN1, PD13 = DTASTER, PD15 = REED
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10 | GPIO_Pin_11 | GPIO_Pin_12
-			| GPIO_Pin_13 | GPIO_Pin_15;
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
-	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_Init(GPIOD, &GPIO_InitStructure);
-}
-
 void configureNVIC(void) {
-	/* REED & PENIRQ Interrupt */
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
 
-	EXTI_InitTypeDef EXTI_InitStructure;
-
-	//REED
-	GPIO_EXTILineConfig(GPIO_PortSourceGPIOD, GPIO_PinSource15);
-	EXTI_InitStructure.EXTI_Line = EXTI_Line15;
-	EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
-	EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
-	EXTI_InitStructure.EXTI_LineCmd = ENABLE;
-	EXTI_Init(&EXTI_InitStructure);
-
-	//PENIRQ
-	GPIO_EXTILineConfig(GPIO_PortSourceGPIOD, GPIO_PinSource10);
-	EXTI_InitStructure.EXTI_Line = EXTI_Line10;
-	EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
-	EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
-	EXTI_InitStructure.EXTI_LineCmd = ENABLE;
-	EXTI_Init(&EXTI_InitStructure);
-
-	//DTASTER
-	GPIO_EXTILineConfig(GPIO_PortSourceGPIOD, GPIO_PinSource13);
-	EXTI_InitStructure.EXTI_Line = EXTI_Line13;
-	EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
-	EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
-	EXTI_InitStructure.EXTI_LineCmd = ENABLE;
-	EXTI_Init(&EXTI_InitStructure);
-
-	NVIC_InitTypeDef NVIC_InitStructure;
-
-	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
-
-	NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;
-	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
-	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
-	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-	NVIC_Init(&NVIC_InitStructure);
 }
 
 void configureSystem(void) {
@@ -159,8 +85,6 @@ void configureSystem(void) {
 	}
 
 	rtc_init();
-
-	configureGPIO();
 
 	configureNVIC();
 
