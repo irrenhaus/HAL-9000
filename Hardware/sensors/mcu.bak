@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Do 10 Mär 2011 03:25:53 CET
+EESchema Schematic File Version 2  date Do 10 Mär 2011 16:13:09 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,6 +34,7 @@ LIBS:sensorboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 3 8
 Title ""
 Date "10 mar 2011"
@@ -493,7 +494,7 @@ L R R304
 U 1 1 4D7824BD
 P 6750 3700
 F 0 "R304" V 6830 3700 50  0000 C CNN
-F 1 "R" V 6750 3700 50  0000 C CNN
+F 1 "100k" V 6750 3700 50  0000 C CNN
 	1    6750 3700
 	0    -1   1    0   
 $EndComp

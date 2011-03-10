@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Do 10 Mär 2011 01:37:58 CET
+EESchema Schematic File Version 2  date Do 10 Mär 2011 16:44:23 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,9 +34,10 @@ LIBS:bordcomputer-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 8 9
 Title ""
-Date "9 mar 2011"
+Date "10 mar 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,19 +46,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +3.3V #PWR030
+L +3.3V #PWR602
 U 1 1 4D7434A2
 P 1150 1450
-F 0 "#PWR030" H 1150 1410 30  0001 C CNN
+F 0 "#PWR602" H 1150 1410 30  0001 C CNN
 F 1 "+3.3V" H 1150 1560 30  0000 C CNN
 	1    1150 1450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR031
+L GND #PWR601
 U 1 1 4D7434A0
 P 1150 1250
-F 0 "#PWR031" H 1150 1250 30  0001 C CNN
+F 0 "#PWR601" H 1150 1250 30  0001 C CNN
 F 1 "GND" H 1150 1180 30  0001 C CNN
 	1    1150 1250
 	0    1    1    0   
@@ -80,10 +81,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 1050 3150 1050
 $Comp
-L GND #PWR032
+L GND #PWR604
 U 1 1 4D743467
 P 3550 850
-F 0 "#PWR032" H 3550 850 30  0001 C CNN
+F 0 "#PWR604" H 3550 850 30  0001 C CNN
 F 1 "GND" H 3550 780 30  0001 C CNN
 	1    3550 850 
 	0    -1   -1   0   
@@ -100,10 +101,10 @@ $EndComp
 Text HLabel 3150 1050 2    60   Output ~ 0
 SDDETECT
 $Comp
-L +3.3V #PWR033
+L +3.3V #PWR603
 U 1 1 4D74344F
 P 2900 1150
-F 0 "#PWR033" H 2900 1110 30  0001 C CNN
+F 0 "#PWR603" H 2900 1110 30  0001 C CNN
 F 1 "+3.3V" H 2900 1260 30  0000 C CNN
 	1    2900 1150
 	0    1    1    0   

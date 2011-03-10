@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Do 10 Mär 2011 03:25:53 CET
+EESchema Schematic File Version 2  date Do 10 Mär 2011 16:21:43 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,7 +34,8 @@ LIBS:sensorboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 4 8
+encoding utf-8
+Sheet 5 8
 Title ""
 Date "10 mar 2011"
 Rev ""

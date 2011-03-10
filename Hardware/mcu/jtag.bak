@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mi 09 Mär 2011 23:28:42 CET
+EESchema Schematic File Version 2  date Do 10 Mär 2011 16:44:19 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,9 +34,10 @@ LIBS:bordcomputer-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 3 9
 Title ""
-Date "9 mar 2011"
+Date "10 mar 2011"
 Rev ""
 Comp ""
 Comment1 ""

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-01-22 BZR 2754)-testing date = Mi 09 Mär 2011 23:28:57 CET
+Cmp-Mod V01 Created by CvPCB (2011-03-10 BZR 2883)-testing date = Do 10 Mär 2011 16:44:34 CET
 
 BeginCmp
 TimeStamp = /4D7436D3/4D74376A;
@@ -10,6 +10,13 @@ EndCmp
 BeginCmp
 TimeStamp = /4D77DF86/4D77E951;
 Reference = C201;
+ValeurCmp = 100nF;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D74466C/4D78ECA8;
+Reference = C401;
 ValeurCmp = 100nF;
 IdModule  = SMD0805;
 EndCmp
@@ -295,6 +302,13 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4D74466C/4D78F1C7;
+Reference = R401;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D74466C/4D744D04;
 Reference = R501;
 ValeurCmp = 10k;
@@ -501,6 +515,13 @@ BeginCmp
 TimeStamp = /4D77DF86/4D77E926;
 Reference = U201;
 ValeurCmp = SN65HVD232;
+IdModule  = SOIC8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D74466C/4D78ECA0;
+Reference = U401;
+ValeurCmp = AT25DF041A;
 IdModule  = SOIC8;
 EndCmp
 
