@@ -1,0 +1,294 @@
+EESchema Schematic File Version 2  date Do 10 Mär 2011 03:25:53 CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:nhesse
+LIBS:sensorboard-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 4 8
+Title ""
+Date "10 mar 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR028
+U 1 1 4D782864
+P 2700 2350
+F 0 "#PWR028" H 2700 2350 30  0001 C CNN
+F 1 "GND" H 2700 2280 30  0001 C CNN
+	1    2700 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1900 2700 1950
+Wire Wire Line
+	1950 2550 2050 2550
+Wire Wire Line
+	1500 2100 1350 2100
+Connection ~ 2500 3300
+Wire Wire Line
+	1450 3300 1600 3300
+Connection ~ 5050 1650
+Wire Wire Line
+	5050 1750 5050 1550
+Connection ~ 5750 1050
+Wire Wire Line
+	5700 1650 5750 1650
+Wire Wire Line
+	5750 1650 5750 1050
+Connection ~ 3000 1900
+Wire Wire Line
+	3300 1900 3300 1800
+Wire Wire Line
+	3000 1900 3000 1950
+Wire Wire Line
+	1350 1900 2000 1900
+Connection ~ 2700 1900
+Wire Wire Line
+	5450 1050 5900 1050
+Wire Wire Line
+	5050 1650 5200 1650
+Wire Wire Line
+	4300 1050 4650 1050
+Wire Wire Line
+	3150 3300 2200 3300
+Connection ~ 2850 3300
+Wire Wire Line
+	2850 3700 2200 3700
+Connection ~ 2500 3700
+Wire Wire Line
+	1350 2100 1350 2550
+Wire Wire Line
+	3450 1900 2500 1900
+Connection ~ 3300 1900
+$Comp
+L ZENER D501
+U 1 1 4D78285D
+P 2700 2150
+F 0 "D501" H 2700 2250 50  0000 C CNN
+F 1 "20V" H 2700 2050 40  0000 C CNN
+	1    2700 2150
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3450 1900 2    60   Output ~ 0
+EXTVCC
+$Comp
+L GNDA #PWR029
+U 1 1 4D74EFD7
+P 2050 2550
+F 0 "#PWR029" H 2050 2550 40  0001 C CNN
+F 1 "GNDA" H 2050 2480 40  0000 C CNN
+	1    2050 2550
+	0    -1   -1   0   
+$EndComp
+Text Notes 1250 2800 0    60   ~ 0
+Ferrite Chip Bead\n100Ohm/100MHz
+$Comp
+L INDUCTOR L501
+U 1 1 4D74EF38
+P 1650 2550
+F 0 "L501" V 1600 2550 40  0000 C CNN
+F 1 "100Ohm" V 1750 2550 40  0000 C CNN
+	1    1650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 4D74EDED
+P 2200 3700
+F 0 "#PWR030" H 2200 3700 30  0001 C CNN
+F 1 "GND" H 2200 3630 30  0001 C CNN
+	1    2200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L VAA #PWR507
+U 1 1 4D74EDD2
+P 3150 3300
+F 0 "#PWR507" H 3150 3360 30  0001 C CNN
+F 1 "VAA" H 3150 3410 30  0000 C CNN
+	1    3150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L502
+U 1 1 4D74EDC3
+P 1900 3300
+F 0 "L502" V 1850 3300 40  0000 C CNN
+F 1 "10uH" V 2000 3300 40  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/78322.pdf" H 1900 3300 60  0001 C CNN
+	1    1900 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L C C502
+U 1 1 4D74ED6C
+P 2850 3500
+F 0 "C502" H 2900 3600 50  0000 L CNN
+F 1 "100nF" H 2900 3400 50  0000 L CNN
+	1    2850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C501
+U 1 1 4D74ED65
+P 2500 3500
+F 0 "C501" H 2550 3600 50  0000 L CNN
+F 1 "10uF" H 2550 3400 50  0000 L CNN
+	1    2500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR031
+U 1 1 4D74ED3E
+P 1450 3300
+F 0 "#PWR031" H 1450 3260 30  0001 C CNN
+F 1 "+3.3V" H 1450 3410 30  0000 C CNN
+	1    1450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR032
+U 1 1 4D744126
+P 5050 2250
+F 0 "#PWR032" H 5050 2250 30  0001 C CNN
+F 1 "GND" H 5050 2180 30  0001 C CNN
+	1    5050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R501
+U 1 1 4D74410A
+P 5050 2000
+F 0 "R501" V 5130 2000 50  0000 C CNN
+F 1 "360" V 5050 2000 50  0000 C CNN
+	1    5050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R502
+U 1 1 4D744104
+P 5450 1650
+F 0 "R502" V 5530 1650 50  0000 C CNN
+F 1 "220" V 5450 1650 50  0000 C CNN
+	1    5450 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR033
+U 1 1 4D7440F5
+P 5900 1050
+F 0 "#PWR033" H 5900 1010 30  0001 C CNN
+F 1 "+3.3V" H 5900 1160 30  0000 C CNN
+	1    5900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR034
+U 1 1 4D7440F1
+P 4300 1050
+F 0 "#PWR034" H 4300 1000 20  0001 C CNN
+F 1 "+12V" H 4300 1150 30  0000 C CNN
+	1    4300 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM317 U501
+U 1 1 4D7440E6
+P 5050 1200
+F 0 "U501" H 5050 1500 60  0000 C CNN
+F 1 "LM317" H 5100 950 60  0000 L CNN
+	1    5050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR035
+U 1 1 4D743E7E
+P 3300 1800
+F 0 "#PWR035" H 3300 1750 20  0001 C CNN
+F 1 "+12V" H 3300 1900 30  0000 C CNN
+	1    3300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 4D743E56
+P 3000 2350
+F 0 "#PWR036" H 3000 2350 30  0001 C CNN
+F 1 "GND" H 3000 2280 30  0001 C CNN
+	1    3000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C503
+U 1 1 4D743E47
+P 3000 2150
+F 0 "C503" H 3050 2250 50  0000 L CNN
+F 1 "10uF" H 3050 2050 50  0000 L CNN
+	1    3000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F501
+U 1 1 4D743DAA
+P 2250 1900
+F 0 "F501" H 2350 1950 40  0000 C CNN
+F 1 "5A Fuse" H 2150 1850 40  0000 C CNN
+F 2 "littelfuse" H 2250 1900 60  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/48464.pdf" H 2250 1900 60  0001 C CNN
+	1    2250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 4D743D88
+P 1500 2100
+F 0 "#PWR037" H 1500 2100 30  0001 C CNN
+F 1 "GND" H 1500 2030 30  0001 C CNN
+	1    1500 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P501
+U 1 1 4D743D7E
+P 1000 2000
+F 0 "P501" V 950 2000 40  0000 C CNN
+F 1 "MainPwr" V 1050 2000 40  0000 C CNN
+	1    1000 2000
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

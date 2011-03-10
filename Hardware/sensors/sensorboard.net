@@ -1,0 +1,848 @@
+# EESchema Netlist Version 1.1 created  Do 10 Mär 2011 02:42:04 CET
+(
+ ( /4D7829DD/4D7829F4 $noname  P201 ARM_JTAG_10PIN {Lib=ARM_JTAG_10PIN}
+  (    1 +3.3V )
+  (    2 GND )
+  (    3 /JTAG/NRST )
+  (    4 /MCU/JTMS )
+  (    5 /MCU/TRST )
+  (    6 /JTAG/JTCK )
+  (    7 /MCU/JTDI )
+  (    8 /MCU/JTDO )
+  (    9 /GPS/TX )
+  (   10 /GPS/RX )
+ )
+ ( /4D782012/4D7824FF $noname  R302 100k {Lib=R}
+  (    1 N-000059 )
+  (    2 GND )
+ )
+ ( /4D782012/4D7824D6 $noname  SW301 reset {Lib=SW_PUSH_SMALL}
+  (    1 GND )
+  (    2 /JTAG/NRST )
+ )
+ ( /4D782012/4D7824BD $noname  R301 R {Lib=R}
+  (    1 /JTAG/NRST )
+  (    2 +3.3V )
+ )
+ ( /4D782012/4D7824B7 $noname  C301 100nF {Lib=C}
+  (    1 GND )
+  (    2 /JTAG/NRST )
+ )
+ ( /4D782012/4D782466 $noname  U302 8MHz {Lib=XO53}
+  (    1 +3.3V )
+  (    2 GND )
+  (    3 N-000057 )
+  (    4 +3.3V )
+ )
+ ( /4D782012/4D7823F4 $noname  C302 100nF {Lib=CP1}
+  (    1 VAA )
+  (    2 GND )
+ )
+ ( /4D782012/4D782390 $noname  C305 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4D782012/4D78238B $noname  C304 100nF {Lib=C}
+  (    1 GND )
+  (    2 +3.3V )
+ )
+ ( /4D782012/4D782383 $noname  C303 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4D782012/4D782292 $noname  U301 STM32F103C8 {Lib=STM32F10XCX}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 N-000057 )
+  (    6 ? )
+  (    7 /JTAG/NRST )
+  (    8 GNDA )
+  (    9 VAA )
+  (   10 ? )
+  (   11 ? )
+  (   12 /MCU/ADC12_IN2 )
+  (   13 /MCU/ADC12_IN3 )
+  (   14 /MCU/ADC12_IN4 )
+  (   15 /GPS/CLK )
+  (   16 /GPS/MISO )
+  (   17 /GPS/MOSI )
+  (   18 /MCU/ADC12_IN8 )
+  (   19 /MCU/ADC12_IN9 )
+  (   20 ? )
+  (   21 /MCU/I2C_SCL )
+  (   22 /MCU/I2C_SDA )
+  (   23 GND )
+  (   24 +3.3V )
+  (   25 /MCU/~SPI2_NSS )
+  (   26 /MCU/SPI2_SCK )
+  (   27 /MCU/SPI2_MISO )
+  (   28 /MCU/SPI2_MOSI )
+  (   29 /GPS/~GPS_CS )
+  (   30 /GPS/RX )
+  (   31 /GPS/TX )
+  (   32 /MCU/CAN_RX )
+  (   33 /Connectors/CAN_TX )
+  (   34 /MCU/JTMS )
+  (   35 GND )
+  (   36 +3.3V )
+  (   37 /JTAG/JTCK )
+  (   38 /MCU/JTDI )
+  (   39 /MCU/JTDO )
+  (   40 /MCU/TRST )
+  (   41 ? )
+  (   42 ? )
+  (   43 ? )
+  (   44 N-000059 )
+  (   45 ? )
+  (   46 ? )
+  (   47 GND )
+  (   48 +3.3V )
+ )
+ ( /4D781E41/4D77E951 $noname  C401 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4D781E41/4D77E926 $noname  U401 SN65HVD232 {Lib=SN65HVD232}
+  (    1 /Connectors/CAN_TX )
+  (    2 GND )
+  (    3 +3.3V )
+  (    4 /MCU/CAN_RX )
+  (    5 ? )
+  (    6 N-000054 )
+  (    7 N-000055 )
+  (    8 ? )
+ )
+ ( /4D781E41/4D77E587 $noname  R401 120 {Lib=R}
+  (    1 N-000054 )
+  (    2 N-000055 )
+ )
+ ( /4D781E41/4D77DFB3 $noname  J401 RJ45 {Lib=RJ45}
+  (    1 GND )
+  (    2 +12V )
+  (    3 N-000055 )
+  (    4 N-000054 )
+  (    5 /MCU/~SPI2_NSS )
+  (    6 /MCU/SPI2_SCK )
+  (    7 /MCU/SPI2_MOSI )
+  (    8 /MCU/SPI2_MISO )
+  (    9 GND )
+ )
+ ( /4D781E36/4D78285D $noname  D501 20V {Lib=ZENER}
+  (    1 GND )
+  (    2 +12V )
+ )
+ ( /4D781E36/4D74EF38 $noname  L601 100Ohm {Lib=INDUCTOR}
+  (    1 GNDA )
+  (    2 GND )
+ )
+ ( /4D781E36/4D74EDC3 $noname  L602 10uH {Lib=INDUCTOR}
+  (    1 VAA )
+  (    2 +3.3V )
+ )
+ ( /4D781E36/4D74ED6C $noname  C602 100nF {Lib=C}
+  (    1 VAA )
+  (    2 GND )
+ )
+ ( /4D781E36/4D74ED65 $noname  C601 10uF {Lib=CP1}
+  (    1 VAA )
+  (    2 GND )
+ )
+ ( /4D781E36/4D74410A $noname  R601 360 {Lib=R}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /4D781E36/4D744104 $noname  R602 220 {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000051 )
+ )
+ ( /4D781E36/4D7440E6 $noname  U601 LM317 {Lib=LM317}
+  (    1 +12V )
+  (    2 N-000051 )
+  (    3 +3.3V )
+ )
+ ( /4D781E36/4D743E47 $noname  C603 10uF {Lib=C}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /4D781E36/4D743DAA littelfuse  F601 5A_Fuse {Lib=FUSE}
+  (    1 N-000052 )
+  (    2 +12V )
+ )
+ ( /4D781E36/4D743D7E $noname  P601 MainPwr {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000052 )
+ )
+ ( /4D781E1F/4D74DDCB $noname  P303 HMC6352 {Lib=CONN_4}
+  (    1 GND )
+  (    2 +3.3V )
+  (    3 /MCU/I2C_SDA )
+  (    4 /MCU/I2C_SCL )
+ )
+ ( /4D781E1F/4D74DC66 $noname  P302 ArduIMU {Lib=CONN_5}
+  (    1 ? )
+  (    2 ? )
+  (    3 /MCU/ADC12_IN8 )
+  (    4 GND )
+  (    5 +3.3V )
+ )
+ ( /4D781E1F/4D74DB0A $noname  P301 BMP085 {Lib=CONN_6}
+  (    1 +3.3V )
+  (    2 GND )
+  (    3 ? )
+  (    4 ? )
+  (    5 /MCU/I2C_SCL )
+  (    6 /MCU/I2C_SDA )
+ )
+ ( /4D781E19/4D755729 $noname  P701 Sensors {Lib=CONN_8}
+  (    1 N-000042 )
+  (    2 N-000045 )
+  (    3 N-000044 )
+  (    4 +12V )
+  (    5 N-000048 )
+  (    6 N-000043 )
+  (    7 N-000047 )
+  (    8 N-000049 )
+ )
+ ( /4D781E19/4D754892 $noname  U701 BAS40-04 {Lib=BAS40-04}
+  (    1 GND )
+  (    2 +3.3V )
+  (    3 /Sensors/~FuelConsumption )
+ )
+ ( /4D781E19/4D75488B $noname  C702 100nF {Lib=C}
+  (    1 GND )
+  (    2 /Sensors/~FuelConsumption )
+ )
+ ( /4D781E19/4D754875 $noname  R710 120 {Lib=R}
+  (    1 N-000045 )
+  (    2 /Sensors/~FuelConsumption )
+ )
+ ( /4D781E19/4D75485F $noname  R711 10k {Lib=R}
+  (    1 N-000044 )
+  (    2 /Sensors/Speed-Reed )
+ )
+ ( /4D781E19/4D75485E $noname  R704 2k7 {Lib=R}
+  (    1 GND )
+  (    2 /Sensors/Speed-Reed )
+ )
+ ( /4D781E19/4D75485D $noname  C703 100nF {Lib=C}
+  (    1 GND )
+  (    2 /Sensors/Speed-Reed )
+ )
+ ( /4D781E19/4D75485B $noname  U703 BAS40-04 {Lib=BAS40-04}
+  (    1 GND )
+  (    2 +3.3V )
+  (    3 /Sensors/Speed-Reed )
+ )
+ ( /4D781E19/4D754803 $noname  C707 100nF {Lib=C}
+  (    1 GNDA )
+  (    2 /MCU/ADC12_IN3 )
+ )
+ ( /4D781E19/4D754802 $noname  R708 2k7 {Lib=R}
+  (    1 GNDA )
+  (    2 /MCU/ADC12_IN3 )
+ )
+ ( /4D781E19/4D754801 $noname  R715 10k {Lib=R}
+  (    1 N-000049 )
+  (    2 /MCU/ADC12_IN3 )
+ )
+ ( /4D781E19/4D7547FF $noname  U707 BAS40-04 {Lib=BAS40-04}
+  (    1 GNDA )
+  (    2 VAA )
+  (    3 /MCU/ADC12_IN3 )
+ )
+ ( /4D781E19/4D7547D1 $noname  U706 BAS40-04 {Lib=BAS40-04}
+  (    1 GNDA )
+  (    2 VAA )
+  (    3 /MCU/ADC12_IN4 )
+ )
+ ( /4D781E19/4D7547CF $noname  R714 10k {Lib=R}
+  (    1 N-000047 )
+  (    2 /MCU/ADC12_IN4 )
+ )
+ ( /4D781E19/4D7547CE $noname  R707 2k7 {Lib=R}
+  (    1 GNDA )
+  (    2 /MCU/ADC12_IN4 )
+ )
+ ( /4D781E19/4D7547CD $noname  C706 100nF {Lib=C}
+  (    1 GNDA )
+  (    2 /MCU/ADC12_IN4 )
+ )
+ ( /4D781E19/4D7547C4 $noname  C705 100nF {Lib=C}
+  (    1 GNDA )
+  (    2 /MCU/ADC12_IN9 )
+ )
+ ( /4D781E19/4D7547C3 $noname  R706 2k7 {Lib=R}
+  (    1 GNDA )
+  (    2 /MCU/ADC12_IN9 )
+ )
+ ( /4D781E19/4D7547C2 $noname  R713 10k {Lib=R}
+  (    1 N-000043 )
+  (    2 /MCU/ADC12_IN9 )
+ )
+ ( /4D781E19/4D7547C0 $noname  U705 BAS40-04 {Lib=BAS40-04}
+  (    1 GNDA )
+  (    2 VAA )
+  (    3 /MCU/ADC12_IN9 )
+ )
+ ( /4D781E19/4D754730 $noname  U704 BAS40-04 {Lib=BAS40-04}
+  (    1 GNDA )
+  (    2 VAA )
+  (    3 /MCU/ADC12_IN2 )
+ )
+ ( /4D781E19/4D754734 $noname  R712 10k {Lib=R}
+  (    1 N-000048 )
+  (    2 /MCU/ADC12_IN2 )
+ )
+ ( /4D781E19/4D754733 $noname  R705 2k7 {Lib=R}
+  (    1 GNDA )
+  (    2 /MCU/ADC12_IN2 )
+ )
+ ( /4D781E19/4D754732 $noname  C704 100nF {Lib=C}
+  (    1 GNDA )
+  (    2 /MCU/ADC12_IN2 )
+ )
+ ( /4D781E19/4D7544E9 $noname  U702 BAS40-04 {Lib=BAS40-04}
+  (    1 GND )
+  (    2 +3.3V )
+  (    3 /Sensors/~FuelPump )
+ )
+ ( /4D781E19/4D750DAC $noname  R717 4k7 {Lib=R}
+  (    1 +3.3V )
+  (    2 /Sensors/TEMP2 )
+ )
+ ( /4D781E19/4D750DA6 $noname  R716 4k7 {Lib=R}
+  (    1 +3.3V )
+  (    2 /Sensors/TEMP1 )
+ )
+ ( /4D781E19/4D750D7F $noname  U709 DS18B20 {Lib=DS1820}
+  (    1 GND )
+  (    2 /Sensors/TEMP2 )
+  (    3 +3.3V )
+ )
+ ( /4D781E19/4D750D7D $noname  U708 DS18B20 {Lib=DS1820}
+  (    1 GND )
+  (    2 /Sensors/TEMP1 )
+  (    3 +3.3V )
+ )
+ ( /4D781E19/4D74E220 $noname  R702 4k7 {Lib=R}
+  (    1 GND )
+  (    2 /Sensors/Speed-Reed )
+ )
+ ( /4D781E19/4D74312B $noname  R701 10k {Lib=R}
+  (    1 /Sensors/~FuelConsumption )
+  (    2 +3.3V )
+ )
+ ( /4D781E19/4D742BBA $noname  C701 0.3uF {Lib=C}
+  (    1 GND )
+  (    2 /Sensors/~FuelPump )
+ )
+ ( /4D781E19/4D742BAF $noname  R703 2k7 {Lib=R}
+  (    1 GND )
+  (    2 /Sensors/~FuelPump )
+ )
+ ( /4D781E19/4D742BAC $noname  R709 10k {Lib=R}
+  (    1 N-000042 )
+  (    2 /Sensors/~FuelPump )
+ )
+ ( /4D781E14/4D74D998 $noname  P403 GPSCTRL {Lib=CONN_5}
+  (    1 +3.3V )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+ )
+ ( /4D781E14/4D74D906 $noname  P402 GPS_UART {Lib=CONN_4}
+  (    1 +3.3V )
+  (    2 /GPS/TX )
+  (    3 /GPS/RX )
+  (    4 GND )
+ )
+ ( /4D781E14/4D74D8C3 $noname  P401 GPS_SPI {Lib=CONN_4}
+  (    1 /GPS/MOSI )
+  (    2 /GPS/MISO )
+  (    3 /GPS/CLK )
+  (    4 /GPS/~GPS_CS )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R302
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R301
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C301
+ SM*
+ C?
+ C1-1
+$endlist
+$component C302
+ CP*
+ SM*
+$endlist
+$component C305
+ SM*
+ C?
+ C1-1
+$endlist
+$component C304
+ SM*
+ C?
+ C1-1
+$endlist
+$component C303
+ SM*
+ C?
+ C1-1
+$endlist
+$component C401
+ SM*
+ C?
+ C1-1
+$endlist
+$component R401
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D501
+ D?
+ SO*
+ SM*
+$endlist
+$component C602
+ SM*
+ C?
+ C1-1
+$endlist
+$component C601
+ CP*
+ SM*
+$endlist
+$component R601
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R602
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C603
+ SM*
+ C?
+ C1-1
+$endlist
+$component C702
+ SM*
+ C?
+ C1-1
+$endlist
+$component R710
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R711
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R704
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C703
+ SM*
+ C?
+ C1-1
+$endlist
+$component C707
+ SM*
+ C?
+ C1-1
+$endlist
+$component R708
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R715
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R714
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R707
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C706
+ SM*
+ C?
+ C1-1
+$endlist
+$component C705
+ SM*
+ C?
+ C1-1
+$endlist
+$component R706
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R713
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R712
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R705
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C704
+ SM*
+ C?
+ C1-1
+$endlist
+$component R717
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R716
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R702
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R701
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C701
+ SM*
+ C?
+ C1-1
+$endlist
+$component R703
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R709
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "+12V" "+12V"
+ U601 1
+ C603 1
+ F601 2
+ J401 2
+ P701 4
+ D501 2
+Net 2 "/Connectors/CAN_TX" "CAN_TX"
+ U401 1
+ U301 33
+Net 3 "/MCU/CAN_RX" "CAN_RX"
+ U301 32
+ U401 4
+Net 4 "/MCU/I2C_SDA" "I2C_SDA"
+ P303 3
+ P301 6
+ U301 22
+Net 5 "/MCU/~SPI2_NSS" "~SPI2_NSS"
+ J401 5
+ U301 25
+Net 6 "/MCU/SPI2_SCK" "SPI2_SCK"
+ J401 6
+ U301 26
+Net 7 "/MCU/SPI2_MISO" "SPI2_MISO"
+ U301 27
+ J401 8
+Net 8 "/MCU/SPI2_MOSI" "SPI2_MOSI"
+ U301 28
+ J401 7
+Net 9 "/GPS/MOSI" "MOSI"
+ P401 1
+ U301 17
+Net 10 "/GPS/MISO" "MISO"
+ P401 2
+ U301 16
+Net 11 "/GPS/CLK" "CLK"
+ P401 3
+ U301 15
+Net 12 "/GPS/~GPS_CS" "~GPS_CS"
+ U301 29
+ P401 4
+Net 13 "/GPS/RX" "RX"
+ P201 10
+ U301 30
+ P402 3
+Net 14 "/GPS/TX" "TX"
+ P402 2
+ P201 9
+ U301 31
+Net 19 "/Sensors/~FuelPump" "~FuelPump"
+ C701 2
+ U702 3
+ R703 2
+ R709 2
+Net 20 "/Sensors/~FuelConsumption" "~FuelConsumption"
+ R710 2
+ C702 2
+ R701 1
+ U701 3
+Net 21 "/MCU/ADC12_IN2" "ADC12_IN2"
+ U704 3
+ R712 2
+ R705 2
+ C704 2
+ U301 12
+Net 22 "/MCU/ADC12_IN9" "ADC12_IN9"
+ U301 19
+ C705 2
+ R706 2
+ U705 3
+ R713 2
+Net 23 "/MCU/ADC12_IN4" "ADC12_IN4"
+ U301 14
+ C706 2
+ R707 2
+ R714 2
+ U706 3
+Net 24 "/Sensors/Speed-Reed" "Speed-Reed"
+ C703 2
+ R702 2
+ U703 3
+ R704 2
+ R711 2
+Net 25 "/MCU/ADC12_IN3" "ADC12_IN3"
+ U707 3
+ C707 2
+ R708 2
+ R715 2
+ U301 13
+Net 26 "/Sensors/TEMP2" "TEMP2"
+ R717 2
+ U709 2
+Net 27 "/Sensors/TEMP1" "TEMP1"
+ U708 2
+ R716 2
+Net 30 "/MCU/ADC12_IN8" "ADC12_IN8"
+ P302 3
+ U301 18
+Net 33 "/MCU/I2C_SCL" "I2C_SCL"
+ U301 21
+ P303 4
+ P301 5
+Net 34 "/MCU/JTDO" "JTDO"
+ U301 39
+ P201 8
+Net 35 "/MCU/TRST" "TRST"
+ U301 40
+ P201 5
+Net 36 "/JTAG/NRST" "NRST"
+ U301 7
+ P201 3
+ C301 2
+ SW301 2
+ R301 1
+Net 37 "/MCU/JTDI" "JTDI"
+ P201 7
+ U301 38
+Net 38 "/MCU/JTMS" "JTMS"
+ P201 4
+ U301 34
+Net 39 "/JTAG/JTCK" "JTCK"
+ P201 6
+ U301 37
+Net 40 "+3.3V" "+3.3V"
+ C401 1
+ U401 3
+ U301 48
+ P201 1
+ U301 36
+ U302 4
+ U301 24
+ U302 1
+ R301 2
+ R602 1
+ L602 2
+ U601 3
+ C303 1
+ C304 2
+ P403 1
+ C305 1
+ P303 2
+ P402 1
+ U708 3
+ U709 3
+ R716 1
+ R717 1
+ U703 2
+ U702 2
+ R701 2
+ P301 1
+ U701 2
+ P302 5
+Net 41 "GND" "GND"
+ C703 1
+ C301 1
+ R704 1
+ C702 1
+ P201 2
+ U701 1
+ U302 2
+ C302 2
+ J401 1
+ J401 9
+ U401 2
+ C401 2
+ C701 1
+ R703 1
+ U703 1
+ R702 1
+ SW301 1
+ U301 23
+ C303 2
+ C304 1
+ U301 35
+ C305 2
+ U301 47
+ U709 1
+ U708 1
+ R302 2
+ U702 1
+ C603 2
+ P601 1
+ L601 2
+ C602 2
+ C601 2
+ P301 2
+ R601 2
+ P302 4
+ P303 1
+ D501 1
+ P402 4
+Net 42 "" ""
+ P701 1
+ R709 1
+Net 43 "" ""
+ R713 1
+ P701 6
+Net 44 "" ""
+ R711 1
+ P701 3
+Net 45 "" ""
+ R710 1
+ P701 2
+Net 46 "GNDA" "GNDA"
+ U301 8
+ U704 1
+ R708 1
+ C707 1
+ R705 1
+ C704 1
+ U707 1
+ L601 1
+ U705 1
+ R706 1
+ C705 1
+ C706 1
+ R707 1
+ U706 1
+Net 47 "" ""
+ P701 7
+ R714 1
+Net 48 "" ""
+ P701 5
+ R712 1
+Net 49 "" ""
+ R715 1
+ P701 8
+Net 50 "VAA" "VAA"
+ U301 9
+ C302 1
+ U707 2
+ U704 2
+ U705 2
+ U706 2
+ L602 1
+ C601 1
+ C602 1
+Net 51 "" ""
+ R601 1
+ R602 2
+ U601 2
+Net 52 "" ""
+ P601 2
+ F601 1
+Net 54 "" ""
+ R401 1
+ U401 6
+ J401 4
+Net 55 "" ""
+ R401 2
+ U401 7
+ J401 3
+Net 57 "" ""
+ U302 3
+ U301 5
+Net 59 "" ""
+ U301 44
+ R302 1
+}
+#End

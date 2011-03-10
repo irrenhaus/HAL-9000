@@ -1,0 +1,548 @@
+EESchema Schematic File Version 2  date Do 10 Mär 2011 03:25:53 CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:nhesse
+LIBS:sensorboard-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 3 8
+Title ""
+Date "10 mar 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2550 3700 0    60   Input ~ 0
+TRST
+Text HLabel 2550 3600 0    60   Output ~ 0
+JTDO
+NoConn ~ 4850 3500
+NoConn ~ 4850 3100
+NoConn ~ 4850 3000
+NoConn ~ 4850 2900
+NoConn ~ 4850 2800
+NoConn ~ 4850 2700
+NoConn ~ 2550 4200
+NoConn ~ 2550 4100
+NoConn ~ 2550 4000
+NoConn ~ 2550 1700
+Wire Wire Line
+	2550 1600 2550 1450
+Wire Wire Line
+	2550 1450 2350 1450
+Wire Wire Line
+	4700 950  4550 950 
+Wire Wire Line
+	4550 950  4550 900 
+Wire Wire Line
+	4550 900  4150 900 
+Wire Wire Line
+	4150 800  4450 800 
+Connection ~ 4850 4550
+Wire Wire Line
+	4850 4550 5050 4550
+Connection ~ 4850 4500
+Connection ~ 6500 4800
+Wire Wire Line
+	6250 4800 7250 4800
+Connection ~ 7000 4800
+Wire Wire Line
+	6800 4800 6800 4900
+Connection ~ 7000 4400
+Wire Wire Line
+	7250 4400 6250 4400
+Connection ~ 6500 4400
+Wire Wire Line
+	6750 4400 6750 4350
+Wire Wire Line
+	4850 3800 4950 3800
+Wire Wire Line
+	4850 4100 5150 4100
+Connection ~ 6150 3700
+Wire Wire Line
+	6550 3300 6550 3400
+Wire Wire Line
+	4850 3300 5450 3300
+Wire Wire Line
+	6450 3900 6450 3700
+Connection ~ 6450 3700
+Wire Wire Line
+	4850 3700 6500 3700
+Connection ~ 6750 4400
+Connection ~ 6800 4800
+Wire Wire Line
+	4850 4700 4850 4400
+Connection ~ 4850 4600
+Wire Wire Line
+	1950 2100 2550 2100
+Wire Wire Line
+	1950 2200 2550 2200
+Wire Wire Line
+	1950 2300 2550 2300
+Wire Wire Line
+	1700 1450 1850 1450
+$Comp
+L GND #PWR03
+U 1 1 4D7835FC
+P 1300 1450
+F 0 "#PWR03" H 1300 1450 30  0001 C CNN
+F 1 "GND" H 1300 1380 30  0001 C CNN
+	1    1300 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D301
+U 1 1 4D7835F6
+P 1500 1450
+F 0 "D301" H 1500 1550 50  0000 C CNN
+F 1 "Red" H 1500 1350 50  0000 C CNN
+	1    1500 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R301
+U 1 1 4D7835F1
+P 2100 1450
+F 0 "R301" V 2180 1450 50  0000 C CNN
+F 1 "100" V 2100 1450 50  0000 C CNN
+	1    2100 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR04
+U 1 1 4D7835B8
+P 5200 950
+F 0 "#PWR04" H 5200 910 30  0001 C CNN
+F 1 "+3.3V" H 5200 1060 30  0000 C CNN
+	1    5200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R302
+U 1 1 4D7835B4
+P 4950 950
+F 0 "R302" V 5030 950 50  0000 C CNN
+F 1 "100k" V 4950 950 50  0000 C CNN
+	1    4950 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR05
+U 1 1 4D783570
+P 3150 1000
+F 0 "#PWR05" H 3150 960 30  0001 C CNN
+F 1 "+3.3V" H 3150 1110 30  0000 C CNN
+	1    3150 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 4D78355C
+P 3150 1100
+F 0 "#PWR06" H 3150 1100 30  0001 C CNN
+F 1 "GND" H 3150 1030 30  0001 C CNN
+	1    3150 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 4D783558
+P 4850 800
+F 0 "#PWR07" H 4850 800 30  0001 C CNN
+F 1 "GND" H 4850 730 30  0001 C CNN
+	1    4850 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR08
+U 1 1 4D783556
+P 4300 800
+F 0 "#PWR08" H 4300 760 30  0001 C CNN
+F 1 "+3.3V" H 4300 910 30  0000 C CNN
+	1    4300 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C301
+U 1 1 4D78354C
+P 4650 800
+F 0 "C301" H 4700 900 50  0000 L CNN
+F 1 "100nF" H 4700 700 50  0000 L CNN
+	1    4650 800 
+	0    -1   -1   0   
+$EndComp
+Text Label 2550 3500 2    60   ~ 0
+~FLASH_CS
+Text Label 3150 800  2    60   ~ 0
+~FLASH_CS
+Text Label 4150 1000 0    60   ~ 0
+SPI_SCK
+Text Label 3150 900  2    60   ~ 0
+SPI_MISO
+Text Label 4150 1100 0    60   ~ 0
+SPI_MOSI
+Text Label 1950 2200 2    60   ~ 0
+SPI_MISO
+Text Label 1950 2300 2    60   ~ 0
+SPI_MOSI
+Text Label 1950 2100 2    60   ~ 0
+SPI_SCK
+$Comp
+L AT25DF041A U301
+U 1 1 4D7834C4
+P 3650 950
+F 0 "U301" H 3650 650 60  0000 C CNN
+F 1 "AT25DF041A" H 3650 1250 60  0000 C CNN
+	1    3650 950 
+	1    0    0    -1  
+$EndComp
+Text HLabel 4850 2600 2    60   BiDi ~ 0
+PRESSURE_XCLR
+Text HLabel 4850 2500 2    60   BiDi ~ 0
+PRESSURE_EOC
+Text HLabel 4850 2400 2    60   BiDi ~ 0
+GYRO_PD
+Text HLabel 4850 2300 2    60   BiDi ~ 0
+GYRO_ST
+Text HLabel 4850 2200 2    60   Input ~ 0
+~FuelPump
+Text HLabel 4850 2100 2    60   Input ~ 0
+~FuelConsumption
+Text HLabel 4850 2000 2    60   Input ~ 0
+SPEED-REED
+Text HLabel 4850 1900 2    60   BiDi ~ 0
+PPS
+Text HLabel 4850 1800 2    60   BiDi ~ 0
+GPIO2
+Text HLabel 4850 1700 2    60   BiDi ~ 0
+GPIO1
+Text HLabel 4850 1600 2    60   BiDi ~ 0
+GPIO20
+$Comp
+L GND #PWR09
+U 1 1 4D78306D
+P 4850 5200
+F 0 "#PWR09" H 4850 5200 30  0001 C CNN
+F 1 "GND" H 4850 5130 30  0001 C CNN
+	1    4850 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 4D78306A
+P 4850 5100
+F 0 "#PWR010" H 4850 5100 30  0001 C CNN
+F 1 "GND" H 4850 5030 30  0001 C CNN
+	1    4850 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 4D783068
+P 4850 5000
+F 0 "#PWR011" H 4850 5000 30  0001 C CNN
+F 1 "GND" H 4850 4930 30  0001 C CNN
+	1    4850 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 4D783066
+P 4850 4900
+F 0 "#PWR012" H 4850 4900 30  0001 C CNN
+F 1 "GND" H 4850 4830 30  0001 C CNN
+	1    4850 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR013
+U 1 1 4D78305C
+P 5050 4550
+F 0 "#PWR013" H 5050 4510 30  0001 C CNN
+F 1 "+3.3V" H 5050 4660 30  0000 C CNN
+	1    5050 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 4D783047
+P 6800 4900
+F 0 "#PWR014" H 6800 4900 30  0001 C CNN
+F 1 "GND" H 6800 4830 30  0001 C CNN
+	1    6800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR015
+U 1 1 4D783045
+P 6750 4350
+F 0 "#PWR015" H 6750 4310 30  0001 C CNN
+F 1 "+3.3V" H 6750 4460 30  0000 C CNN
+	1    6750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C307
+U 1 1 4D783032
+P 7250 4600
+F 0 "C307" H 7300 4700 50  0000 L CNN
+F 1 "100nF" H 7300 4500 50  0000 L CNN
+	1    7250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C306
+U 1 1 4D78302F
+P 7000 4600
+F 0 "C306" H 7050 4700 50  0000 L CNN
+F 1 "100nF" H 7050 4500 50  0000 L CNN
+	1    7000 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C305
+U 1 1 4D78302B
+P 6500 4600
+F 0 "C305" H 6550 4700 50  0000 L CNN
+F 1 "100nF" H 6550 4500 50  0000 L CNN
+	1    6500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C304
+U 1 1 4D783029
+P 6250 4600
+F 0 "C304" H 6300 4700 50  0000 L CNN
+F 1 "100nF" H 6300 4500 50  0000 L CNN
+	1    6250 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 4D78301A
+P 5450 3800
+F 0 "#PWR016" H 5450 3800 30  0001 C CNN
+F 1 "GND" H 5450 3730 30  0001 C CNN
+	1    5450 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R303
+U 1 1 4D783013
+P 5200 3800
+F 0 "R303" V 5280 3800 50  0000 C CNN
+F 1 "100k" V 5200 3800 50  0000 C CNN
+	1    5200 3800
+	0    1    1    0   
+$EndComp
+NoConn ~ 4850 3400
+$Comp
+L GNDA #PWR017
+U 1 1 4D782FE4
+P 4850 4200
+F 0 "#PWR017" H 4850 4200 40  0001 C CNN
+F 1 "GNDA" H 4850 4130 40  0000 C CNN
+	1    4850 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VAA #PWR311
+U 1 1 4D782FDE
+P 5000 4100
+F 0 "#PWR311" H 5000 4160 30  0001 C CNN
+F 1 "VAA" H 5000 4210 30  0000 C CNN
+	1    5000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR018
+U 1 1 4D782FD9
+P 5550 4100
+F 0 "#PWR018" H 5550 4100 40  0001 C CNN
+F 1 "GNDA" H 5550 4030 40  0000 C CNN
+	1    5550 4100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4850 3900
+$Comp
+L CP1 C302
+U 1 1 4D782FBA
+P 5350 4100
+F 0 "C302" H 5400 4200 50  0000 L CNN
+F 1 "100nF" H 5400 4000 50  0000 L CNN
+	1    5350 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L STM32F10XRX U302
+U 1 1 4D782F9C
+P 3700 3350
+F 0 "U302" H 3750 1700 60  0000 C CNN
+F 1 "STM32F103R8" H 3650 1600 60  0000 C CNN
+	1    3700 3350
+	1    0    0    -1  
+$EndComp
+Text HLabel 2550 3800 0    60   Input ~ 0
+TEMP1
+Text HLabel 2550 3900 0    60   Input ~ 0
+TEMP2
+Text HLabel 2550 2600 0    60   Input ~ 0
+USART_RX
+Text HLabel 2550 2500 0    60   Output ~ 0
+USART_TX
+Text HLabel 2550 4400 0    60   BiDi ~ 0
+I2C_SDA
+Text HLabel 2550 4300 0    60   Output ~ 0
+I2C_SCL
+Text HLabel 2550 2400 0    60   Output ~ 0
+~SPI1_CS
+Text HLabel 2550 2300 0    60   Output ~ 0
+SPI1_MOSI
+Text HLabel 2550 2200 0    60   Input ~ 0
+SPI1_MISO
+Text HLabel 2550 2100 0    60   Output ~ 0
+SPI1_SCK
+Text HLabel 2550 2000 0    60   Input ~ 0
+ADC12_IN4
+Text HLabel 2550 1900 0    60   Input ~ 0
+ADC12_IN3
+Text HLabel 2550 1800 0    60   Input ~ 0
+ADC12_IN2
+Text HLabel 2550 3400 0    60   Input ~ 0
+ADC12_IN9
+Text HLabel 2550 4800 0    60   BiDi ~ 0
+SPI2_MOSI
+Text HLabel 2550 4700 0    60   BiDi ~ 0
+SPI2_MISO
+Text HLabel 2550 4600 0    60   BiDi ~ 0
+SPI2_SCK
+Text HLabel 2550 4500 0    60   Input ~ 0
+~SPI2_NSS
+Text HLabel 2550 3300 0    60   Input ~ 0
+ADC12_IN8
+$Comp
+L GND #PWR019
+U 1 1 4D7824FD
+P 6150 4100
+F 0 "#PWR019" H 6150 4100 30  0001 C CNN
+F 1 "GND" H 6150 4030 30  0001 C CNN
+	1    6150 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 4D7824F7
+P 6650 4100
+F 0 "#PWR020" H 6650 4100 30  0001 C CNN
+F 1 "GND" H 6650 4030 30  0001 C CNN
+	1    6650 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR021
+U 1 1 4D7824F5
+P 7000 3700
+F 0 "#PWR021" H 7000 3660 30  0001 C CNN
+F 1 "+3.3V" H 7000 3810 30  0000 C CNN
+	1    7000 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL SW301
+U 1 1 4D7824D6
+P 6550 4000
+F 0 "SW301" H 6700 4110 30  0000 C CNN
+F 1 "reset" H 6550 3921 30  0000 C CNN
+	1    6550 4000
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R304
+U 1 1 4D7824BD
+P 6750 3700
+F 0 "R304" V 6830 3700 50  0000 C CNN
+F 1 "R" V 6750 3700 50  0000 C CNN
+	1    6750 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C303
+U 1 1 4D7824B7
+P 6150 3900
+F 0 "C303" H 6200 4000 50  0000 L CNN
+F 1 "100nF" H 6200 3800 50  0000 L CNN
+	1    6150 3900
+	1    0    0    1   
+$EndComp
+Text HLabel 5950 3700 3    60   Input ~ 0
+NRST
+Text HLabel 2550 3100 0    60   Input ~ 0
+JTDI
+Text HLabel 2550 3000 0    60   Input ~ 0
+JTCK
+Text HLabel 2550 2900 0    60   Input ~ 0
+JTMS
+$Comp
+L +3.3V #PWR022
+U 1 1 4D782474
+P 6550 3300
+F 0 "#PWR022" H 6550 3260 30  0001 C CNN
+F 1 "+3.3V" H 6550 3410 30  0000 C CNN
+	1    6550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 4D782472
+P 5450 3400
+F 0 "#PWR023" H 5450 3400 30  0001 C CNN
+F 1 "GND" H 5450 3330 30  0001 C CNN
+	1    5450 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L XO53 U303
+U 1 1 4D782466
+P 6000 3350
+F 0 "U303" H 6000 3550 60  0000 C CNN
+F 1 "8MHz" H 6000 3150 60  0000 C CNN
+	1    6000 3350
+	-1   0    0    1   
+$EndComp
+Text HLabel 2550 2800 0    60   Output ~ 0
+CAN_TX
+Text HLabel 2550 2700 0    60   Input ~ 0
+CAN_RX
+$EndSCHEMATC

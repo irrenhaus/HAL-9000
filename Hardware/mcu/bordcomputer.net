@@ -1,0 +1,992 @@
+# EESchema Netlist Version 1.1 created  Mi 09 Mär 2011 23:28:57 CET
+(
+ ( /4D7436D3/4D74376A PinArray_1x2 BT601 BATTERY
+  ( 1 +BATT )
+  ( 2 GND )
+ )
+ ( /4D77DF86/4D77E951 SMD0805 C201 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4D74466C/4D744D85 SMD0805 C501 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4D74466C/4D744A3E SMD0805 C502 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4D7436D3/4D743E47 SMD1206 C603 10uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /4D7410E7/4D3CF5F7 SMD0805 C1001 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4D7410E7/4D3CF60A SMD0805 C1002 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D74F18B SMD0805 C1101 8pF
+  ( 1 N-000092 )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D74F18D SMD0805 C1102 8pF
+  ( 1 GND )
+  ( 2 N-000091 )
+ )
+ ( /4D7410A2/4D74F24C SMD0805 C1105 100nF
+  ( 1 /JTAG/nSRST )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D74F000 SMD0805 C1106 100nF
+  ( 1 +BATT )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D74EBC2 SMD0805 C1109 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4D7410A2/4D74EBCF SMD0805 C1110 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D74EBD6 SMD0805 C1111 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4D7410A2/4D74EBDA SMD0805 C1112 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D74EBE5 SMD0805 C1113 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4D7410A2/4D74EBE4 SMD0805 C1114 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D74EBE3 SMD0805 C1115 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4D7410A2/4D74EBE2 SMD0805 C1116 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D74EBF0 SMD0805 C1117 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4D7410A2/4D74EBF1 SMD0805 C1118 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D74EBF2 SMD0805 C1119 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4D7436D3/4D77DED1 D3 D501 20V
+  ( 1 GND )
+  ( 2 +12V )
+ )
+ ( /4D7410A2/4D7501F0 LED-1206 D1101 Blue
+  ( 1 N-000065 )
+  ( 2 N-000068 )
+ )
+ ( /4D7410A2/4D750EB6 LED-1206 D1102 Red
+  ( 1 N-000061 )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D750EB9 LED-1206 D1103 Green
+  ( 1 N-000062 )
+  ( 2 GND )
+ )
+ ( /4D7436D3/4D743DAA littelfuse_435series F601 5A_Fuse
+  ( 1 /Data_Connectors/EXTVCC )
+  ( 2 +12V )
+ )
+ ( /4D77DF86/4D77DFB3 RJ45_8_Shield J201 RJ45
+  ( 1 GND )
+  ( 2 /Data_Connectors/EXTVCC )
+  ( 3 N-000128 )
+  ( 4 N-000127 )
+  ( 5 /STM32_MCU/~SPI2_CS )
+  ( 6 /STM32_MCU/SPI2_SCK )
+  ( 7 /STM32_MCU/SPI2_MOSI )
+  ( 8 /STM32_MCU/SPI_MISO )
+  ( 9 GND )
+ )
+ ( /4D7436D3/4D750F34 USB_A J601 USB-A
+  ( 1 +5V )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 GND )
+ )
+ ( /4D74DE7F/4D77ED79 PinArray_2x5_sideways P301 ARM_JTAG_10PIN
+  ( 1 +3.3V )
+  ( 2 GND )
+  ( 3 /JTAG/nSRST )
+  ( 4 /STM32_MCU/JTMS )
+  ( 5 /JTAG/nTRST )
+  ( 6 /STM32_MCU/JTCK )
+  ( 7 /STM32_MCU/JTDI )
+  ( 8 /STM32_MCU/JTDO )
+  ( 9 /JTAG/UART_RX )
+  ( 10 /JTAG/UART_TX )
+ )
+ ( /4D7436D3/4D743D7E PinArray_1x2 P601 MainPwr
+  ( 1 GND )
+  ( 2 /Data_Connectors/EXTVCC )
+ )
+ ( /4D7410E7/4D77F664 SMJUMPER3 P801 JP_SPI
+  ( 1 N-000094 )
+  ( 2 +3.3V )
+  ( 3 N-000101 )
+ )
+ ( /4D7410E7/4D77F796 SMJUMPER3 P802 JP_SPI2
+  ( 1 /LCD_&_Touch/SCK )
+  ( 2 N-000093 )
+  ( 3 /STM32_MCU/~FSMC_OE )
+ )
+ ( /4D7410A2/4D77EC17 PinArray_2x12 P901 EXP5
+  ( 1 /STM32_MCU/PA0 )
+  ( 2 GND )
+  ( 3 /STM32_MCU/PA1 )
+  ( 4 /STM32_MCU/PF6 )
+  ( 5 /STM32_MCU/PB5 )
+  ( 6 /STM32_MCU/PF7 )
+  ( 7 /STM32_MCU/PC0 )
+  ( 8 /STM32_MCU/PF8 )
+  ( 9 /STM32_MCU/PC1 )
+  ( 10 /STM32_MCU/PF9 )
+  ( 11 /STM32_MCU/PC2 )
+  ( 12 /STM32_MCU/PF10 )
+  ( 13 /STM32_MCU/PC3 )
+  ( 14 /STM32_MCU/PF11 )
+  ( 15 /STM32_MCU/PC6 )
+  ( 16 /STM32_MCU/PE4 )
+  ( 17 /STM32_MCU/PC7 )
+  ( 18 /STM32_MCU/PE5 )
+  ( 19 /STM32_MCU/PD3 )
+  ( 20 /STM32_MCU/PE6 )
+  ( 21 /STM32_MCU/PD6 )
+  ( 22 /STM32_MCU/PE2 )
+  ( 23 /STM32_MCU/PE0 )
+  ( 24 /STM32_MCU/PE1 )
+ )
+ ( /4D7410A2/4D75032F PinArray_1x6 P1101 EXP1
+  ( 1 /STM32_MCU/SPI2_MOSI )
+  ( 2 /STM32_MCU/SPI_MISO )
+  ( 3 /STM32_MCU/SPI2_SCK )
+  ( 4 /STM32_MCU/~EXP1_CS )
+  ( 5 GND )
+  ( 6 +3.3V )
+ )
+ ( /4D7410A2/4D7503B3 PinArray_1x4 P1102 EXP2
+  ( 1 GND )
+  ( 2 /STM32_MCU/I2C1_SDA )
+  ( 3 /STM32_MCU/I2C1_SCL )
+  ( 4 +3.3V )
+ )
+ ( /4D7410A2/4D7508EC PinArray_1x9 P1103 EXP3
+  ( 1 /STM32_MCU/PG15 )
+  ( 2 /STM32_MCU/PG14 )
+  ( 3 /STM32_MCU/PG13 )
+  ( 4 /STM32_MCU/PG11 )
+  ( 5 /STM32_MCU/PG10 )
+  ( 6 /STM32_MCU/PG9 )
+  ( 7 /STM32_MCU/PG8 )
+  ( 8 /STM32_MCU/PG7 )
+  ( 9 /STM32_MCU/PG6 )
+ )
+ ( /4D7410A2/4D75098D PinArray_1x6 P1104 EXP4
+  ( 1 /STM32_MCU/SPI2_MOSI )
+  ( 2 /STM32_MCU/SPI_MISO )
+  ( 3 /STM32_MCU/SPI2_SCK )
+  ( 4 /STM32_MCU/~EXP4_CS )
+  ( 5 GND )
+  ( 6 +3.3V )
+ )
+ ( /4D7410A2/4D751022 PinArray_1x4 P1105 EXPPWR
+  ( 1 +3.3V )
+  ( 2 +3.3V )
+  ( 3 GND )
+  ( 4 GND )
+ )
+ ( /4D7410E7/4D3CC132 SOT23EBC Q1001 NPN
+  ( 1 GND )
+  ( 2 /LCD_&_Touch/LCD_BKLIT_EN )
+  ( 3 N-000106 )
+ )
+ ( /4D7410A2/4D7501E9 SOT23EBC Q1101 NPN
+  ( 1 GND )
+  ( 2 N-000064 )
+  ( 3 N-000068 )
+ )
+ ( /4D77DF86/4D77E587 SM0805 R201 120
+  ( 1 N-000127 )
+  ( 2 N-000128 )
+ )
+ ( /4D74466C/4D744D04 SM0805 R501 10k
+  ( 1 /Memory/~SRAM_CE )
+  ( 2 +3.3V )
+ )
+ ( /4D7436D3/4D74410A SM0805 R601 360
+  ( 1 N-000113 )
+  ( 2 GND )
+ )
+ ( /4D7436D3/4D744104 SM0805 R602 220
+  ( 1 +3.3V )
+  ( 2 N-000113 )
+ )
+ ( /4D7436D3/4D750FB1 SM0805 R603 720
+  ( 1 N-000112 )
+  ( 2 GND )
+ )
+ ( /4D7436D3/4D750FAC SM0805 R604 240
+  ( 1 +5V )
+  ( 2 N-000112 )
+ )
+ ( /4D741259/4D743462 SM0805 R801 100k
+  ( 1 GND )
+  ( 2 /STM32_MCU/SDCARD_DETECT )
+ )
+ ( /4D741250/4D7435F8 SM0805 R901 4k7
+  ( 1 N-000108 )
+  ( 2 GND )
+ )
+ ( /4D741250/4D7435FB SM0805 R902 1k5
+  ( 1 /USB/USBEN )
+  ( 2 N-000108 )
+ )
+ ( /4D7410E7/4D3CD40F SM0805 R1001 10k
+  ( 1 /STM32_MCU/~FSMC_OE )
+  ( 2 +3.3V )
+ )
+ ( /4D7410E7/4D3CC70D SM0805 R1002 22
+  ( 1 N-000104 )
+  ( 2 +3.3V )
+ )
+ ( /4D7410E7/4D3CC719 SM0805 R1003 22
+  ( 1 N-000103 )
+  ( 2 +3.3V )
+ )
+ ( /4D7410E7/4D3CC71B SM0805 R1004 22
+  ( 1 N-000105 )
+  ( 2 +3.3V )
+ )
+ ( /4D7410E7/4D3CC71E SM0805 R1005 22
+  ( 1 N-000102 )
+  ( 2 +3.3V )
+ )
+ ( /4D7410E7/4D3CC6E6 SM0805 R1008 100k
+  ( 1 N-000106 )
+  ( 2 +3.3V )
+ )
+ ( /4D7410E7/4D3CD456 SM0805 R1009 100k
+  ( 1 /STM32_MCU/~LCD_RESET )
+  ( 2 +3.3V )
+ )
+ ( /4D7410E7/4D3CD3B6 SM0805 R1010 10k
+  ( 1 /LCD_&_Touch/~FSMC_OE )
+  ( 2 +3.3V )
+ )
+ ( /4D7410E7/4D3CD3D5 SM0805 R1013 10k
+  ( 1 /STM32_MCU/~LCD_CS )
+  ( 2 +3.3V )
+ )
+ ( /4D7410E7/4D3CCB43 SM0805 R1014 100k
+  ( 1 GND )
+  ( 2 N-000094 )
+ )
+ ( /4D7410E7/4D3CCB40 SM0805 R1015 100k
+  ( 1 N-000101 )
+  ( 2 GND )
+ )
+ ( /4D7410E7/4D3FF90B SM0805 R1016 10k
+  ( 1 GND )
+  ( 2 /LCD_&_Touch/LCD_BKLIT_EN )
+ )
+ ( /4D7410A2/4D750388 SM0805 R1101 100k
+  ( 1 +3.3V )
+  ( 2 /STM32_MCU/~EXP1_CS )
+ )
+ ( /4D7410A2/4D75098A SM0805 R1102 100k
+  ( 1 +3.3V )
+  ( 2 /STM32_MCU/~EXP4_CS )
+ )
+ ( /4D7410A2/4D7501FC SM0805 R1103 27
+  ( 1 N-000065 )
+  ( 2 +3.3V )
+ )
+ ( /4D7410A2/4D750EAD SM0805 R1104 100
+  ( 1 N-000059 )
+  ( 2 N-000061 )
+ )
+ ( /4D7410A2/4D750EB1 SM0805 R1105 68
+  ( 1 N-000060 )
+  ( 2 N-000062 )
+ )
+ ( /4D7410A2/4D750210 SM0805 R1106 100k
+  ( 1 +3.3V )
+  ( 2 N-000064 )
+ )
+ ( /4D7410A2/4D74F1D2 SM0805 R1107 100k
+  ( 1 /JTAG/nSRST )
+  ( 2 +3.3V )
+ )
+ ( /4D7410A2/4D74F25B SM0805 R1108 100k
+  ( 1 N-000066 )
+  ( 2 GND )
+ )
+ ( /4D7410A2/4D74F1F5 Taster9313 SW1101 Reset
+  ( 1 GND )
+  ( 2 /JTAG/nSRST )
+ )
+ ( /4D77DF86/4D77E926 SOIC8 U201 SN65HVD232
+  ( 1 /Data_Connectors/CAN_TX )
+  ( 2 GND )
+  ( 3 +3.3V )
+  ( 4 /STM32_MCU/CAN_RX )
+  ( 5 ? )
+  ( 6 N-000127 )
+  ( 7 N-000128 )
+  ( 8 ? )
+ )
+ ( /4D74466C/4D744A1D TSOP44 U501 AS7C34096A
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 /STM32_MCU/FSMC_A0 )
+  ( 4 /STM32_MCU/FSMC_A1 )
+  ( 5 /Memory/FSMC_A2 )
+  ( 6 /Memory/FSMC_A3 )
+  ( 7 /STM32_MCU/FSMC_A4 )
+  ( 8 /Memory/~SRAM_CE )
+  ( 9 /LCD_&_Touch/FSMC_D0 )
+  ( 10 /Memory/FSMC_D1 )
+  ( 11 +3.3V )
+  ( 12 GND )
+  ( 13 /LCD_&_Touch/FSMC_D2 )
+  ( 14 /STM32_MCU/FSMC_D3 )
+  ( 15 /STM32_MCU/~FSMC_OE )
+  ( 16 /STM32_MCU/FSMC_A5 )
+  ( 17 /STM32_MCU/FSMC_A6 )
+  ( 18 /Memory/FSMC_A7 )
+  ( 19 /STM32_MCU/FSMC_A8 )
+  ( 20 /STM32_MCU/FSMC_A9 )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 /STM32_MCU/FSMC_A10 )
+  ( 27 /Memory/FSMC_A11 )
+  ( 28 /Memory/FSMC_A12 )
+  ( 29 /Memory/FSMC_A13 )
+  ( 30 /Memory/FSMC_A14 )
+  ( 31 /LCD_&_Touch/FSMC_D4 )
+  ( 32 /STM32_MCU/FSMC_D5 )
+  ( 33 +3.3V )
+  ( 34 GND )
+  ( 35 /Memory/FSMC_D6 )
+  ( 36 /LCD_&_Touch/FSMC_D7 )
+  ( 37 /LCD_&_Touch/~FSMC_OE )
+  ( 38 /STM32_MCU/FSMC_A15 )
+  ( 39 /STM32_MCU/FSMC_A16 )
+  ( 40 /Memory/FSMC_A17 )
+  ( 41 /STM32_MCU/FSMC_A18 )
+  ( 42 ? )
+  ( 43 ? )
+  ( 44 ? )
+ )
+ ( /4D7436D3/4D7440E6 SOT223 U601 LM317
+  ( 1 +12V )
+  ( 2 N-000113 )
+  ( 3 +3.3V )
+ )
+ ( /4D7436D3/4D744156 SOT223 U602 LM1117-3.3
+  ( 1 GND )
+  ( 2 +3.3V )
+  ( 3 +5V )
+  ( 4 +3.3V )
+ )
+ ( /4D7436D3/4D750F7D SOT223 U603 LM317
+  ( 1 +12V )
+  ( 2 N-000112 )
+  ( 3 +5V )
+ )
+ ( /4D741259/4D743442 MicroSD-DM3D-SF U801 MICROSD
+  ( 1 /SDCard/SDD2 )
+  ( 2 /SDCard/SDD3 )
+  ( 3 /SDCard/SDCMD )
+  ( 4 +3.3V )
+  ( 5 /SDCard/SDCLK )
+  ( 6 GND )
+  ( 7 /SDCard/SDD0 )
+  ( 8 /SDCard/SDD1 )
+  ( 9 +3.3V )
+  ( 10 /STM32_MCU/SDCARD_DETECT )
+ )
+ ( /4D741250/4D7434BC MiniUSB-B U901 MINIUSB-B
+  ( 1 +5V )
+  ( 2 N-000109 )
+  ( 3 N-000108 )
+  ( 4 GND )
+  ( 5 ? )
+  ( 6 GND )
+ )
+ ( /4D741250/4D74356C SOT23_6 U902 USBLC6-2
+  ( 1 N-000109 )
+  ( 2 GND )
+  ( 3 N-000108 )
+  ( 4 /STM32_MCU/USBDP )
+  ( 5 +5V )
+  ( 6 /USB/USBDM )
+ )
+ ( /4D7410A2/4D77FEF0 XO53 U903 XO53
+  ( 1 +3.3V )
+  ( 2 GND )
+  ( 3 N-000067 )
+  ( 4 +3.3V )
+ )
+ ( /4D7410E7/4D3CAFCD MI0283QT-2 U1001 MI0283QT-2
+  ( 1 N-000106 )
+  ( 2 N-000104 )
+  ( 3 N-000103 )
+  ( 4 N-000105 )
+  ( 5 N-000102 )
+  ( 6 GND )
+  ( 7 N-000094 )
+  ( 8 N-000101 )
+  ( 9 GND )
+  ( 10 /STM32_MCU/~LCD_RESET )
+  ( 11 GND )
+  ( 12 GND )
+  ( 13 GND )
+  ( 14 GND )
+  ( 15 /LCD_&_Touch/FSMC_D15 )
+  ( 16 /LCD_&_Touch/FSMC_D14 )
+  ( 17 /STM32_MCU/FSMC_D13 )
+  ( 18 /LCD_&_Touch/FSMC_D12 )
+  ( 19 /STM32_MCU/FSMC_D11 )
+  ( 20 /STM32_MCU/FSMC_D10 )
+  ( 21 /LCD_&_Touch/FSMC_D9 )
+  ( 22 /LCD_&_Touch/FSMC_D8 )
+  ( 23 GND )
+  ( 24 /LCD_&_Touch/FSMC_D7 )
+  ( 25 /Memory/FSMC_D6 )
+  ( 26 /STM32_MCU/FSMC_D5 )
+  ( 27 /LCD_&_Touch/FSMC_D4 )
+  ( 28 /STM32_MCU/FSMC_D3 )
+  ( 29 /LCD_&_Touch/FSMC_D2 )
+  ( 30 /Memory/FSMC_D1 )
+  ( 31 /LCD_&_Touch/FSMC_D0 )
+  ( 32 GND )
+  ( 33 /LCD_&_Touch/MISO )
+  ( 34 /LCD_&_Touch/MOSI )
+  ( 35 /LCD_&_Touch/~FSMC_OE )
+  ( 36 N-000093 )
+  ( 37 /STM32_MCU/FSMC_A19 )
+  ( 38 /STM32_MCU/~LCD_CS )
+  ( 39 ? )
+  ( 40 +3.3V )
+  ( 41 +3.3V )
+  ( 42 +3.3V )
+  ( 43 GND )
+  ( 44 N-000097 )
+  ( 45 N-000098 )
+  ( 46 N-000099 )
+  ( 47 N-000100 )
+ )
+ ( /4D7410E7/4D755C35 SSOP16 U1002 AD7843
+  ( 1 +3.3V )
+  ( 2 N-000097 )
+  ( 3 N-000098 )
+  ( 4 N-000099 )
+  ( 5 N-000100 )
+  ( 6 GND )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 +3.3V )
+  ( 10 +3.3V )
+  ( 11 /STM32_MCU/~TOUCH_PENIRQ )
+  ( 12 /LCD_&_Touch/MISO )
+  ( 13 /STM32_MCU/TOUCH_BUSY )
+  ( 14 /LCD_&_Touch/MOSI )
+  ( 15 /STM32_MCU/~TOUCH_CS )
+  ( 16 /LCD_&_Touch/SCK )
+ )
+ ( /4D7410A2/4D744637 TQFP144 U1101 STM32F103ZC
+  ( 1 /STM32_MCU/PE2 )
+  ( 2 /STM32_MCU/FSMC_A19 )
+  ( 3 /STM32_MCU/PE4 )
+  ( 4 /STM32_MCU/PE5 )
+  ( 5 /STM32_MCU/PE6 )
+  ( 6 +BATT )
+  ( 7 /STM32_MCU/SDCARD_DETECT )
+  ( 8 N-000092 )
+  ( 9 N-000091 )
+  ( 10 /STM32_MCU/FSMC_A0 )
+  ( 11 /STM32_MCU/FSMC_A1 )
+  ( 12 /Memory/FSMC_A2 )
+  ( 13 /Memory/FSMC_A3 )
+  ( 14 /STM32_MCU/FSMC_A4 )
+  ( 15 /STM32_MCU/FSMC_A5 )
+  ( 16 GND )
+  ( 17 +3.3V )
+  ( 18 /STM32_MCU/PF6 )
+  ( 19 /STM32_MCU/PF7 )
+  ( 20 /STM32_MCU/PF8 )
+  ( 21 /STM32_MCU/PF9 )
+  ( 22 /STM32_MCU/PF10 )
+  ( 23 N-000067 )
+  ( 24 ? )
+  ( 25 /JTAG/nSRST )
+  ( 26 /STM32_MCU/PC0 )
+  ( 27 /STM32_MCU/PC1 )
+  ( 28 /STM32_MCU/PC2 )
+  ( 29 /STM32_MCU/PC3 )
+  ( 30 GND )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 +3.3V )
+  ( 34 /STM32_MCU/PA0 )
+  ( 35 /STM32_MCU/PA1 )
+  ( 36 /JTAG/UART_TX )
+  ( 37 /JTAG/UART_RX )
+  ( 38 GND )
+  ( 39 +3.3V )
+  ( 40 /STM32_MCU/~TOUCH_PENIRQ )
+  ( 41 /LCD_&_Touch/SCK )
+  ( 42 /LCD_&_Touch/MISO )
+  ( 43 /LCD_&_Touch/MOSI )
+  ( 44 /STM32_MCU/TOUCH_BUSY )
+  ( 45 /STM32_MCU/~TOUCH_CS )
+  ( 46 /LCD_&_Touch/LCD_BKLIT_EN )
+  ( 47 /STM32_MCU/~LCD_RESET )
+  ( 48 /STM32_MCU/~EXP4_CS )
+  ( 49 /STM32_MCU/PF11 )
+  ( 50 /STM32_MCU/FSMC_A6 )
+  ( 51 GND )
+  ( 52 +3.3V )
+  ( 53 /Memory/FSMC_A7 )
+  ( 54 /STM32_MCU/FSMC_A8 )
+  ( 55 /STM32_MCU/FSMC_A9 )
+  ( 56 /STM32_MCU/FSMC_A10 )
+  ( 57 /Memory/FSMC_A11 )
+  ( 58 /LCD_&_Touch/FSMC_D4 )
+  ( 59 /STM32_MCU/FSMC_D5 )
+  ( 60 /Memory/FSMC_D6 )
+  ( 61 GND )
+  ( 62 +3.3V )
+  ( 63 /LCD_&_Touch/FSMC_D7 )
+  ( 64 /LCD_&_Touch/FSMC_D8 )
+  ( 65 /LCD_&_Touch/FSMC_D9 )
+  ( 66 /STM32_MCU/FSMC_D10 )
+  ( 67 /STM32_MCU/FSMC_D11 )
+  ( 68 /LCD_&_Touch/FSMC_D12 )
+  ( 69 N-000059 )
+  ( 70 N-000060 )
+  ( 71 GND )
+  ( 72 +3.3V )
+  ( 73 /STM32_MCU/~SPI2_CS )
+  ( 74 /STM32_MCU/SPI2_SCK )
+  ( 75 /STM32_MCU/SPI_MISO )
+  ( 76 /STM32_MCU/SPI2_MOSI )
+  ( 77 /STM32_MCU/FSMC_D13 )
+  ( 78 /LCD_&_Touch/FSMC_D14 )
+  ( 79 /LCD_&_Touch/FSMC_D15 )
+  ( 80 /STM32_MCU/FSMC_A16 )
+  ( 81 /Memory/FSMC_A17 )
+  ( 82 /STM32_MCU/FSMC_A18 )
+  ( 83 GND )
+  ( 84 +3.3V )
+  ( 85 /LCD_&_Touch/FSMC_D0 )
+  ( 86 /Memory/FSMC_D1 )
+  ( 87 /Memory/FSMC_A12 )
+  ( 88 /Memory/FSMC_A13 )
+  ( 89 /Memory/FSMC_A14 )
+  ( 90 /STM32_MCU/FSMC_A15 )
+  ( 91 /STM32_MCU/PG6 )
+  ( 92 /STM32_MCU/PG7 )
+  ( 93 /STM32_MCU/PG8 )
+  ( 94 GND )
+  ( 95 +3.3V )
+  ( 96 /STM32_MCU/PC6 )
+  ( 97 /STM32_MCU/PC7 )
+  ( 98 /SDCard/SDD0 )
+  ( 99 /SDCard/SDD1 )
+  ( 100 N-000064 )
+  ( 101 /STM32_MCU/~EXP1_CS )
+  ( 102 /USB/USBEN )
+  ( 103 /USB/USBDM )
+  ( 104 /STM32_MCU/USBDP )
+  ( 105 /STM32_MCU/JTMS )
+  ( 106 ? )
+  ( 107 GND )
+  ( 108 +3.3V )
+  ( 109 /STM32_MCU/JTCK )
+  ( 110 /STM32_MCU/JTDI )
+  ( 111 /SDCard/SDD2 )
+  ( 112 /SDCard/SDD3 )
+  ( 113 /SDCard/SDCLK )
+  ( 114 /LCD_&_Touch/FSMC_D2 )
+  ( 115 /STM32_MCU/FSMC_D3 )
+  ( 116 /SDCard/SDCMD )
+  ( 117 /STM32_MCU/PD3 )
+  ( 118 /STM32_MCU/~FSMC_OE )
+  ( 119 /STM32_MCU/~FSMC_OE )
+  ( 120 GND )
+  ( 121 +3.3V )
+  ( 122 /STM32_MCU/PD6 )
+  ( 123 /Memory/~SRAM_CE )
+  ( 124 /STM32_MCU/PG9 )
+  ( 125 /STM32_MCU/PG10 )
+  ( 126 /STM32_MCU/PG11 )
+  ( 127 /STM32_MCU/~LCD_CS )
+  ( 128 /STM32_MCU/PG13 )
+  ( 129 /STM32_MCU/PG14 )
+  ( 130 GND )
+  ( 131 +3.3V )
+  ( 132 /STM32_MCU/PG15 )
+  ( 133 /STM32_MCU/JTDO )
+  ( 134 /JTAG/nTRST )
+  ( 135 /STM32_MCU/PB5 )
+  ( 136 /STM32_MCU/I2C1_SCL )
+  ( 137 /STM32_MCU/I2C1_SDA )
+  ( 138 N-000066 )
+  ( 139 /STM32_MCU/CAN_RX )
+  ( 140 /Data_Connectors/CAN_TX )
+  ( 141 /STM32_MCU/PE0 )
+  ( 142 /STM32_MCU/PE1 )
+  ( 143 GND )
+  ( 144 +3.3V )
+ )
+ ( /4D7410A2/4D74F17E MicroCrystal X1101 32KHz
+  ( 1 N-000092 )
+  ( 2 N-000091 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C201
+ SM*
+ C?
+ C1-1
+$endlist
+$component C501
+ SM*
+ C?
+ C1-1
+$endlist
+$component C502
+ SM*
+ C?
+ C1-1
+$endlist
+$component C603
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1001
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1002
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1101
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1102
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1105
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1106
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1109
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1110
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1111
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1112
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1113
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1114
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1115
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1116
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1117
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1118
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1119
+ SM*
+ C?
+ C1-1
+$endlist
+$component D501
+ D?
+ SO*
+ SM*
+$endlist
+$component D1101
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1102
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1103
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R201
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R501
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R601
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R602
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R603
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R604
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R801
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R901
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R902
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1001
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1002
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1003
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1004
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1005
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1008
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1009
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1010
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1013
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1014
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1015
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1016
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1101
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1102
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1103
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1104
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1105
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1106
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1107
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1108
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component U902
+ SOT23-6
+$endlist
+$endfootprintlist
+}
