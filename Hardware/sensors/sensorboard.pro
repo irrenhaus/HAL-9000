@@ -1,4 +1,4 @@
-update=Do 17 Mär 2011 16:44:23 CET
+update=So 20 Mär 2011 21:28:33 CET
 version=1
 last_client=pcbnew
 [general]
@@ -73,19 +73,19 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=1181
+PadDimH=2362
+PadDimV=2362
 BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
+TxtPcbV=118
+TxtPcbH=118
 TxtModV=600
 TxtModH=600
 TxtModW=120
 VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
+DrawLar=79
+EdgeLar=10
+TxtLar=79
 MSegLar=150
 LastNetListRead=sensorboard.net
 [pcbnew/libraries]

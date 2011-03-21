@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Do 10 Mär 2011 16:44:23 CET
+EESchema Schematic File Version 2  date Mo 21 Mär 2011 03:16:23 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "10 mar 2011"
+Date "21 mar 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -116,19 +116,19 @@ Wire Wire Line
 Text HLabel 3300 2950 2    60   BiDi ~ 0
 ~SPI_CS
 $Comp
-L +3.3V #PWR202
+L +3.3V #PWR02
 U 1 1 4D77EA4B
 P 1050 3650
-F 0 "#PWR202" H 1050 3610 30  0001 C CNN
+F 0 "#PWR02" H 1050 3610 30  0001 C CNN
 F 1 "+3.3V" H 1050 3760 30  0000 C CNN
 	1    1050 3650
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR201
+L GND #PWR03
 U 1 1 4D77EA44
 P 1050 3150
-F 0 "#PWR201" H 1050 3150 30  0001 C CNN
+F 0 "#PWR03" H 1050 3150 30  0001 C CNN
 F 1 "GND" H 1050 3080 30  0001 C CNN
 	1    1050 3150
 	-1   0    0    1   
@@ -173,19 +173,19 @@ $EndComp
 Text HLabel 2550 2750 0    60   Output ~ 0
 EXTVCC
 $Comp
-L GND #PWR203
+L GND #PWR04
 U 1 1 4D77DFC0
 P 2500 2550
-F 0 "#PWR203" H 2500 2550 30  0001 C CNN
+F 0 "#PWR04" H 2500 2550 30  0001 C CNN
 F 1 "GND" H 2500 2480 30  0001 C CNN
 	1    2500 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR204
+L GND #PWR05
 U 1 1 4D77DFB7
 P 3400 1750
-F 0 "#PWR204" H 3400 1750 30  0001 C CNN
+F 0 "#PWR05" H 3400 1750 30  0001 C CNN
 F 1 "GND" H 3400 1680 30  0001 C CNN
 	1    3400 1750
 	0    -1   -1   0   

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Do 17 Mär 2011 20:31:13 CET
+EESchema Schematic File Version 2  date So 20 Mär 2011 20:56:17 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "17 mar 2011"
+Date "20 mar 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,96 +45,178 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Notes Line
+	10450 6650 9450 6650
+Wire Notes Line
+	10450 6150 10450 6650
+Wire Notes Line
+	10450 6150 9450 6150
 Wire Wire Line
-	7800 3400 6700 3400
-Wire Wire Line
-	2250 2500 3150 2500
-Wire Wire Line
-	2250 2400 3150 2400
-Wire Wire Line
-	2250 2300 3150 2300
-Wire Wire Line
-	2250 2200 3150 2200
-Wire Wire Line
-	2250 2100 3150 2100
-Wire Wire Line
-	6700 2700 7800 2700
-Wire Wire Line
-	6700 2600 7800 2600
-Wire Wire Line
-	6700 2500 7800 2500
-Wire Wire Line
-	6700 2350 7800 2350
-Wire Wire Line
-	6700 2250 7800 2250
-Wire Wire Line
-	6700 1800 7800 1800
-Wire Wire Line
-	6700 1700 7800 1700
-Wire Wire Line
-	6700 1600 7800 1600
-Wire Wire Line
-	6700 1500 7800 1500
-Wire Wire Line
-	2250 5550 3150 5550
-Wire Wire Line
-	2250 5450 3150 5450
-Wire Wire Line
-	2250 5350 3150 5350
-Wire Wire Line
-	2250 5250 3150 5250
-Wire Wire Line
-	2250 5150 3150 5150
-Wire Wire Line
-	2250 5050 3150 5050
-Wire Wire Line
-	2250 3650 3150 3650
-Wire Wire Line
-	2250 3550 3150 3550
-Wire Wire Line
-	2250 3450 3150 3450
-Wire Wire Line
-	2250 3350 3150 3350
-Wire Wire Line
-	6700 3250 7800 3250
-Wire Wire Line
-	6700 3150 7800 3150
-Wire Wire Line
-	6700 3050 7800 3050
-Wire Wire Line
-	6700 2950 7800 2950
-Wire Wire Line
-	2250 3850 3150 3850
-Wire Wire Line
-	2250 3950 3150 3950
-Wire Wire Line
-	600  1800 550  1800
-Wire Wire Line
-	550  1800 550  4150
-Wire Wire Line
-	550  4150 1300 4150
-Wire Wire Line
-	6700 1250 7800 1250
-Wire Wire Line
-	6700 1350 7800 1350
-Wire Wire Line
-	6700 800  7800 800 
-Wire Wire Line
-	6700 900  7800 900 
-Wire Wire Line
-	6700 1000 7800 1000
-Wire Wire Line
-	6700 1100 7800 1100
-Wire Wire Line
-	2250 1850 3150 1850
-Wire Wire Line
-	2250 1950 3150 1950
-Wire Wire Line
-	2250 2650 3150 2650
+	2250 2850 3150 2850
 Wire Wire Line
 	2250 2750 3150 2750
 Wire Wire Line
-	2250 2850 3150 2850
+	2250 2650 3150 2650
+Wire Wire Line
+	2250 1950 3150 1950
+Wire Wire Line
+	2250 1850 3150 1850
+Wire Wire Line
+	6700 1100 7800 1100
+Wire Wire Line
+	6700 1000 7800 1000
+Wire Wire Line
+	6700 900  7800 900 
+Wire Wire Line
+	6700 800  7800 800 
+Wire Wire Line
+	6700 1350 7800 1350
+Wire Wire Line
+	6700 1250 7800 1250
+Wire Wire Line
+	1300 4150 550  4150
+Wire Wire Line
+	550  4150 550  1800
+Wire Wire Line
+	550  1800 600  1800
+Wire Wire Line
+	2250 3950 3150 3950
+Wire Wire Line
+	2250 3850 3150 3850
+Wire Wire Line
+	6700 2950 7800 2950
+Wire Wire Line
+	6700 3050 7800 3050
+Wire Wire Line
+	6700 3150 7800 3150
+Wire Wire Line
+	6700 3250 7800 3250
+Wire Wire Line
+	2250 3350 3150 3350
+Wire Wire Line
+	2250 3450 3150 3450
+Wire Wire Line
+	2250 3550 3150 3550
+Wire Wire Line
+	2250 3650 3150 3650
+Wire Wire Line
+	2250 5050 3150 5050
+Wire Wire Line
+	2250 5150 3150 5150
+Wire Wire Line
+	2250 5250 3150 5250
+Wire Wire Line
+	2250 5350 3150 5350
+Wire Wire Line
+	2250 5450 3150 5450
+Wire Wire Line
+	2250 5550 3150 5550
+Wire Wire Line
+	6700 1500 7800 1500
+Wire Wire Line
+	6700 1600 7800 1600
+Wire Wire Line
+	6700 1700 7800 1700
+Wire Wire Line
+	6700 1800 7800 1800
+Wire Wire Line
+	6700 2250 7800 2250
+Wire Wire Line
+	6700 2350 7800 2350
+Wire Wire Line
+	6700 2500 7800 2500
+Wire Wire Line
+	6700 2600 7800 2600
+Wire Wire Line
+	6700 2700 7800 2700
+Wire Wire Line
+	2250 2100 3150 2100
+Wire Wire Line
+	2250 2200 3150 2200
+Wire Wire Line
+	2250 2300 3150 2300
+Wire Wire Line
+	2250 2400 3150 2400
+Wire Wire Line
+	2250 2500 3150 2500
+Wire Wire Line
+	7800 3400 6700 3400
+Wire Notes Line
+	9450 6150 9450 6650
+$Comp
+L GND #PWR01
+U 1 1 4D865BA3
+P 9900 6550
+F 0 "#PWR01" H 9900 6550 30  0001 C CNN
+F 1 "GND" H 9900 6480 30  0001 C CNN
+	1    9900 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 4D865B9D
+P 9900 6450
+F 0 "#PWR02" H 9900 6450 30  0001 C CNN
+F 1 "GND" H 9900 6380 30  0001 C CNN
+	1    9900 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 4D865B9B
+P 9900 6350
+F 0 "#PWR03" H 9900 6350 30  0001 C CNN
+F 1 "GND" H 9900 6280 30  0001 C CNN
+	1    9900 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 4D865B99
+P 9900 6250
+F 0 "#PWR04" H 9900 6250 30  0001 C CNN
+F 1 "GND" H 9900 6180 30  0001 C CNN
+	1    9900 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P104
+U 1 1 4D865B93
+P 9750 6550
+F 0 "P104" H 9830 6550 40  0000 L CNN
+F 1 "Mount" H 9750 6605 30  0001 C CNN
+	1    9750 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P103
+U 1 1 4D865B91
+P 9750 6450
+F 0 "P103" H 9830 6450 40  0000 L CNN
+F 1 "Mount" H 9750 6505 30  0001 C CNN
+	1    9750 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P102
+U 1 1 4D865B8F
+P 9750 6350
+F 0 "P102" H 9830 6350 40  0000 L CNN
+F 1 "Mount" H 9750 6405 30  0001 C CNN
+	1    9750 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P101
+U 1 1 4D865B8C
+P 9750 6250
+F 0 "P101" H 9830 6250 40  0000 L CNN
+F 1 "Mount" H 9750 6305 30  0001 C CNN
+	1    9750 6250
+	-1   0    0    1   
+$EndComp
+Text Notes 9600 6150 0    60   ~ 0
+Mounting Holes
 Text Label 2250 5750 0    60   ~ 0
 USART_TX
 Text Label 2250 5850 0    60   ~ 0

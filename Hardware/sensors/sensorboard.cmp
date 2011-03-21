@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-03-13 BZR 2893)-testing date = Do 17 Mär 2011 20:42:12 CET
+Cmp-Mod V01 Created by CvPCB (2011-03-13 BZR 2893)-testing date = So 20 Mär 2011 21:05:10 CET
 
 BeginCmp
 TimeStamp = /4D782012/4D78354C;
@@ -183,6 +183,34 @@ IdModule  = B82462G2;
 EndCmp
 
 BeginCmp
+TimeStamp = /4D865B8C;
+Reference = P101;
+ValeurCmp = Mount;
+IdModule  = MountingHole3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D865B8F;
+Reference = P102;
+ValeurCmp = Mount;
+IdModule  = MountingHole3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D865B91;
+Reference = P103;
+ValeurCmp = Mount;
+IdModule  = MountingHole3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D865B93;
+Reference = P104;
+ValeurCmp = Mount;
+IdModule  = MountingHole3mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D7829DD/4D7829F4;
 Reference = P201;
 ValeurCmp = ARM_JTAG_10PIN;
@@ -242,28 +270,28 @@ BeginCmp
 TimeStamp = /4D781E19/4D7D1167;
 Reference = P701;
 ValeurCmp = sens1;
-IdModule  = Anschlussklemme_RM5_08_2Pol;
+IdModule  = PinArray_1x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D781E19/4D7D116A;
 Reference = P702;
 ValeurCmp = sens2;
-IdModule  = Anschlussklemme_RM5_08_2Pol;
+IdModule  = PinArray_1x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D781E19/4D7D116D;
 Reference = P703;
 ValeurCmp = sens3;
-IdModule  = Anschlussklemme_RM5_08_2Pol;
+IdModule  = PinArray_1x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D781E19/4D7D1170;
 Reference = P704;
 ValeurCmp = sens4;
-IdModule  = Anschlussklemme_RM5_08_2Pol;
+IdModule  = PinArray_1x2;
 EndCmp
 
 BeginCmp
@@ -514,7 +542,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4D782012/4D825E4D;
 Reference = U304;
-ValeurCmp = DG408DJZ;
+ValeurCmp = DG408DYZ;
 IdModule  = SOIC16;
 EndCmp
 

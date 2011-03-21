@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-03-10 BZR 2883)-testing date = Do 10 Mär 2011 16:44:34 CET
+Cmp-Mod V01 Created by CvPCB (2011-03-13 BZR 2893)-testing date = Mo 21 Mär 2011 03:17:25 CET
 
 BeginCmp
 TimeStamp = /4D7436D3/4D74376A;
@@ -39,7 +39,7 @@ BeginCmp
 TimeStamp = /4D7436D3/4D743E47;
 Reference = C603;
 ValeurCmp = 10uF;
-IdModule  = SMD1206;
+IdModule  = SMD0805;
 EndCmp
 
 BeginCmp
@@ -208,6 +208,34 @@ TimeStamp = /4D7436D3/4D750F34;
 Reference = J601;
 ValeurCmp = USB-A;
 IdModule  = USB_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D86B156;
+Reference = P101;
+ValeurCmp = CONN_1;
+IdModule  = MountingHole3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D86B15A;
+Reference = P102;
+ValeurCmp = CONN_1;
+IdModule  = MountingHole3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D86B15C;
+Reference = P103;
+ValeurCmp = CONN_1;
+IdModule  = MountingHole3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D86B15F;
+Reference = P104;
+ValeurCmp = CONN_1;
+IdModule  = MountingHole3mm;
 EndCmp
 
 BeginCmp

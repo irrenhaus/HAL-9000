@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Do 17 Mär 2011 20:42:12 CET
+# EESchema Netlist Version 1.1 created  So 20 Mär 2011 21:05:10 CET
 (
  ( /4D782012/4D78354C SM0805 C301 100nF
   ( 1 +3.3V )
@@ -10,7 +10,7 @@
  )
  ( /4D782012/4D7824B7 SM0805 C303 100nF
   ( 1 GND )
-  ( 2 /MCU/NRST )
+  ( 2 /JTAG/NRST )
  )
  ( /4D782012/4D783029 SM0805 C304 100nF
   ( 1 GND )
@@ -112,12 +112,24 @@
   ( 1 VAA )
   ( 2 +3.3V )
  )
+ ( /4D865B8C MountingHole3mm P101 Mount
+  ( 1 GND )
+ )
+ ( /4D865B8F MountingHole3mm P102 Mount
+  ( 1 GND )
+ )
+ ( /4D865B91 MountingHole3mm P103 Mount
+  ( 1 GND )
+ )
+ ( /4D865B93 MountingHole3mm P104 Mount
+  ( 1 GND )
+ )
  ( /4D7829DD/4D7829F4 PinArray_2x5_tub P201 ARM_JTAG_10PIN
   ( 1 +3.3V )
   ( 2 GND )
-  ( 3 /MCU/NRST )
-  ( 4 /MCU/JTMS )
-  ( 5 /JTAG/TRST )
+  ( 3 /JTAG/NRST )
+  ( 4 /JTAG/JTMS )
+  ( 5 /MCU/TRST )
   ( 6 /MCU/JTCK )
   ( 7 /MCU/JTDI )
   ( 8 /MCU/JTDO )
@@ -146,13 +158,13 @@
   ( 1 +3.3V )
   ( 2 GND )
   ( 3 /MCU/PRESSURE_EOC )
-  ( 4 /Gimmicks/PRESSURE_XCLR )
+  ( 4 /MCU/PRESSURE_XCLR )
   ( 5 /MCU/I2C_SCL )
   ( 6 /MCU/I2C_SDA )
  )
  ( /4D781E1F/4D74DC66 PinArray_1x5 P602 ArduIMU
-  ( 1 /Gimmicks/GYRO_ST )
-  ( 2 /Gimmicks/GYRO_PD )
+  ( 1 /MCU/GYRO_ST )
+  ( 2 /MCU/GYRO_PD )
   ( 3 /MCU/ADC12_IN8 )
   ( 4 GND )
   ( 5 +3.3V )
@@ -164,25 +176,25 @@
   ( 4 /MCU/I2C_SCL )
  )
  ( /4D781E1F/4D7BAFA5 PinArray_1x5 P604 ArduIMU2
-  ( 1 /Gimmicks/GYRO_ST2 )
-  ( 2 /MCU/GYRO_PD2 )
+  ( 1 /MCU/GYRO_ST2 )
+  ( 2 /Gimmicks/GYRO_PD2 )
   ( 3 /MCU/ADC12_IN9 )
   ( 4 GND )
   ( 5 +3.3V )
  )
- ( /4D781E19/4D7D1167 Anschlussklemme_RM5_08_2Pol P701 sens1
+ ( /4D781E19/4D7D1167 PinArray_1x2 P701 sens1
   ( 1 N-000053 )
   ( 2 N-000049 )
  )
- ( /4D781E19/4D7D116A Anschlussklemme_RM5_08_2Pol P702 sens2
+ ( /4D781E19/4D7D116A PinArray_1x2 P702 sens2
   ( 1 N-000052 )
   ( 2 +12V )
  )
- ( /4D781E19/4D7D116D Anschlussklemme_RM5_08_2Pol P703 sens3
+ ( /4D781E19/4D7D116D PinArray_1x2 P703 sens3
   ( 1 N-000054 )
   ( 2 N-000048 )
  )
- ( /4D781E19/4D7D1170 Anschlussklemme_RM5_08_2Pol P704 sens4
+ ( /4D781E19/4D7D1170 PinArray_1x2 P704 sens4
   ( 1 N-000046 )
   ( 2 N-000047 )
  )
@@ -201,8 +213,8 @@
  ( /4D781E14/4D74D998 PinArray_1x5 P803 GPSCTRL
   ( 1 +3.3V )
   ( 2 /MCU/PPS )
-  ( 3 /MCU/GPIO2 )
-  ( 4 /MCU/GPIO1 )
+  ( 3 /GPS/GPIO2 )
+  ( 4 /GPS/GPIO1 )
   ( 5 /GPS/GPIO20 )
  )
  ( /4D782012/4D815016 SOT23EBC Q301 NPN
@@ -223,7 +235,7 @@
   ( 2 N-000074 )
  )
  ( /4D782012/4D7824BD SM0805 R304 100k
-  ( 1 /MCU/NRST )
+  ( 1 /JTAG/NRST )
   ( 2 +3.3V )
  )
  ( /4D782012/4D81508F SM0805 R305 100k
@@ -304,7 +316,7 @@
  )
  ( /4D781E19/4D750DA6 SM0805 R716 4k7
   ( 1 +3.3V )
-  ( 2 /MCU/TEMP1 )
+  ( 2 /Sensors/TEMP1 )
  )
  ( /4D781E19/4D750DAC SM0805 R717 4k7
   ( 1 +3.3V )
@@ -320,7 +332,7 @@
  )
  ( /4D782012/4D7824D6 Taster9313 SW301 reset
   ( 1 GND )
-  ( 2 /MCU/NRST )
+  ( 2 /JTAG/NRST )
  )
  ( /4D782012/4D7834C4 SOIC8 U301 AT25DF041A
   ( 1 /MCU/~FLASH_CS )
@@ -339,10 +351,10 @@
   ( 4 /MCU/PC15 )
   ( 5 N-000073 )
   ( 6 ? )
-  ( 7 /MCU/NRST )
+  ( 7 /JTAG/NRST )
   ( 8 /GPS/GPIO20 )
-  ( 9 /MCU/GPIO1 )
-  ( 10 /MCU/GPIO2 )
+  ( 9 /GPS/GPIO1 )
+  ( 10 /GPS/GPIO2 )
   ( 11 /MCU/PPS )
   ( 12 GNDA )
   ( 13 VAA )
@@ -370,26 +382,26 @@
   ( 35 /MCU/SPI2_MISO )
   ( 36 /MCU/SPI2_MOSI )
   ( 37 /Sensors/~FuelPump )
-  ( 38 /Gimmicks/GYRO_ST )
-  ( 39 /Gimmicks/GYRO_PD )
+  ( 38 /MCU/GYRO_ST )
+  ( 39 /MCU/GYRO_PD )
   ( 40 /MCU/PRESSURE_EOC )
   ( 41 /GPS/~GPS_CS )
   ( 42 /GPS/RX )
   ( 43 /GPS/TX )
   ( 44 /MCU/CAN_RX )
   ( 45 /MCU/CAN_TX )
-  ( 46 /MCU/JTMS )
+  ( 46 /JTAG/JTMS )
   ( 47 GND )
   ( 48 +3.3V )
   ( 49 /MCU/JTCK )
   ( 50 /MCU/JTDI )
-  ( 51 /Gimmicks/PRESSURE_XCLR )
-  ( 52 /MCU/GYRO_PD2 )
-  ( 53 /Gimmicks/GYRO_ST2 )
+  ( 51 /MCU/PRESSURE_XCLR )
+  ( 52 /Gimmicks/GYRO_PD2 )
+  ( 53 /MCU/GYRO_ST2 )
   ( 54 /MCU/PD2 )
   ( 55 /MCU/JTDO )
-  ( 56 /JTAG/TRST )
-  ( 57 /MCU/TEMP1 )
+  ( 56 /MCU/TRST )
+  ( 57 /Sensors/TEMP1 )
   ( 58 /Sensors/TEMP2 )
   ( 59 N-000067 )
   ( 60 N-000074 )
@@ -404,7 +416,7 @@
   ( 3 N-000073 )
   ( 4 +3.3V )
  )
- ( /4D782012/4D825E4D SOIC16 U304 DG408DJZ
+ ( /4D782012/4D825E4D SOIC16 U304 DG408DYZ
   ( 1 N-000071 )
   ( 2 N-000064 )
   ( 3 GNDA )
@@ -474,7 +486,7 @@
  )
  ( /4D781E19/4D81536C PinArray_1x3 U708 DS1820
   ( 1 GND )
-  ( 2 /MCU/TEMP1 )
+  ( 2 /Sensors/TEMP1 )
   ( 3 +3.3V )
  )
  ( /4D781E19/4D815376 PinArray_1x3 U709 DS1820
