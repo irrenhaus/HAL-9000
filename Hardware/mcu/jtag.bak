@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mo 21 Mär 2011 03:01:24 CET
+EESchema Schematic File Version 2  date Do 12 Mai 2011 03:11:48 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "21 mar 2011"
+Date "11 may 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -71,19 +71,19 @@ UART_TX
 Text HLabel 3500 2100 0    60   Output ~ 0
 UART_RX
 $Comp
-L GND #PWR302
+L GND #PWR06
 U 1 1 4D3F5D14
 P 4800 1700
-F 0 "#PWR302" H 4800 1700 30  0001 C CNN
+F 0 "#PWR06" H 4800 1700 30  0001 C CNN
 F 1 "GND" H 4800 1630 30  0001 C CNN
 	1    4800 1700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR301
+L +3.3V #PWR07
 U 1 1 4D3F5D04
 P 3500 1700
-F 0 "#PWR301" H 3500 1660 30  0001 C CNN
+F 0 "#PWR07" H 3500 1660 30  0001 C CNN
 F 1 "+3.3V" H 3500 1810 30  0000 C CNN
 	1    3500 1700
 	1    0    0    -1  
