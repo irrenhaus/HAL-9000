@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mo 21 Mär 2011 03:01:24 CET
+EESchema Schematic File Version 2  date Di 17 Mai 2011 02:16:17 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 9 9
+Sheet 7 9
 Title ""
-Date "21 mar 2011"
+Date "17 may 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -71,10 +71,10 @@ Wire Wire Line
 Text HLabel 3200 1900 2    60   Input ~ 0
 USBEN
 $Comp
-L GND #PWR703
+L GND #PWR040
 U 1 1 4D743606
 P 2450 2400
-F 0 "#PWR703" H 2450 2400 30  0001 C CNN
+F 0 "#PWR040" H 2450 2400 30  0001 C CNN
 F 1 "GND" H 2450 2330 30  0001 C CNN
 	1    2450 2400
 	1    0    0    -1  
@@ -104,10 +104,10 @@ USBDP
 Text HLabel 4100 1300 2    60   BiDi ~ 0
 USBDM
 $Comp
-L GND #PWR704
+L GND #PWR041
 U 1 1 4D74357C
 P 3000 1400
-F 0 "#PWR704" H 3000 1400 30  0001 C CNN
+F 0 "#PWR041" H 3000 1400 30  0001 C CNN
 F 1 "GND" H 3000 1330 30  0001 C CNN
 	1    3000 1400
 	0    1    1    0   
@@ -123,19 +123,19 @@ F 1 "USBLC6-2" H 3550 1650 60  0000 C CNN
 $EndComp
 NoConn ~ 1900 1600
 $Comp
-L GND #PWR702
+L GND #PWR042
 U 1 1 4D7434C4
 P 1900 1500
-F 0 "#PWR702" H 1900 1500 30  0001 C CNN
+F 0 "#PWR042" H 1900 1500 30  0001 C CNN
 F 1 "GND" H 1900 1430 30  0001 C CNN
 	1    1900 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR701
+L GND #PWR043
 U 1 1 4D7434C1
 P 1300 2000
-F 0 "#PWR701" H 1300 2000 30  0001 C CNN
+F 0 "#PWR043" H 1300 2000 30  0001 C CNN
 F 1 "GND" H 1300 1930 30  0001 C CNN
 	1    1300 2000
 	1    0    0    -1  

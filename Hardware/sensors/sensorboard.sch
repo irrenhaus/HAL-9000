@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date So 20 Mär 2011 20:56:18 CET
+EESchema Schematic File Version 2  date Mi 18 Mai 2011 15:58:13 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "20 mar 2011"
+Date "18 may 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,7 +48,7 @@ $EndDescr
 Wire Notes Line
 	10450 6650 9450 6650
 Wire Notes Line
-	10450 6150 10450 6650
+	10450 6650 10450 6150
 Wire Notes Line
 	10450 6150 9450 6150
 Wire Wire Line

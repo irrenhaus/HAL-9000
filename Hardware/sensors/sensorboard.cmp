@@ -1,4 +1,18 @@
-Cmp-Mod V01 Created by CvPCB (2011-03-13 BZR 2893)-testing date = So 20 Mär 2011 21:05:10 CET
+Cmp-Mod V01 Created by CvPCB (2011-04-28)-stable date = Mi 18 Mai 2011 15:15:36 CEST
+
+BeginCmp
+TimeStamp = /4D782012/4DD3C469;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D782012/4DD3C47E;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
 
 BeginCmp
 TimeStamp = /4D782012/4D78354C;
@@ -159,13 +173,6 @@ TimeStamp = /4D781E41/4D77DFB3;
 Reference = J401;
 ValeurCmp = RJ45;
 IdModule  = RJ45_8_Shield;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D782012/4D826006;
-Reference = K301;
-ValeurCmp = EXPA;
-IdModule  = PinArray_1x3;
 EndCmp
 
 BeginCmp
@@ -519,6 +526,13 @@ IdModule  = Taster9313;
 EndCmp
 
 BeginCmp
+TimeStamp = /4D782012/4DD3C41F;
+Reference = U1;
+ValeurCmp = ADC128S052;
+IdModule  = TSSOP16;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D782012/4D7834C4;
 Reference = U301;
 ValeurCmp = AT25DF041A;
@@ -537,13 +551,6 @@ TimeStamp = /4D782012/4D782466;
 Reference = U303;
 ValeurCmp = 8MHz;
 IdModule  = XO53;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D782012/4D825E4D;
-Reference = U304;
-ValeurCmp = DG408DYZ;
-IdModule  = SOIC16;
 EndCmp
 
 BeginCmp
