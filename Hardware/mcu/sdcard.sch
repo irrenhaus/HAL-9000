@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Di 17 Mai 2011 02:16:23 CEST
+EESchema Schematic File Version 2  date So 17 Jul 2011 02:24:16 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:nhesse
-LIBS:bordcomputer-cache
+LIBS:mcu-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 8 9
+Sheet 4 9
 Title ""
-Date "17 may 2011"
+Date "16 jul 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,77 +45,180 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L +3.3V #PWR036
-U 1 1 4D7434A2
-P 1150 1450
-F 0 "#PWR036" H 1150 1410 30  0001 C CNN
-F 1 "+3.3V" H 1150 1560 30  0000 C CNN
-	1    1150 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR037
-U 1 1 4D7434A0
-P 1150 1250
-F 0 "#PWR037" H 1150 1250 30  0001 C CNN
-F 1 "GND" H 1150 1180 30  0001 C CNN
-	1    1150 1250
-	0    1    1    0   
-$EndComp
-Text HLabel 1150 1750 0    60   BiDi ~ 0
-SDD2
-Text HLabel 1150 1650 0    60   BiDi ~ 0
-SDD3
-Text HLabel 1150 1550 0    60   Input ~ 0
-SDCMD
-Text HLabel 1150 1350 0    60   Input ~ 0
-SDCLK
-Text HLabel 1150 1150 0    60   BiDi ~ 0
-SDD0
-Text HLabel 1150 1050 0    60   BiDi ~ 0
-SDD1
-Connection ~ 3050 1050
 Wire Wire Line
-	3050 850  3050 1050
+	6300 3400 6300 3200
 Wire Wire Line
-	2900 1050 3150 1050
+	6000 3750 6000 3550
+Connection ~ 6300 2600
+Wire Wire Line
+	6300 2700 6300 2500
+Connection ~ 6650 2200
+Wire Wire Line
+	6650 2200 6650 2050
+Wire Wire Line
+	6650 2050 5650 2050
+Wire Wire Line
+	5250 1500 5250 2000
+Wire Wire Line
+	5250 2000 4300 2000
+Wire Wire Line
+	6800 2200 6500 2200
+Wire Wire Line
+	4500 2400 4300 2400
+Wire Wire Line
+	4500 2300 4300 2300
+Wire Wire Line
+	4500 2100 4300 2100
+Wire Wire Line
+	4500 1900 4300 1900
+Wire Wire Line
+	4500 1800 4300 1800
+Wire Wire Line
+	4500 1700 4300 1700
+Connection ~ 2400 2700
+Wire Wire Line
+	2400 2900 2400 2400
+Wire Wire Line
+	2400 2400 2550 2400
+Wire Wire Line
+	2400 2700 2550 2700
+Wire Wire Line
+	2250 2350 2250 2300
+Wire Wire Line
+	2250 2300 2550 2300
+Wire Wire Line
+	3000 2900 2900 2900
+Wire Wire Line
+	6100 2200 4300 2200
+Wire Wire Line
+	5250 1650 5650 1650
+Connection ~ 5250 1650
+Wire Wire Line
+	6300 2600 6550 2600
+Wire Wire Line
+	6600 3300 6600 3550
 $Comp
-L GND #PWR038
-U 1 1 4D743467
-P 3550 850
-F 0 "#PWR038" H 3550 850 30  0001 C CNN
-F 1 "GND" H 3550 780 30  0001 C CNN
-	1    3550 850 
+L +3.3V #PWR09
+U 1 1 4E175875
+P 6600 3300
+F 0 "#PWR09" H 6600 3260 30  0001 C CNN
+F 1 "+3.3V" H 6600 3410 30  0000 C CNN
+	1    6600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER3 P2
+U 1 1 4E17586A
+P 6300 3550
+F 0 "P2" H 6290 3660 60  0000 C CNN
+F 1 "SDCTRL" H 6080 3410 60  0000 C CNN
+	1    6300 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 4E175822
+P 6000 3750
+F 0 "#PWR010" H 6000 3750 30  0001 C CNN
+F 1 "GND" H 6000 3680 30  0001 C CNN
+	1    6000 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 6550 2600 2    60   Input ~ 0
+SDCARD_ON
+$Comp
+L R R6
+U 1 1 4E175812
+P 6300 2950
+F 0 "R6" V 6380 2950 50  0000 C CNN
+F 1 "10k" V 6300 2950 50  0000 C CNN
+	1    6300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 4E1757FC
+P 5650 1850
+F 0 "C1" H 5700 1950 50  0000 L CNN
+F 1 "100nF" H 5700 1750 50  0000 L CNN
+	1    5650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR011
+U 1 1 4E1757ED
+P 5250 1500
+F 0 "#PWR011" H 5250 1460 30  0001 C CNN
+F 1 "+3.3V" H 5250 1610 30  0000 C CNN
+	1    5250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 4E1757D1
+P 6800 2200
+F 0 "#PWR012" H 6800 2200 30  0001 C CNN
+F 1 "GND" H 6800 2130 30  0001 C CNN
+	1    6800 2200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R801
-U 1 1 4D743462
-P 3300 850
-F 0 "R801" V 3380 850 50  0000 C CNN
-F 1 "100k" V 3300 850 50  0000 C CNN
-	1    3300 850 
-	0    1    1    0   
-$EndComp
-Text HLabel 3150 1050 2    60   Output ~ 0
-SDDETECT
-$Comp
-L +3.3V #PWR039
-U 1 1 4D74344F
-P 2900 1150
-F 0 "#PWR039" H 2900 1110 30  0001 C CNN
-F 1 "+3.3V" H 2900 1260 30  0000 C CNN
-	1    2900 1150
-	0    1    1    0   
-$EndComp
-$Comp
-L MICROSD U801
-U 1 1 4D743442
-P 2000 1450
-F 0 "U801" H 1500 650 60  0000 C CNN
-F 1 "MICROSD" H 1850 750 60  0000 C CNN
-	1    2000 1450
+L NPN Q1
+U 1 1 4E1757BB
+P 6300 2300
+F 0 "Q1" H 6300 2150 50  0000 R CNN
+F 1 "NPN" H 6300 2450 50  0000 R CNN
+	1    6300 2300
 	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR013
+U 1 1 4E175794
+P 3000 2900
+F 0 "#PWR013" H 3000 2860 30  0001 C CNN
+F 1 "+3.3V" H 3000 3010 30  0000 C CNN
+	1    3000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 4E175778
+P 2650 2900
+F 0 "R5" V 2730 2900 50  0000 C CNN
+F 1 "R" V 2650 2900 50  0000 C CNN
+	1    2650 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 4E175772
+P 2250 2350
+F 0 "#PWR014" H 2250 2350 30  0001 C CNN
+F 1 "GND" H 2250 2280 30  0001 C CNN
+	1    2250 2350
+	1    0    0    -1  
+$EndComp
+Text HLabel 2550 2700 2    60   Output ~ 0
+~SDCARD_DETECT
+Text HLabel 4500 2400 2    60   BiDi ~ 0
+SDIO_D1
+Text HLabel 4500 2300 2    60   BiDi ~ 0
+SDIO_D0
+Text HLabel 4500 2100 2    60   Input ~ 0
+SDIO_CLK
+Text HLabel 4500 1900 2    60   Input ~ 0
+SDIO_CMD
+Text HLabel 4500 1800 2    60   BiDi ~ 0
+SDIO_D3
+Text HLabel 4500 1700 2    60   BiDi ~ 0
+SDIO_D2
+$Comp
+L MICROSD U1
+U 1 1 4E175724
+P 3450 2000
+F 0 "U1" H 2950 1200 60  0000 C CNN
+F 1 "MICROSD" H 3300 1300 60  0000 C CNN
+	1    3450 2000
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

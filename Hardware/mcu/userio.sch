@@ -1,0 +1,490 @@
+EESchema Schematic File Version 2  date So 17 Jul 2011 01:34:23 CEST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:nhesse
+LIBS:mcu-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 6 10
+Title ""
+Date "16 jul 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR025
+U 1 1 4E17C4DF
+P 3450 4450
+F 0 "#PWR025" H 3450 4450 30  0001 C CNN
+F 1 "GND" H 3450 4380 30  0001 C CNN
+	1    3450 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 4E17C4DC
+P 3450 3950
+F 0 "#PWR026" H 3450 3950 30  0001 C CNN
+F 1 "GND" H 3450 3880 30  0001 C CNN
+	1    3450 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 4E17C4DA
+P 3450 3450
+F 0 "#PWR027" H 3450 3450 30  0001 C CNN
+F 1 "GND" H 3450 3380 30  0001 C CNN
+	1    3450 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR028
+U 1 1 4E17C4D3
+P 3450 2950
+F 0 "#PWR028" H 3450 2910 30  0001 C CNN
+F 1 "+3.3V" H 3450 3060 30  0000 C CNN
+	1    3450 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 1500 3650
+Wire Wire Line
+	1700 3150 1500 3150
+Wire Wire Line
+	1500 3150 1500 4800
+Connection ~ 1500 4650
+Wire Wire Line
+	1500 4150 1700 4150
+Connection ~ 2850 4150
+Wire Wire Line
+	2850 3950 2850 4150
+Wire Wire Line
+	3200 4150 2750 4150
+Wire Wire Line
+	2250 4150 2100 4150
+Wire Wire Line
+	3450 3950 3350 3950
+Wire Wire Line
+	3450 4450 3350 4450
+Wire Wire Line
+	2250 4650 2100 4650
+Wire Wire Line
+	3200 4650 2750 4650
+Wire Wire Line
+	2850 4450 2850 4650
+Connection ~ 2850 4650
+Connection ~ 2850 3650
+Wire Wire Line
+	2850 3450 2850 3650
+Wire Wire Line
+	3200 3650 2750 3650
+Wire Wire Line
+	2250 3650 2100 3650
+Wire Wire Line
+	3450 3450 3350 3450
+Wire Wire Line
+	3450 2950 3350 2950
+Wire Wire Line
+	2250 3150 2100 3150
+Wire Wire Line
+	2450 1850 2450 1700
+Wire Wire Line
+	1050 1750 1050 1850
+Wire Wire Line
+	3050 1700 2950 1700
+Wire Wire Line
+	1550 1850 1700 1850
+Wire Wire Line
+	3200 1850 2300 1850
+Connection ~ 2450 1850
+Connection ~ 2450 2200
+Wire Wire Line
+	3200 2200 2300 2200
+Wire Wire Line
+	1550 2200 1700 2200
+Wire Wire Line
+	3050 2050 2950 2050
+Wire Wire Line
+	1050 2100 1050 2200
+Wire Wire Line
+	2450 2050 2450 2200
+Wire Wire Line
+	2450 1500 2450 1350
+Wire Wire Line
+	1050 1400 1050 1500
+Wire Wire Line
+	3050 1350 2950 1350
+Wire Wire Line
+	1550 1500 1700 1500
+Wire Wire Line
+	2300 1500 3200 1500
+Connection ~ 2450 1500
+Connection ~ 2450 1150
+Wire Wire Line
+	2300 1150 3200 1150
+Wire Wire Line
+	1550 1150 1700 1150
+Wire Wire Line
+	3050 1000 2950 1000
+Wire Wire Line
+	1050 1050 1050 1150
+Wire Wire Line
+	2450 1000 2450 1150
+Wire Wire Line
+	3200 3150 2750 3150
+Wire Wire Line
+	2850 2950 2850 3150
+Connection ~ 2850 3150
+Wire Wire Line
+	1500 4650 1700 4650
+Wire Wire Line
+	1500 3650 1700 3650
+Connection ~ 1500 4150
+$Comp
+L GND #PWR029
+U 1 1 4E17C4C1
+P 1500 4800
+F 0 "#PWR029" H 1500 4800 30  0001 C CNN
+F 1 "GND" H 1500 4730 30  0001 C CNN
+	1    1500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R15
+U 1 1 4E17C4C0
+P 2500 4150
+F 0 "R15" V 2580 4150 50  0000 C CNN
+F 1 "R" V 2500 4150 50  0000 C CNN
+	1    2500 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 4E17C4BF
+P 1900 4150
+F 0 "D4" H 1900 4250 50  0000 C CNN
+F 1 "LED3" H 1900 4050 50  0000 C CNN
+	1    1900 4150
+	-1   0    0    1   
+$EndComp
+Text HLabel 3200 4150 2    60   Input ~ 0
+LED3
+$Comp
+L R R23
+U 1 1 4E17C4BE
+P 3100 3950
+F 0 "R23" V 3180 3950 50  0000 C CNN
+F 1 "10k" V 3100 3950 50  0000 C CNN
+	1    3100 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R24
+U 1 1 4E17C4BB
+P 3100 4450
+F 0 "R24" V 3180 4450 50  0000 C CNN
+F 1 "10k" V 3100 4450 50  0000 C CNN
+	1    3100 4450
+	0    1    1    0   
+$EndComp
+Text HLabel 3200 4650 2    60   Input ~ 0
+LED4
+$Comp
+L LED D5
+U 1 1 4E17C4BA
+P 1900 4650
+F 0 "D5" H 1900 4750 50  0000 C CNN
+F 1 "LED4" H 1900 4550 50  0000 C CNN
+	1    1900 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R16
+U 1 1 4E17C4B9
+P 2500 4650
+F 0 "R16" V 2580 4650 50  0000 C CNN
+F 1 "R" V 2500 4650 50  0000 C CNN
+	1    2500 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 4E17C4B4
+P 2500 3650
+F 0 "R14" V 2580 3650 50  0000 C CNN
+F 1 "R" V 2500 3650 50  0000 C CNN
+	1    2500 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 4E17C4B3
+P 1900 3650
+F 0 "D3" H 1900 3750 50  0000 C CNN
+F 1 "LED2" H 1900 3550 50  0000 C CNN
+	1    1900 3650
+	-1   0    0    1   
+$EndComp
+Text HLabel 3200 3650 2    60   Input ~ 0
+LED2
+$Comp
+L R R22
+U 1 1 4E17C4B2
+P 3100 3450
+F 0 "R22" V 3180 3450 50  0000 C CNN
+F 1 "10k" V 3100 3450 50  0000 C CNN
+	1    3100 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 4E17C49E
+P 3100 2950
+F 0 "R21" V 3180 2950 50  0000 C CNN
+F 1 "10k" V 3100 2950 50  0000 C CNN
+	1    3100 2950
+	0    1    1    0   
+$EndComp
+Text HLabel 3200 3150 2    60   Input ~ 0
+~LED1
+$Comp
+L LED D2
+U 1 1 4E17C46C
+P 1900 3150
+F 0 "D2" H 1900 3250 50  0000 C CNN
+F 1 "LED1" H 1900 3050 50  0000 C CNN
+	1    1900 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R13
+U 1 1 4E17C466
+P 2500 3150
+F 0 "R13" V 2580 3150 50  0000 C CNN
+F 1 "R" V 2500 3150 50  0000 C CNN
+	1    2500 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH SW3
+U 1 1 4E17C08F
+P 2000 1850
+F 0 "SW3" H 2150 1960 50  0000 C CNN
+F 1 "BTN3" H 2000 1770 50  0000 C CNN
+	1    2000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 4E17C08E
+P 1300 1850
+F 0 "R11" V 1380 1850 50  0000 C CNN
+F 1 "10k" V 1300 1850 50  0000 C CNN
+	1    1300 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R19
+U 1 1 4E17C08D
+P 2700 1700
+F 0 "R19" V 2780 1700 50  0000 C CNN
+F 1 "100k" V 2700 1700 50  0000 C CNN
+	1    2700 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 4E17C08C
+P 3050 1700
+F 0 "#PWR030" H 3050 1700 30  0001 C CNN
+F 1 "GND" H 3050 1630 30  0001 C CNN
+	1    3050 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR031
+U 1 1 4E17C08B
+P 1050 1750
+F 0 "#PWR031" H 1050 1710 30  0001 C CNN
+F 1 "+3.3V" H 1050 1860 30  0000 C CNN
+	1    1050 1750
+	1    0    0    -1  
+$EndComp
+Text HLabel 3200 1850 2    60   Output ~ 0
+BTN3
+Text HLabel 3200 2200 2    60   Output ~ 0
+BTN4
+$Comp
+L +3.3V #PWR032
+U 1 1 4E17C08A
+P 1050 2100
+F 0 "#PWR032" H 1050 2060 30  0001 C CNN
+F 1 "+3.3V" H 1050 2210 30  0000 C CNN
+	1    1050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR033
+U 1 1 4E17C089
+P 3050 2050
+F 0 "#PWR033" H 3050 2050 30  0001 C CNN
+F 1 "GND" H 3050 1980 30  0001 C CNN
+	1    3050 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R20
+U 1 1 4E17C088
+P 2700 2050
+F 0 "R20" V 2780 2050 50  0000 C CNN
+F 1 "100k" V 2700 2050 50  0000 C CNN
+	1    2700 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R12
+U 1 1 4E17C087
+P 1300 2200
+F 0 "R12" V 1380 2200 50  0000 C CNN
+F 1 "10k" V 1300 2200 50  0000 C CNN
+	1    1300 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH SW4
+U 1 1 4E17C086
+P 2000 2200
+F 0 "SW4" H 2150 2310 50  0000 C CNN
+F 1 "BTN4" H 2000 2120 50  0000 C CNN
+	1    2000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 4E17C078
+P 2000 1500
+F 0 "SW2" H 2150 1610 50  0000 C CNN
+F 1 "BTN2" H 2000 1420 50  0000 C CNN
+	1    2000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 4E17C077
+P 1300 1500
+F 0 "R10" V 1380 1500 50  0000 C CNN
+F 1 "10k" V 1300 1500 50  0000 C CNN
+	1    1300 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R18
+U 1 1 4E17C076
+P 2700 1350
+F 0 "R18" V 2780 1350 50  0000 C CNN
+F 1 "100k" V 2700 1350 50  0000 C CNN
+	1    2700 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR034
+U 1 1 4E17C075
+P 3050 1350
+F 0 "#PWR034" H 3050 1350 30  0001 C CNN
+F 1 "GND" H 3050 1280 30  0001 C CNN
+	1    3050 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR035
+U 1 1 4E17C074
+P 1050 1400
+F 0 "#PWR035" H 1050 1360 30  0001 C CNN
+F 1 "+3.3V" H 1050 1510 30  0000 C CNN
+	1    1050 1400
+	1    0    0    -1  
+$EndComp
+Text HLabel 3200 1500 2    60   Output ~ 0
+BTN2
+Text HLabel 3200 1150 2    60   Output ~ 0
+BTN1
+$Comp
+L +3.3V #PWR036
+U 1 1 4E17C056
+P 1050 1050
+F 0 "#PWR036" H 1050 1010 30  0001 C CNN
+F 1 "+3.3V" H 1050 1160 30  0000 C CNN
+	1    1050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 4E17C04D
+P 3050 1000
+F 0 "#PWR037" H 3050 1000 30  0001 C CNN
+F 1 "GND" H 3050 930 30  0001 C CNN
+	1    3050 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R17
+U 1 1 4E17C040
+P 2700 1000
+F 0 "R17" V 2780 1000 50  0000 C CNN
+F 1 "100k" V 2700 1000 50  0000 C CNN
+	1    2700 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 4E17C03E
+P 1300 1150
+F 0 "R9" V 1380 1150 50  0000 C CNN
+F 1 "10k" V 1300 1150 50  0000 C CNN
+	1    1300 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 4E17C039
+P 2000 1150
+F 0 "SW1" H 2150 1260 50  0000 C CNN
+F 1 "BTN1" H 2000 1070 50  0000 C CNN
+	1    2000 1150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

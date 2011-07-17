@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-03-13 BZR 2893)-testing date = Mo 21 Mär 2011 03:17:25 CET
+Cmp-Mod V01 Created by CvPCB (2011-04-28)-stable date = Fr 03 Jun 2011 01:09:11 CEST
 
 BeginCmp
 TimeStamp = /4D7436D3/4D74376A;
@@ -211,6 +211,13 @@ IdModule  = USB_A;
 EndCmp
 
 BeginCmp
+TimeStamp = /4D7410A2/4DE81486;
+Reference = LED1;
+ValeurCmp = RGBLED_LRTBG6TG;
+IdModule  = PLCC6;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D86B156;
 Reference = P101;
 ValeurCmp = CONN_1;
@@ -267,13 +274,6 @@ IdModule  = SMJUMPER3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4D7410A2/4D77EC17;
-Reference = P901;
-ValeurCmp = EXP5;
-IdModule  = PinArray_2x12;
-EndCmp
-
-BeginCmp
 TimeStamp = /4D7410A2/4D75032F;
 Reference = P1101;
 ValeurCmp = EXP1;
@@ -285,13 +285,6 @@ TimeStamp = /4D7410A2/4D7503B3;
 Reference = P1102;
 ValeurCmp = EXP2;
 IdModule  = PinArray_1x4;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D7410A2/4D7508EC;
-Reference = P1103;
-ValeurCmp = EXP3;
-IdModule  = PinArray_1x9;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mi 18 Mai 2011 15:58:13 CEST
+EESchema Schematic File Version 2  date Mi 18 Mai 2011 21:50:26 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -62,19 +62,19 @@ JTCK
 Text HLabel 3100 1600 2    60   Output ~ 0
 JTMS
 $Comp
-L GND #PWR05
+L GND #PWR6
 U 1 1 4D782A12
 P 3100 1500
-F 0 "#PWR05" H 3100 1500 30  0001 C CNN
+F 0 "#PWR6" H 3100 1500 30  0001 C CNN
 F 1 "GND" H 3100 1430 30  0001 C CNN
 	1    3100 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR06
+L +3.3V #PWR5
 U 1 1 4D7829F9
 P 1800 1500
-F 0 "#PWR06" H 1800 1460 30  0001 C CNN
+F 0 "#PWR5" H 1800 1460 30  0001 C CNN
 F 1 "+3.3V" H 1800 1610 30  0000 C CNN
 	1    1800 1500
 	1    0    0    -1  
